@@ -1,0 +1,1521 @@
+<!DOCTYPE html><html lang="en-US">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Honors College Announcements</title>
+      <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" data-name="viewport" name="viewport">
+      <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"><script crossorigin="anonymous" src="https://kit.fontawesome.com/a63667e257.js"></script><link href="https://skins.webservices.illinois.edu//webservices/styles/app/blog/styles-css-reset.cssxxx?rn=0928T094952" property="stylesheet" rel="stylesheet" type="text/css">
+      <style>
+			@import url('https://fonts.googleapis.com/css?family=Lato');
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700');
+			@import url('https://fonts.googleapis.com/css?family=Roboto');
+			@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro');</style>
+      <style>
+			@font-face {
+				font-family: 'Montserrat';
+				font-style: normal;
+				font-weight: 400;
+			}
+			@font-face {
+				font-family: 'Lato';
+				font-style: normal;
+				font-weight: 400;
+			}
+			@font-face {
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 400;
+			}
+			@font-face {
+				font-family: 'Source+Sans+Pro';
+				font-style: normal;
+				font-weight: 400;
+			}</style><script type="text/javascript">
+					var isWizard = true;
+					var randomNumber = Math.random();
+                                         var applicationCssUrl = 'https://skins.webservices.illinois.edu//webservices/styles/skins/uic/application.css?rn=' + randomNumber;
+				</script> <style type="text/css">
+
+</style>
+<script type="text/javascript">
+			var appUiColor = '#E8E9EB';
+            var navigationLinks = new Array();
+            
+			var elementColor = '';
+			
+				elementColor = '#001E62';
+			</script><style type="text/css">
+            
+            #menu-items li a,
+            .toggle-view button.selected,
+            .toggle-view button.selected:hover,
+            #timeframe-chooser:hover,
+            #ws-calendar-container.summary-view h2,
+            #ws-calendar-container.list-view h2,
+            #ws-calendar-container.grid-view h2,
+            #btn-search.selected,
+            #btn-search.selected:hover,
+            #btn-show-recurring.toggle-on,
+            #btn-show-recurring.toggle-on:hover,
+            #btn-show-recurring.toggle-off, 
+            input.small-btn,
+            #ws-calendar-container.detail-view .back-btn,
+            #ws-calendar-container.grid-view .event-meta .date,
+            #ws-sidebar .more-button,
+            #ws-sidebar .sidebar-panel,
+            #ws-sidebar .modal-menu h4,
+            .standard-btn,
+            .standard-btn.light
+            {
+            
+	        		background-color: #001E62;
+	        	            
+    		}        
+        	
+    		.time-presets #time-options li a
+    		{
+	    		color: #001E62 !important;
+    		}
+        	
+    		
+    		
+            #ws-calendar-container.list-view .location:after,
+            #ws-calendar-container.summary-view .location:after {
+            /* use RGB value */
+            color: rgb(232, 233, 235);
+            }
+            
+            
+            
+                        
+            #uofi #ws-pa #edu-il .blog-archive a:active .circle, #uofi #ws-pa #edu-il .blog-archive a:focus:hover .circle {
+                background-color: #001E62;
+            }    
+            #uofi #ws-pa #edu-il #blog-wrapper
+            {
+                background-color: #FFFFFF
+            }
+            #ws-calendar-container #ws-calendar-content .entry.recurring-event .title a:before {
+            background-color: #001E62 !important;
+            }
+            #uofi #ws-pa #edu-il a
+            {
+                color: #001E62;
+                
+                text-decoration: none;
+                border:0;
+                margin:0;
+                padding:0;
+            }
+            #uofi #ws-pa #edu-il a:hover
+            {
+            color: #001E62;
+                
+                text-decoration: underline;
+                border:0;
+                margin:0;
+                padding:0;
+            }
+            #uofi #ws-pa #edu-il p,            
+            #uofi #ws-pa #edu-il span,
+            #uofi #ws-pa #edu-il dd,
+            #uofi #ws-pa #edu-il td,
+            #uofi #ws-pa #edu-il li 
+            {
+                color: #48484A;
+                font-size: 15px;
+                font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+            }
+            
+            
+
+			#uofi #ws-pa #edu-il #blog-home-view .blog-post-entry,
+			#uofi #ws-pa #edu-il #blog-results-view .blog-post-entry
+			{
+				background-color: ######;
+     
+        	}
+            
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-entry-1col,
+            #uofi #ws-pa #edu-il #blog-results-view .blog-post-entry-1col 
+            {
+            	margin:0;
+            	padding:0;
+            
+            }
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-entry-2col, #blog-home-view .blog-post-entry-3col
+            {        
+  
+
+            margin-right: 48px;
+            margin-bottom: 0.5rem;
+            }
+            
+            #uofi #ws-pa #edu-il .blog-post-category a, 
+            #uofi #ws-pa #edu-il .blog-post-category a:hover,
+            #uofi #ws-pa #edu-il .blog-post-tag a,
+            #uofi #ws-pa #edu-il .blog-post-tag a:hover
+            {
+                text-decoration:none;
+            }
+            
+
+                
+             
+            #uofi #ws-pa #edu-il .blog-profile .gadget-header 
+            {
+                display: ;
+            }
+            #uofi #ws-pa #edu-il .gadget 
+            {
+                margin:0 0 50px 0; 
+            }
+            #uofi #ws-pa #edu-il .blog-gadget
+            {
+                padding: 10px;
+                background-color: transparent;
+            }
+            #uofi #ws-pa #edu-il h3.gadget-header
+            {
+                
+                        border-bottom: 0px solid #D6D9DB;
+                    
+                color: #224A88;
+                font-size: 16px;
+                font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+                font-weight: 700;
+                background-color: transparent;
+                
+                        padding: 0 0 10px 0;
+                    
+        		margin-bottom:8px;
+        	
+                text-transform: capitalize;
+            }
+            
+            
+            
+            #uofi #ws-pa #edu-il #blog-navigation .blog-pagination-button 
+            {
+                text-transform: capitalize;
+            }
+
+            
+ 
+            
+                
+                   
+
+            #uofi #ws-pa #edu-il .gadget-header{
+                margin: -10px -10px 10px;
+            }
+
+            
+            
+            #uofi #ws-pa #edu-il .blog-categories a, 
+            #uofi #ws-pa #edu-il .blog-post-category a{
+                border-width: 1px;
+                border-style: solid;
+                border-color:#224A88;
+                color: #224A88;
+                background-color: #FFFFFF;
+                
+                        text-transform:uppercase;
+                    
+            }
+            #uofi #ws-pa #edu-il .blog-tags a{
+                border-width: 1px;
+                border-style: solid;
+                background-color: #224A88;
+                color: #FFFFFF;
+                border-color: #FFFFFF;
+                
+                        text-transform:uppercase;
+                    
+            }
+            #uofi #ws-pa #edu-il .blog-categories a:hover, 
+            #uofi #ws-pa #edu-il .blog-post-category a:hover, 
+            #uofi #ws-pa #edu-il .blog-categories a:focus:hover, 
+            #uofi #ws-pa #edu-il .blog-categories a:active:hover,
+            #uofi #ws-pa #edu-il #ws-content .blog-post-category a:active:hover, 
+            #uofi #ws-pa #edu-il #ws-content .blog-post-category a:focus:hover
+            {
+                border-color: #001E62 !important;
+                background-color: #001E62 !important;
+                outline:none !important;
+                color:#ffffff !important;
+            }
+            #uofi #ws-pa #edu-il .blog-tags a:hover, #uofi #ws-pa #edu-il .blog-tags a:focus:hover,
+            #uofi #ws-pa #edu-il .blog-tags a:active:hover
+            {
+                color:#FFFFFF !important;
+                background-color: #001E62 !important;
+                border-color: #001E62 !important;
+                outline:none !important;
+                color:#ffffff !important;
+                }
+            .circle, .year span.circle {
+                background-color: #001E62;
+            }
+    
+            
+            #uofi #ws-pa #edu-il #blog-article-view .blog-post-title{
+                color: #48484A;
+                font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 1.5;
+            }
+        
+            
+
+            
+            #uofi #ws-pa #edu-il .blog-closing-section a:hover, #uofi #ws-pa #edu-il .blog-closing-section a:focus:hover,
+            #uofi #ws-pa #edu-il .blog-closing-section a:active:hover
+            
+            {
+                color: #000000 !important; 
+                
+                text-decoration: none !important; 
+                background-color: transparent !important;
+                outline:none !important;
+            }
+            
+            
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu:focus, 
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active, 
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active:hover, 
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active:focus, 
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active:focus:hover,
+            #uofi #ws-pa #edu-il #blog-level-menu li ul,
+            #uofi #ws-pa #edu-il .mobile-nav ul {
+                background-color: #E8E9EB;
+            }
+            #uofi #ws-pa #edu-il #blog-level-menu li.nav-menu.active > .arrow-up,
+            #uofi #ws-pa #edu-il .mobile-nav .arrow-up {
+                border-bottom: 10px solid #E8E9EB;
+            }
+            #uofi #ws-pa #edu-il #search-bar.close-search input[type="text"], 
+            #uofi #ws-pa #edu-il #search-bar.close-search input[type="text"]:focus, 
+            #uofi #ws-pa #edu-il #search-bar.open-search input[type="text"], 
+            #uofi #ws-pa #edu-il #search-bar.open-search input[type="text"]:focus {
+                border: 1px solid #E8E9EB;
+            }
+            #uofi #ws-pa #edu-il #search-bar.open-search button:before {
+                color: #E8E9EB;
+            }
+            
+            #jrw{
+            
+            }
+            
+            
+            #uofi #ws-pa #edu-il .paging-menu-top a, 
+            #uofi #ws-pa #edu-il .search-results-menu
+            {
+                background-color: #E8E9EB;
+            }
+            #uofi #ws-pa #edu-il .paging-menu-bottom, #uofi #ws-pa #edu-il .paging-menu-top
+            {
+                border-color: #E8E9EB;
+            }
+            #uofi #ws-pa #edu-il .blog-post-comment-text i,
+            #uofi #ws-pa #edu-il .paging-menu-top a:hover, 
+            #uofi #ws-pa #edu-il .paging-menu-top a:focus:hover, 
+            #uofi #ws-pa #edu-il .paging-menu-top a:active:hover
+            
+            {
+                color: #E8E9EB !important;
+            }      
+            
+
+        	#uofi #ws-pa #edu-il .blog-post-meta, 
+            #uofi #ws-pa #edu-il .blog-post-footer, 
+            #uofi #ws-pa #edu-il .blog-closing-section, 
+            #uofi #ws-pa #edu-il .blog-post-comments-section .reply-post
+            {
+                
+                text-transform: uppercase;
+            }        
+
+            
+            #uofi #ws-pa #edu-il .paging-menu-top {
+                margin-top:  -20px;
+                margin-left: -20px;
+                padding-left: 40px;
+            }
+             
+                
+            
+            #uofi #ws-pa #edu-il #blog-title a,
+            #uofi #ws-pa #edu-il #blog-title a:hover
+            {
+                color: #001E62;
+                text-decoration:none;
+            }
+            #uofi #ws-pa #edu-il div.title
+            {
+                font-family: 'Source Sans Pro', Arial, sans-serif;
+                font-weight: 400;
+                color: #001E62;
+                font-size:32px;
+            }
+            #uofi #ws-pa #edu-il .blog-description {
+            color: #001E62;
+            }
+            #uofi #ws-pa #edu-il #blog-wrapper
+            {
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;            
+            }
+            #ws-pa #edu-il #blog-header
+            {
+                background-color: transparent;
+                padding: 30px 0;
+                
+            }
+            
+            #uofi #ws-pa #edu-il #blog-level-menu a, #uofi #ws-pa #edu-il #search-bar button, #uofi #ws-pa #edu-il #blog-level-menu li
+            {
+                color: #48484A;
+                
+                text-transform: uppercase;
+            }
+            #uofi #ws-pa #edu-il #blog-level-menu a:hover, 
+            #uofi #ws-pa #edu-il #blog-level-menu a:focus:hover, 
+            #uofi #ws-pa #edu-il #blog-level-menu a:active:hover,
+            #uofi #ws-pa #edu-il #search-bar button:hover, 
+            #uofi #ws-pa #edu-il #search-bar button:focus:hover, 
+            #uofi #ws-pa #edu-il #search-bar button:active:hover
+            {
+                color: #767676 !important;  
+                
+                text-decoration:none !important;
+                background: transparent !important;
+                outline:none !important;
+            }        
+            #uofi #ws-pa #edu-il .blog-post-comments-section
+            {
+                padding: 0px;
+            }    
+                
+                    .blog-post-comment-wrapper
+                    {
+                        padding:10px 0 0;
+                        border-color: #D6D9DB;
+                        border-width: 1px 0 0;
+                        border-style: solid;
+                    }
+                
+
+            
+            
+            
+            body.design-1-scroll #uofi #ws-pa #edu-il .blog-post-entry:hover .scroll-container + .share-bar, 
+            body.design-1-scroll #uofi #ws-pa #edu-il .share-bar:hover 
+            {
+                bottom: 20px;
+                left: 20px;
+                right: 20px;
+                background-color:  #001E62;
+            }
+    
+            html.touch #uofi #ws-pa #edu-il .blog-post-entry:hover .scroll-container + .share-bar, 
+            html.touch #uofi #ws-pa #edu-il .share-bar 
+            {
+                background-color:  #001E62 !important;
+            }
+            
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-title,
+            #uofi #ws-pa #edu-il #blog-results-view .blog-post-title
+            {
+                font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+                font-weight: 400;
+                font-size:24px;
+        		line-height: 1.5;
+            }
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-title a,
+            #uofi #ws-pa #edu-il #blog-results-view .blog-post-title a
+            {
+                color: #1D4B90;
+                
+                        text-decoration: none;
+                    
+            }
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-title a:hover,
+            #uofi #ws-pa #edu-il #blog-results-view .blog-post-title a:hover
+            {
+                color: #13294B;
+                
+                        text-decoration: underline;
+                    
+            }
+            #uofi #ws-pa #edu-il .comments-closed 
+            {
+                background-color: #E8E9EB;
+            }
+            
+        	
+        	/* Directory Profile Wizard Skin Styles */
+        	
+        	#wizard .profile-wrapper {
+	        	box-sizing: border-box;
+    	    	width: 95%; 
+        		margin: 0 auto;
+        		padding: 2rem 0;
+        	}
+        	
+        	#wizard .profile-wrapper *, 
+        	#wizard .profile-wrapper::before, 
+        	#wizard .profile-wrapper::after {
+	        	box-sizing: inherit;
+        	}
+        	
+        	#wizard .profile-wrapper .profile-photo {
+	        	width: 40%;       
+    	    	min-width: 300px;
+        		float: left;
+        		margin-top: 11px;          
+        	}
+        	
+        	#wizard .profile-wrapper .profile {
+	        	width: 60%;
+    	    	float: left;
+        		line-height: 1.5;
+        	}
+        	
+        	/* Hide H1, "address" H3 */
+        	#wizard .profile-wrapper .profile > h3 {
+	        	position: absolute;
+	        	overflow: hidden;
+	        	clip: rect(0 0 0 0);
+	        	height: 1px;
+	        	width: 1px;
+	        	margin: -1px;
+	        	padding: 0;
+	        	border: 0;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .role {
+	        	margin-bottom: 1rem;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .categories h3 {
+    	    	margin-top: 1.5em;
+        		margin-bottom: 0.25em;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .categories p {
+        		margin-bottom: 1.5rem;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .categories ul,
+        	#wizard .profile-wrapper .profile .categories ol {
+	        	display: block;
+    	    	list-style-type: disc;
+        		margin-top: 0;
+        		margin-bottom: 1em;
+	        	margin-left: 0;
+    	    	margin-right: 0;
+        		padding-left: 1rem;
+        	}
+        	
+        	#wizard .profile-wrapper .profile .categories ol {
+	        	list-style-type: decimal;
+        	}
+        	
+        	#wizard .profile-wrapper .profile-photo img {
+	        	max-width: 100%;
+    	    	margin-bottom: 3rem;
+        		margin-left: 10px;
+        		box-shadow: 0 0 0 10px #F4F4F2, 0 0 0 11px #E0E0E0;
+        	}
+        	
+        	#wizard .profile-wrapper .container::after {
+	        	content: "";
+    	    	clear: both;
+        		display: table;
+        	}
+        	#wizard .profile-wrapper .profile-details .address {
+        		margin-bottom: 1rem;
+        	}
+        	
+        	@media only screen and (max-width: 960px) {
+	        	#wizard .profile-wrapper .profile {
+		        	width: 100%;
+        		}           
+        	}
+        	
+        	@media only screen and (max-width: 520px) {
+	        	#wizard .profile-wrapper .profile-photo img {
+	        		width: 200px;
+	        		height: auto;
+	        	}
+        	}
+        	
+        	#wizard .profile-wrapper .breadcrumbs {
+	        	margin: 0 0 1rem 0;
+    	    	padding-bottom: 2rem;
+        	}
+        	
+        	#wizard .profile-wrapper .breadcrumbs ul {
+        		list-style-type: none;
+        	}
+        	
+        	#wizard .profile-wrapper .breadcrumbs li {
+	        	float: left; 
+    	    	margin-bottom: 0;
+        		font-size: 0.75rem;
+        		cursor: default;
+	        	text-transform: uppercase;
+        	}
+        	
+   	    	#wizard .profile-wrapper .breadcrumbs li:not(:last-child)::after {
+        		position: relative;
+        		margin: 0 0.75rem;
+	        	opacity: 1;
+    	    	content: "/";
+        		color: #cacaca;
+        	}
+        	
+        	#wizard .directory-widget-heading {
+	        	width: 95%;
+    	    	margin: 2rem auto 0 auto;
+        	}
+        	
+        	@media only screen and (max-width: 520px) {
+	        	#wizard .directory-widget-heading {
+    	    		font-size:  24px;
+        		}
+        	}
+        	
+        	#wizard .profile-wrapper .function-icons {
+	        	margin: 1rem 0 2rem 0;
+    	    	text-align: right;
+        	}
+        	
+        	@media only screen and (max-width: 960px) {
+	        	#wizard .profile-wrapper .function-icons {
+    	    		margin-bottom: 1rem;
+        			text-align: left;
+        		}           
+        	}
+        	
+        	#wizard .profile-wrapper .function-icons .fa {
+	        	font-size: 22px;
+        	}
+        	
+        	#wizard .profile-wrapper .function-icons a:last-of-type {
+    	    	display: none;
+        	}
+        	#wizard .profile-wrapper .profile-editors {
+	        	margin-top: -1rem;
+    	    	margin-bottom: 1rem;
+        		padding: 1.5rem;
+        		background-color: #f8f8f8;
+	        	border: 1px solid #e0e0e0;
+    	    	border-radius: 5px;
+        	}
+        	
+        	#wizard .profile-wrapper .profile-editors h2 {
+        		margin-bottom: 0.5rem;
+        		line-height: 1.5;
+        	}
+        	
+        	@media only screen and (max-width: 960px) {
+	        	#wizard .profile-wrapper .profile-editors {
+    		    	margin-top: 0;
+        		}           
+        	}
+        	#wizard .profile-wrapper .sm-employee {
+	        	margin: 1rem 0;
+        	}
+        	
+        	#wizard .profile-wrapper .sm-item {
+    	    	display: inline-block;
+        		line-height: 1.7;
+        	}
+        	
+        	#wizard .profile-wrapper .sm-item [class*="fa-"] {
+        		font-size: 2rem;
+	        	text-align: left;
+    	    }
+        	
+        </style> 
+      <link href="https://skins.webservices.illinois.edu//webservices/styles/skins/uic/application.css?rn=0928T094952" property="stylesheet" rel="stylesheet" type="text/css">
+   </head>
+   <body id="wizard">
+      <div id="container">
+         <div aria-labelledby="hc" id="header" role="banner">
+            <div id="wordmark"><span><a href="https://illinois.edu" target="_blank"><img src="https://skins.webservices.illinois.edu//webservices/images/skin/uic/wordmark.svg"></a></span></div>
+         </div>
+         					
+         							<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css"><link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"><link href="https://blogs.illinois.edu/webservices/styles/app/blog/styles-base-layout.css" media="screen" rel="stylesheet" type="text/css"><link href="https://blogs.illinois.edu/webservices/styles/app/blog/styles-content.css" media="screen" rel="stylesheet" type="text/css"><link href="https://blogs.illinois.edu/webservices/styles/app/blog/overrides.css" media="screen" rel="stylesheet" type="text/css"><script src="https://blogs.illinois.edu/webservices/js/modernizr-latest.js"></script><script type="text/javascript">
+            var contactUrl = '/userRole/1516';
+            var sysFormHeader = document.getElementById("system-form-header");
+            if(typeof(sysFormHeader) !== 'undefined' && sysFormHeader != null) {
+                sysFormHeader.innerHTML = "Honors College Announcements";
+            }
+            var sysFormName = document.getElementById("system-form-name");
+            if(typeof(sysFormName) !== 'undefined' && sysFormName != null) {
+                sysFormName.innerHTML = "Honors College Announcements";
+            }
+            
+					document.title = "Honors College Announcements"; 
+				
+                document.title = document.title + " | UIC";
+            
+            var sysHeaderImg = document.getElementById("system-header-img");
+            if(typeof(sysHeaderImg) !== 'undefined' && sysHeaderImg != null) {
+                sysHeaderImg.style.display = "none";
+            }
+            var sysHeaderText = document.getElementById("system-header-text");
+            if(typeof(sysHeaderText) !== 'undefined' && sysHeaderText != null) {
+                sysHeaderText.style.display = "block";
+                sysHeaderText.innerHTML = "Honors College Announcements";
+            }
+            //document.getElementById("system-form-header").innerHTML = "Honors College Announcements";//document.getElementById("system-form-name").innerHTML = "Honors College Announcements";
+            var homeUrl = '/view/1516';
+            </script><style>		
+				#wizard #uofi #ws-pa #edu-il #blog-title {
+					max-width: 100%;
+					margin-left:0;
+				}
+				#wizard #uofi #ws-pa #edu-il #blog-level-menu {
+					margin-left:0;
+					margin-right:0;
+				}
+				#wizard #uofi #ws-pa #edu-il .column-layout-1 #blog-home-view {
+					padding-left: 0;
+					
+				}
+				#wizard #uofi #ws-pa #edu-il .paging-menu-bottom {
+					margin-left:0;
+					margin-right:0;
+				}
+				#wizard #uofi #ws-pa #edu-il #blog-article-view, #uofi #ws-pa #edu-il #blog-results-view {
+					margin-left: 0;
+					padding-left: 0;
+				}
+				#wizard #uofi #ws-pa #edu-il .search-results-menu {
+					margin-left:0;
+				}
+			</style><iframe src="/ga_blogs/1516/blog.html" style="height:1px;position:absolute;top:-40000px;left:-40000px;"></iframe><div id="content_legacy">
+   <div aria-labelledby="mc" id="app" role="main">
+      <form action="/view/1516" method="get" name="portal_form" onsubmit="return submitTheForm()" target="_self"><input id="ACTION" name="ACTION" type="hidden"><input name="BLOG_id" type="hidden" value="1516"><input name="DIALOG_id" type="hidden"><input name="count" type="hidden"><input id="screen" name="screen" type="hidden" value="home"><script src="" type="text/javascript"></script><link href="/webservices/styles/app/blog/image-lightbox.css" rel="stylesheet" type="text/css">
+         <link href="/webservices/styles/app/blog/print-blog.css" media="print" rel="stylesheet" type="text/css"><script crossorigin="anonymous" src="https://kit.fontawesome.com/a63667e257.js"></script><style>
+				#wizard #wt #uofi #ws-pa #edu-il #blog-wrapper #ws-content + #ws-sidebar .gadget-container {
+					margin-left: 48px;
+				}
+			</style>
+         <style></style>
+         <style type="text/css">
+			
+			
+			
+            .legacy{
+                display:none;
+            }
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post
+            {
+                width: 100%;
+            }
+            h1#mc {
+                left: -2000px;
+                position:absolute;
+                top: -2000px;
+            }
+            .clear{
+                clear:both;
+            }
+            
+            
+                    #uofi #ws-pa #edu-il .thumb-left .blog-post-title, 
+                    #uofi #ws-pa #edu-il .thumb-left .blog-post-meta, 
+                    #uofi #ws-pa #edu-il .thumb-left .blog-post-body, 
+                    #uofi #ws-pa #edu-il .thumb-left .blog-post-footer, 
+                    #uofi #ws-pa #edu-il .thumb-left .quick-share 
+                    {
+                        margin-left: 200px
+                            ;
+                    }
+                    #uofi #ws-pa #edu-il .thumb-right .blog-post-title, 
+                    #uofi #ws-pa #edu-il .thumb-right .blog-post-meta, 
+                    #uofi #ws-pa #edu-il .thumb-right .blog-post-body, 
+                    #uofi #ws-pa #edu-il .thumb-right .blog-post-footer, 
+                    #uofi #ws-pa #edu-il .thumb-right .quick-share 
+                    {
+                        margin-right: 200px
+                            ;
+                    }
+                
+            
+            #uofi #ws-pa #edu-il #blog-article-view .blog-post .img-and-caption 
+            {
+                width: 180px; 
+            }
+            #uofi #ws-pa #edu-il #blog-home-view .blog-post-entry 
+            {
+               height: auto;
+			}
+                    #uofi #ws-pa #edu-il #blog-home-view .gadget-container 
+                    {
+                       jrw: margin: 0 [value]; (our blog post margin value) ::: what should this be?
+                    }
+                
+            
+            #uofi #ws-pa #edu-il .bp-embedded-image-thumb {
+                float: left;
+                margin-right: 12px;
+                
+                        max-width: 180px;
+                    
+            }
+            #uofi #ws-pa #edu-il .bp-embedded-image-large {
+                float: left;
+                margin-right: 12px;
+                
+                        width: 100%;
+                    
+			}</style><script type="text/javascript">
+            var viewport = document.getElementsByName('viewport');
+            if(viewport.length === 0)
+            {
+                var meta = document.createElement('meta');
+                    meta.name = 'viewport';
+                    meta.content = 'width=device-width, initial-scale=1, maximum-scale=1';
+                var head = document.getElementsByTagName('head')[0];
+                    head.appendChild(meta);
+            }
+        </script><div id="dskCont">
+            <div id="contDiv">
+               <div id="wt">
+                  <div id="legacy">
+                     <div id="uofi">
+                        <div id="ws-pa">
+                           <div id="edu-il">
+                              <div id="blog-wrapper" class="home-view">
+                                 <h2 class="place-off-screen">blog navigation</h2>
+                                 <header class="branding-area" id="blog-header">
+                                    <div class="header-elements">
+                                       <div id="blog-title">
+                                          <div class="title">Honors College Announcements</div>
+                                       </div>
+                                       <div id="blog-level-menu">
+                                          <nav role="navigation">
+                                             <ul>
+                                                <li><a href="/view/1516">Blog Home</a></li>
+                                                <li><a href="/postEdit/1516">Create post</a></li>
+                                                <li><a href="/view/1516?ACTION=POST_LIST" class=" menu-default menu-archive-off "> Archive </a></li>
+                                                <li class="close-search" id="search-bar"><button class="search_button" id="search_button" onfocus="searchButtonFocus()" type="button"><span>Search</span></button><input class="search_input" id="search_input" onblur="searchBoxBlur()" placeholder="Search" type="text"><label class="place-off-screen" for="search_input">Enter search text</label></li><script language="JavaScript" type="text/javascript">
+                                    var contentMinWidthToMobile = 600;
+                                    var searchBar=document.getElementById("search-bar");
+                                    contentWidthForSearch = document.getElementById("contDiv").clientWidth;
+                                    
+                                    var currentUrl = "" + window.location;
+                                    
+                                    if(contentWidthForSearch < contentMinWidthToMobile && currentUrl.indexOf('scale=true') == -1){
+                                        searchBar.className="open-search"
+                                    }
+                                    function searchButtonFocus(){
+                                        contentWidthForSearch = document.getElementById("contDiv").clientWidth;
+                                        if(contentWidthForSearch < (contentMinWidthToMobile+1))
+                                        {
+                                            searchSubmit();
+                                            return;
+                                        }
+                                        else
+                                        { 
+                                            var searchBar=document.getElementById("search-bar");
+                                            searchBar.className = "open-search";
+                                            document.getElementById('search_input').focus();
+                                        }
+                                    }
+                                    function searchBoxBlur(){
+                                        var searchBar=document.getElementById("search-bar");
+                                        if(contentWidthForSearch < 401)
+                                        {
+                                            return;
+                                        }else
+                                        {
+                                           searchBar.className = "close-search";
+                                        }
+                                    }
+                                    function searchSubmit()
+                                    {
+                                        var searchText = document.getElementById('search_input').value;
+                                        var url = "/view/1516?ACTION=POST_LIST&displaySearch=" + searchText;
+                                        location.href=url;
+                                    }
+                                    function searchInputExpand()
+                                    {
+                                        var searchText=document.getElementById("search_input");
+                                        var searchBar=document.getElementById("search-bar");
+                                        searchText.focus();
+                                        contentWidthForSearch = document.getElementById("contDiv").clientWidth;
+                                        if(contentWidthForSearch > (contentMinWidthToMobile+1)){
+                                            searchBar.className="open-search"
+                                        }
+                                    }
+                                    function searchInputCollapse()
+                                    {
+                                        var searchBar=document.getElementById("search-bar");
+                                    }
+                                    var docbody = document.body;                                
+                                    docbody.addEventListener('click', function(e)
+                                    {
+                                        var searchBar=document.getElementById("search-bar");
+                                        var searchText=document.getElementById("search_input");
+                                        target = null;
+                                        if (e.target)
+                                        {  
+                                            targ = e.target;
+                                        }
+                                        else if (e.srcElement)
+                                        {
+                                            targ = e.srcElement;
+                                        }
+                                        if(targ != null && targ.id != null)
+                                        {
+                                            if(targ.id == 'search_input' || (targ.id == 'search_button' && searchBar.className == 'open-search' && searchText.value.trim().length == 0))                                            {
+                                                return;
+                                            }
+                                            if(targ.id == 'search_button' && searchBar.className != "open-search")
+                                            {
+                                                searchInputExpand();
+                                                return;
+                                            }
+                                            if(targ.id == 'search_button' && searchBar.className == "open-search"  && searchText.value.trim().length > 0)
+                                            {
+                                                searchSubmit();
+                                                return;
+                                            }
+                                         }
+                                         contentWidthForSearch = document.getElementById("contDiv").clientWidth;
+                                         if(contentWidthForSearch > (contentMinWidthToMobile+1)){
+                                            searchInputCollapse();
+                                         }
+                                    });
+                                    document.getElementById('search_input').onkeydown = function(event)                                    
+                                    {
+                                        if(event.keyCode == 13)
+                                        {
+                                            var searchText=document.getElementById("search_input");
+                                            if(searchText.value.trim().length > 0)
+                                            {
+                                                searchSubmit();
+                                            }
+                                        }
+                                    }
+                                    var submitForm = 'false';
+                                    function submitTheForm()
+                                    {
+                                        if(submitForm == 'true')
+                                        {
+                                            return true;
+                                        }
+                                        else
+                                        {
+                                            return false;
+                                        }
+                                    }
+                                </script><li class="nav-menu" id="nav-menu" style="display:none;"><a href="#"><span class="place-off-screen">click to open dropdown menu</span></a><i class="fa fa-bars"></i><div class="arrow-up"></div>
+                                                </li>
+                                             </ul>
+                                          </nav>
+                                       </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                 </header>
+                                 <div class="mobile-nav" id="mobile-nav" style="display:none;">
+                                    <div class="arrow-up"></div>
+                                 </div>
+                                 <div class=" column-layout-1" id="content-and-sidebar">
+                                    <section id="ws-content" class="gadgets-right">
+                                       <article id="blog-home-view" class="post-wrapper-layout-summary">
+                                          <div>
+                                             <h2 class="place-off-screen">blog posts</h2>
+                                             <ul class="blog-posts-wrapper">
+                                                <li class="blog-post ">
+                                                   <div id="entry-1653128048" class=" blog-post-entry blog-post-entry-1col  thumb-left-wrap "><script type="text/javascript">
+            function setCaptionWidth(alignment)
+            {
+                if(alignment == 'left')
+                {
+                    document.getElementById('img-caption-wrapper_1').style.marginRight='auto';
+                }
+                if(alignment == 'right')
+                {
+                    document.getElementById('img-caption-wrapper_1').style.marginLeft='auto';
+                }
+                if(alignment == 'center')
+                {
+                    document.getElementById('img-caption-wrapper_1').style.marginLeft='auto';
+                    document.getElementById('img-caption-wrapper_1').style.marginRight='auto';
+                }
+            }
+        </script><div class="img-and-caption" id="primary_1" style="">
+                                                         <div id="img-caption-wrapper_1"><a href="/view/1516/1653128048"><img id="img_1" src="/files/1516/1653128048/209417.jpg" alt="Orange background with the honors college logo and social media icons on the bottom." style=" width:100%; " onload=" document.getElementById('primary_1').style.maxWidth = 180 + 'px'; document.getElementById('primary_1').style.width = '100%'; "><span class="place-off-screen">primary for post 1653128048</span></a></div>
+                                                      </div>
+                                                      <h3 class="blog-post-title"><a href="/view/1516/1653128048">Good Luck on Finals!</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Dec 6, 2022 10:30 am</span><span class="blog-post-views"> |&nbsp; 1 View</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_1"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/1653128048" target="blank"><i class="fab fa-facebook-square"></i><span>Share Good Luck on Finals! on Facebook</span></a></li>
+                                                            <li id="twitter_1"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/1653128048" target="blank"><i class="fab fa-twitter-square"></i><span>Share Good Luck on Finals! on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ws-cat-Undergraduate-Research">
+                                                   <div id="entry-569290833" class=" blog-post-entry blog-post-entry-1col  thumb-left-wrap "><script type="text/javascript">
+            function setCaptionWidth(alignment)
+            {
+                if(alignment == 'left')
+                {
+                    document.getElementById('img-caption-wrapper_2').style.marginRight='auto';
+                }
+                if(alignment == 'right')
+                {
+                    document.getElementById('img-caption-wrapper_2').style.marginLeft='auto';
+                }
+                if(alignment == 'center')
+                {
+                    document.getElementById('img-caption-wrapper_2').style.marginLeft='auto';
+                    document.getElementById('img-caption-wrapper_2').style.marginRight='auto';
+                }
+            }
+        </script><div class="img-and-caption" id="primary_2" style="">
+                                                         <div id="img-caption-wrapper_2"><a href="/view/1516/569290833"><img id="img_2" src="/files/1516/569290833/209411.jpg" alt="N/A" style=" width:100%; " onload=" document.getElementById('primary_2').style.maxWidth = 180 + 'px'; document.getElementById('primary_2').style.width = '100%'; "><span class="place-off-screen">primary for post 569290833</span></a></div>
+                                                      </div>
+                                                      <h3 class="blog-post-title"><a href="/view/1516/569290833">Research Assistant Opportunity funded by the National Science Foundation (NSF)</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Dec 6, 2022 10:00 am</span><span class="blog-post-views"> |&nbsp; 1 View</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_2"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/569290833" target="blank"><i class="fab fa-facebook-square"></i><span>Share Research Assistant Opportunity funded by the National Science Foundation (NSF) on Facebook</span></a></li>
+                                                            <li id="twitter_2"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/569290833" target="blank"><i class="fab fa-twitter-square"></i><span>Share Research Assistant Opportunity funded by the National Science Foundation (NSF) on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ">
+                                                   <div id="entry-2136287923" class=" blog-post-entry blog-post-entry-1col  thumb-left-wrap "><script type="text/javascript">
+            function setCaptionWidth(alignment)
+            {
+                if(alignment == 'left')
+                {
+                    document.getElementById('img-caption-wrapper_3').style.marginRight='auto';
+                }
+                if(alignment == 'right')
+                {
+                    document.getElementById('img-caption-wrapper_3').style.marginLeft='auto';
+                }
+                if(alignment == 'center')
+                {
+                    document.getElementById('img-caption-wrapper_3').style.marginLeft='auto';
+                    document.getElementById('img-caption-wrapper_3').style.marginRight='auto';
+                }
+            }
+        </script><div class="img-and-caption" id="primary_3" style="">
+                                                         <div id="img-caption-wrapper_3"><a href="/view/1516/2136287923"><img id="img_3" src="/files/1516/2136287923/209173.png" alt="Flyer depicting the event with the USG logo." style=" width:100%; " onload=" document.getElementById('primary_3').style.maxWidth = 180 + 'px'; document.getElementById('primary_3').style.width = '100%'; "><span class="place-off-screen">primary for post 2136287923</span></a></div>
+                                                      </div>
+                                                      <h3 class="blog-post-title"><a href="/view/1516/2136287923">Let's Talk: Black Women and Mental Health - 12/01</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 29, 2022 11:15 am</span><span class="blog-post-views"> |&nbsp; 18&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_3"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/2136287923" target="blank"><i class="fab fa-facebook-square"></i><span>Share Let's Talk: Black Women and Mental Health - 12/01 on Facebook</span></a></li>
+                                                            <li id="twitter_3"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/2136287923" target="blank"><i class="fab fa-twitter-square"></i><span>Share Let's Talk: Black Women and Mental Health - 12/01 on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ws-cat-Courses">
+                                                   <div id="entry-1589788792" class=" blog-post-entry blog-post-entry-1col  thumb-left-wrap "><script type="text/javascript">
+            function setCaptionWidth(alignment)
+            {
+                if(alignment == 'left')
+                {
+                    document.getElementById('img-caption-wrapper_4').style.marginRight='auto';
+                }
+                if(alignment == 'right')
+                {
+                    document.getElementById('img-caption-wrapper_4').style.marginLeft='auto';
+                }
+                if(alignment == 'center')
+                {
+                    document.getElementById('img-caption-wrapper_4').style.marginLeft='auto';
+                    document.getElementById('img-caption-wrapper_4').style.marginRight='auto';
+                }
+            }
+        </script><div class="img-and-caption" id="primary_4" style="">
+                                                         <div id="img-caption-wrapper_4"><a href="/view/1516/1589788792"><img id="img_4" src="/files/1516/1589788792/209112.jpg" alt="**colors: peach, orange, green, tan, white, black**" style=" width:100%; " onload=" document.getElementById('primary_4').style.maxWidth = 180 + 'px'; document.getElementById('primary_4').style.width = '100%'; "><span class="place-off-screen">primary for post 1589788792</span></a></div>
+                                                      </div>
+                                                      <h3 class="blog-post-title"><a href="/view/1516/1589788792">Course DHD 420: Mental Health, Asian Americans, and Community Engagement - Enroll
+                                                            Today!</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 28, 2022 1:30 pm</span><span class="blog-post-views"> |&nbsp; 23&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_4"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/1589788792" target="blank"><i class="fab fa-facebook-square"></i><span>Share Course DHD 420: Mental Health, Asian Americans, and Community Engagement - Enroll
+                                                                     Today! on Facebook</span></a></li>
+                                                            <li id="twitter_4"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/1589788792" target="blank"><i class="fab fa-twitter-square"></i><span>Share Course DHD 420: Mental Health, Asian Americans, and Community Engagement - Enroll
+                                                                     Today! on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ws-cat-Campus-Resources-/-Events">
+                                                   <div id="entry-916680905" class=" blog-post-entry blog-post-entry-1col  thumb-left-wrap "><script type="text/javascript">
+            function setCaptionWidth(alignment)
+            {
+                if(alignment == 'left')
+                {
+                    document.getElementById('img-caption-wrapper_5').style.marginRight='auto';
+                }
+                if(alignment == 'right')
+                {
+                    document.getElementById('img-caption-wrapper_5').style.marginLeft='auto';
+                }
+                if(alignment == 'center')
+                {
+                    document.getElementById('img-caption-wrapper_5').style.marginLeft='auto';
+                    document.getElementById('img-caption-wrapper_5').style.marginRight='auto';
+                }
+            }
+        </script><div class="img-and-caption" id="primary_5" style="">
+                                                         <div id="img-caption-wrapper_5"><a href="/view/1516/916680905"><img id="img_5" src="/files/1516/916680905/209064.jpg" alt="The background is purple and pink. There is a graphic of Mexico with images of hands raising up." style=" width:100%; " onload=" document.getElementById('primary_5').style.maxWidth = 180 + 'px'; document.getElementById('primary_5').style.width = '100%'; "><span class="place-off-screen">primary for post 916680905</span></a></div>
+                                                      </div>
+                                                      <h3 class="blog-post-title"><a href="/view/1516/916680905">The Language of Femicide in Mexico: Sensationalizing, Weaponizing, and Fixating</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 22, 2022 10:30 am</span><span class="blog-post-views"> |&nbsp; 76&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_5"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/916680905" target="blank"><i class="fab fa-facebook-square"></i><span>Share The Language of Femicide in Mexico: Sensationalizing, Weaponizing, and Fixating on Facebook</span></a></li>
+                                                            <li id="twitter_5"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/916680905" target="blank"><i class="fab fa-twitter-square"></i><span>Share The Language of Femicide in Mexico: Sensationalizing, Weaponizing, and Fixating on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ws-cat-Campus-Resources-/-Events">
+                                                   <div id="entry-910864642" class="blog-post-entry blog-post-entry-1col ">
+                                                      <h3 class="blog-post-title"><a href="/view/1516/910864642">Be the Match x Autoimmune Action &amp; Advocacy x Colleges Against Cancer</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 22, 2022 8:45 am</span><span class="blog-post-views"> |&nbsp; 4&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_6"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/910864642" target="blank"><i class="fab fa-facebook-square"></i><span>Share Be the Match x Autoimmune Action &amp; Advocacy x Colleges Against Cancer on Facebook</span></a></li>
+                                                            <li id="twitter_6"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/910864642" target="blank"><i class="fab fa-twitter-square"></i><span>Share Be the Match x Autoimmune Action &amp; Advocacy x Colleges Against Cancer on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ">
+                                                   <div id="entry-2072147490" class="blog-post-entry blog-post-entry-1col ">
+                                                      <h3 class="blog-post-title"><a href="/view/1516/2072147490">Come Make Turkey Jars for UI Health Pediatric Patients with SSL! - 11/22</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 17, 2022 12:30 pm</span><span class="blog-post-views"> |&nbsp; 35&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_7"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/2072147490" target="blank"><i class="fab fa-facebook-square"></i><span>Share Come Make Turkey Jars for UI Health Pediatric Patients with SSL! - 11/22 on Facebook</span></a></li>
+                                                            <li id="twitter_7"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/2072147490" target="blank"><i class="fab fa-twitter-square"></i><span>Share Come Make Turkey Jars for UI Health Pediatric Patients with SSL! - 11/22 on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ws-cat-Internships">
+                                                   <div id="entry-962315685" class=" blog-post-entry blog-post-entry-1col  thumb-left-wrap "><script type="text/javascript">
+            function setCaptionWidth(alignment)
+            {
+                if(alignment == 'left')
+                {
+                    document.getElementById('img-caption-wrapper_8').style.marginRight='auto';
+                }
+                if(alignment == 'right')
+                {
+                    document.getElementById('img-caption-wrapper_8').style.marginLeft='auto';
+                }
+                if(alignment == 'center')
+                {
+                    document.getElementById('img-caption-wrapper_8').style.marginLeft='auto';
+                    document.getElementById('img-caption-wrapper_8').style.marginRight='auto';
+                }
+            }
+        </script><div class="img-and-caption" id="primary_8" style="">
+                                                         <div id="img-caption-wrapper_8"><a href="/view/1516/962315685"><img id="img_8" src="/files/1516/962315685/208787.png" alt="The background is blue and has a photo of the LCC with students near a mural." style=" width:100%; " onload=" document.getElementById('primary_8').style.maxWidth = 180 + 'px'; document.getElementById('primary_8').style.width = '100%'; "><span class="place-off-screen">primary for post 962315685</span></a></div>
+                                                      </div>
+                                                      <h3 class="blog-post-title"><a href="/view/1516/962315685">Diversity Community Engagement Program (DCEP) - Internships at the Office of Diversity,
+                                                            Equity and Engagement!</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 14, 2022 4:45 pm</span><span class="blog-post-views"> |&nbsp; 23&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_8"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/962315685" target="blank"><i class="fab fa-facebook-square"></i><span>Share Diversity Community Engagement Program (DCEP) - Internships at the Office of Diversity,
+                                                                     Equity and Engagement! on Facebook</span></a></li>
+                                                            <li id="twitter_8"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/962315685" target="blank"><i class="fab fa-twitter-square"></i><span>Share Diversity Community Engagement Program (DCEP) - Internships at the Office of Diversity,
+                                                                     Equity and Engagement! on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ws-cat-HC-Announcements-and-Deadlines">
+                                                   <div id="entry-603732048" class="blog-post-entry blog-post-entry-1col ">
+                                                      <h3 class="blog-post-title"><a href="/view/1516/603732048">Honors Research Symposium in SCE, Today 2-4pm!</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 14, 2022 4:15 pm</span><span class="blog-post-views"> |&nbsp; 78&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_9"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/603732048" target="blank"><i class="fab fa-facebook-square"></i><span>Share Honors Research Symposium in SCE, Today 2-4pm! on Facebook</span></a></li>
+                                                            <li id="twitter_9"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/603732048" target="blank"><i class="fab fa-twitter-square"></i><span>Share Honors Research Symposium in SCE, Today 2-4pm! on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ws-cat-Campus-Resources-/-Events">
+                                                   <div id="entry-443079384" class=" blog-post-entry blog-post-entry-1col  thumb-left-wrap "><script type="text/javascript">
+            function setCaptionWidth(alignment)
+            {
+                if(alignment == 'left')
+                {
+                    document.getElementById('img-caption-wrapper_10').style.marginRight='auto';
+                }
+                if(alignment == 'right')
+                {
+                    document.getElementById('img-caption-wrapper_10').style.marginLeft='auto';
+                }
+                if(alignment == 'center')
+                {
+                    document.getElementById('img-caption-wrapper_10').style.marginLeft='auto';
+                    document.getElementById('img-caption-wrapper_10').style.marginRight='auto';
+                }
+            }
+        </script><div class="img-and-caption" id="primary_10" style="">
+                                                         <div id="img-caption-wrapper_10"><a href="/view/1516/443079384"><img id="img_10" src="/files/1516/443079384/208784.jpg" alt="The background looks like a hard drive of a computer." style=" width:100%; " onload=" document.getElementById('primary_10').style.maxWidth = 180 + 'px'; document.getElementById('primary_10').style.width = '100%'; "><span class="place-off-screen">primary for post 443079384</span></a></div>
+                                                      </div>
+                                                      <h3 class="blog-post-title"><a href="/view/1516/443079384">Break Through Tech Chicago: UIC STEM Week BTTC Open House &amp; Student Panel - 11/17</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 14, 2022 4:15 pm</span><span class="blog-post-views"> |&nbsp; 15&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_10"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/443079384" target="blank"><i class="fab fa-facebook-square"></i><span>Share Break Through Tech Chicago: UIC STEM Week BTTC Open House &amp; Student Panel - 11/17 on Facebook</span></a></li>
+                                                            <li id="twitter_10"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/443079384" target="blank"><i class="fab fa-twitter-square"></i><span>Share Break Through Tech Chicago: UIC STEM Week BTTC Open House &amp; Student Panel - 11/17 on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ws-cat-Campus-Resources-/-Events">
+                                                   <div id="entry-1213100681" class=" blog-post-entry blog-post-entry-1col  thumb-left-wrap "><script type="text/javascript">
+            function setCaptionWidth(alignment)
+            {
+                if(alignment == 'left')
+                {
+                    document.getElementById('img-caption-wrapper_11').style.marginRight='auto';
+                }
+                if(alignment == 'right')
+                {
+                    document.getElementById('img-caption-wrapper_11').style.marginLeft='auto';
+                }
+                if(alignment == 'center')
+                {
+                    document.getElementById('img-caption-wrapper_11').style.marginLeft='auto';
+                    document.getElementById('img-caption-wrapper_11').style.marginRight='auto';
+                }
+            }
+        </script><div class="img-and-caption" id="primary_11" style="">
+                                                         <div id="img-caption-wrapper_11"><a href="/view/1516/1213100681"><img id="img_11" src="/files/1516/1213100681/208781.jpg" alt="The background is purple, and there is an image of chocolates on the bottom right of the image." style=" width:100%; " onload=" document.getElementById('primary_11').style.maxWidth = 180 + 'px'; document.getElementById('primary_11').style.width = '100%'; "><span class="place-off-screen">primary for post 1213100681</span></a></div>
+                                                      </div>
+                                                      <h3 class="blog-post-title"><a href="/view/1516/1213100681">Colleges Against Cancer - Chocolate Fundraiser - 11/16</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 14, 2022 4:00 pm</span><span class="blog-post-views"> |&nbsp; 35&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_11"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/1213100681" target="blank"><i class="fab fa-facebook-square"></i><span>Share Colleges Against Cancer - Chocolate Fundraiser - 11/16 on Facebook</span></a></li>
+                                                            <li id="twitter_11"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/1213100681" target="blank"><i class="fab fa-twitter-square"></i><span>Share Colleges Against Cancer - Chocolate Fundraiser - 11/16 on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                                <li class="blog-post ws-cat-HC-Announcements-and-Deadlines">
+                                                   <div id="entry-964232957" class="blog-post-entry blog-post-entry-1col ">
+                                                      <h3 class="blog-post-title"><a href="/view/1516/964232957">Submit Your Agreement Form/Capstone Form</a></h3>
+                                                      <div class="blog-post-meta"><span class="blog-post-author blog-post-border-none"> by <a href="mailto:cnilss2@uic.edu">cnilss2@uic.edu</a></span><span class="blog-post-date">Nov 10, 2022 11:45 am</span><span class="blog-post-views"> |&nbsp; 475&nbsp; Views</span></div>
+                                                      <div class="quick-share"><span>Share this Story</span><ul>
+                                                            <li id="facebook_12"><a href="http://www.facebook.com/share.php?u=https://blogs.uofi.uic.eduview/1516/964232957" target="blank"><i class="fab fa-facebook-square"></i><span>Share Submit Your Agreement Form/Capstone Form on Facebook</span></a></li>
+                                                            <li id="twitter_12"><a href="https://twitter.com/share?url=https://blogs.uofi.uic.eduview/1516/964232957" target="blank"><i class="fab fa-twitter-square"></i><span>Share Submit Your Agreement Form/Capstone Form on Twitter</span></a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                       </article>
+                                       <div class="paging-menu-bottom">
+                                          <ul class="paging-controls">
+                                             <li class="back"><span><i class="fa fa-chevron-left"></i> view previous</span></li>
+                                             <li class="page"><span>1</span></li>
+                                             <li class="next"><a class="blog-pagination-button blog-next-page" href="/view/1516?ACTION=HOMEPAGE&amp;displayOrder=desc&amp;displayColumn=created&amp;displayCount=12&amp;queryTag=0"> view next <i class="fa fa-chevron-right"></i></a></li>
+                                          </ul>
+                                       </div>
+                                    </section>
+                                    <aside aria-labelledby="blogSidebar" id="ws-sidebar" role="complementary">
+                                       <h2 class="place-off-screen" id="blogSidebar">additional blog information</h2>
+                                       <div class="gadget-container" id="gadget-container">
+                                          <div class="gadget">
+                                             <div class="gadget-pod">
+                                                <div aria-labelledby="blogCategories" class="blog-gadget blog-categories" role="region">
+                                                   <h3 class="gadget-header" id="blogCategories">Categories</h3>
+                                                   <ul>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=1910">Campus News/Update</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=95">Campus Resources / Events</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=1912">Community</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=1908">Community Event</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=97">Community Service</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=106">Courses</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=1818">Grants and Fellowships</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=104">HC Announcements and Deadlines</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=1917">HC Events</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=96">HC Student Orgs and Publications</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=92">Honors College Event</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=1911">Internship</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=89">Internships</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=105">Jobs</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=1324">Leadership</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=98">Miscellaneous</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=1909">Paid Study</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=196">Professional and/or Career Development</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=93">Scholarships</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=1938">Student Organization</a></li>
+                                                      <li><a href="/viewCategory/1516?ACTION=POST_LIST&amp;queryCategory=90">Undergraduate Research</a></li>
+                                                   </ul>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="gadget">
+                                             <div class="gadget-pod">
+                                                <div aria-labelledby="blogSearchGadget" class="blog-gadget blog-search-gadget" role="region">
+                                                   <h3 class="gadget-header" id="blogSearchGadget">Search</h3>
+                                                   <div class="search-field"><input class="search-field" id="displaySearch" name="displaySearch" onkeydown="if(event.keyCode==13)document.getElementById('gadget-search-button').focus();" type="text" value=""></div>
+                                                   <div class="search-button"><input class="search-button" id="gadget-search-button" onclick="document.getElementById('ACTION').value='POST_LIST';document.portal_form.submit();" type="button" value="Search"></div>
+                                                   <div class="criteria">
+                                                      <h4>By Date</h4><input class="queryYear" id="year_2022" name="queryYear" type="checkbox" value="2022"><label for="year_2022">2022</label><input class="queryYear" id="year_2021" name="queryYear" type="checkbox" value="2021"><label for="year_2021">2021</label><input class="queryYear" id="year_2020" name="queryYear" type="checkbox" value="2020"><label for="year_2020">2020</label><input class="queryYear" id="year_2019" name="queryYear" type="checkbox" value="2019"><label for="year_2019">2019</label><input class="queryYear" id="year_2018" name="queryYear" type="checkbox" value="2018"><label for="year_2018">2018</label><input class="queryYear" id="year_2017" name="queryYear" type="checkbox" value="2017"><label for="year_2017">2017</label><input class="queryYear" id="year_2016" name="queryYear" type="checkbox" value="2016"><label for="year_2016">2016</label><input class="queryYear" id="year_2015" name="queryYear" type="checkbox" value="2015"><label for="year_2015">2015</label><input class="queryYear" id="year_2014" name="queryYear" type="checkbox" value="2014"><label for="year_2014">2014</label><input class="queryYear" id="year_2013" name="queryYear" type="checkbox" value="2013"><label for="year_2013">2013</label></div>
+                                                   <div class="criteria">
+                                                      <h4>By Category</h4><input id="cat_1910" name="queryCategory" type="checkbox" value="1910"><label for="cat_1910">Campus News/Update</label><input id="cat_95" name="queryCategory" type="checkbox" value="95"><label for="cat_95">Campus Resources / Events</label><input id="cat_1912" name="queryCategory" type="checkbox" value="1912"><label for="cat_1912">Community</label><input id="cat_1908" name="queryCategory" type="checkbox" value="1908"><label for="cat_1908">Community Event</label><input id="cat_97" name="queryCategory" type="checkbox" value="97"><label for="cat_97">Community Service</label><input id="cat_106" name="queryCategory" type="checkbox" value="106"><label for="cat_106">Courses</label><input id="cat_1818" name="queryCategory" type="checkbox" value="1818"><label for="cat_1818">Grants and Fellowships</label><input id="cat_104" name="queryCategory" type="checkbox" value="104"><label for="cat_104">HC Announcements and Deadlines</label><input id="cat_1917" name="queryCategory" type="checkbox" value="1917"><label for="cat_1917">HC Events</label><input id="cat_96" name="queryCategory" type="checkbox" value="96"><label for="cat_96">HC Student Orgs and Publications</label><input id="cat_92" name="queryCategory" type="checkbox" value="92"><label for="cat_92">Honors College Event</label><input id="cat_1911" name="queryCategory" type="checkbox" value="1911"><label for="cat_1911">Internship</label><input id="cat_89" name="queryCategory" type="checkbox" value="89"><label for="cat_89">Internships</label><input id="cat_105" name="queryCategory" type="checkbox" value="105"><label for="cat_105">Jobs</label><input id="cat_1324" name="queryCategory" type="checkbox" value="1324"><label for="cat_1324">Leadership</label><input id="cat_98" name="queryCategory" type="checkbox" value="98"><label for="cat_98">Miscellaneous</label><input id="cat_1909" name="queryCategory" type="checkbox" value="1909"><label for="cat_1909">Paid Study</label><input id="cat_196" name="queryCategory" type="checkbox" value="196"><label for="cat_196">Professional and/or Career Development</label><input id="cat_93" name="queryCategory" type="checkbox" value="93"><label for="cat_93">Scholarships</label><input id="cat_1938" name="queryCategory" type="checkbox" value="1938"><label for="cat_1938">Student Organization</label><input id="cat_90" name="queryCategory" type="checkbox" value="90"><label for="cat_90">Undergraduate Research</label></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </aside>
+                                 </div>
+                                 <section class="blog-closing-section">
+                                    <ul class="blog-features">
+                                       <li class="blog-feature-rss"><a href="/xml/1516/rss.xml" target="_blank"><i class="fa fa-rss-square"></i>&nbsp;RSS</a></li>
+                                       <li class="blog-feature-subscribe"><a href="/publicSubscribe?blogId=1516"><i class="fa fa-check-square"></i>&nbsp;Subscribe (34)</a></li>
+                                       <li class="blog-feature-contacts"><a href="#blog-feature" onclick="javascript:window.open(contactUrl,'','width=820,height=725,status=yes,toolbar=no,menubar=no,scrollbars=yes')"><i class="fa fa-user"></i>&nbsp;Contacts</a></li>
+                                    </ul>
+                                 </section>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </form>
+      <meta content="initial-scale=1.0" name="viewport"><script type="text/javascript">
+            var blogId = '1516';
+            var screen= 'home';
+            var imageWidth = 100; //get from XML
+            var textWrap = 'true';
+            var isGadgetUsed = 'true';
+            var content = document.getElementById('blog-wrapper');
+            var width = document.getElementById('contDiv').offsetWidth;
+            var contentColumn;
+            var contentImages;
+            var widgetWidth = 250;
+            var widgetPadding = 12;
+            var contentMinWidthToMobile=600;
+            var mobileMaxWidthToDesktop=600;
+            var mode='firstTime';
+            var deviceSize = screen.width;
+            //
+            if(window.attachEvent) 
+            {
+                window.attachEvent('onresize', function() {
+                    width = document.getElementById('contDiv').offsetWidth;
+                    var searchBar=document.getElementById("search-bar");
+                    setSearchClass();
+                });
+            }
+            else if(window.addEventListener) 
+            {
+                window.addEventListener('resize', function() {
+                    width = document.getElementById('contDiv').offsetWidth;
+                    var searchBar=document.getElementById("search-bar");
+                    contentWidthForSearch = document.getElementById("contDiv").clientWidth;
+                    setSearchClass();
+                    
+                    }, true);
+            }
+            else
+            {
+                //not supported
+            }
+            function setSearchClass(){
+                if (typeof(searchBar) != 'undefined' && searchBar != null)
+                {
+                    contentWidthForSearch = document.getElementById("contDiv").clientWidth;
+                    if(contentWidthForSearch < contentMinWidthToMobile + 1)
+                    {
+                            searchBar.className="open-search"
+                    }
+                    else
+                    {
+                        searchBar.className="close-search";
+                    }
+                }
+            }
+            function setContentColumnWidth(offset){
+                if (typeof(document.getElementById('blog-posts')) != 'undefined' && document.getElementById('blog-posts') != null){
+                    contentColumn = document.getElementById('blog-posts').getElementsByClassName('blog-post-summary');
+                    if (typeof(contentColumn) != 'undefined' && contentColumn != null)
+                    {
+                        if(textWrap == 'false'){
+                            for(i=0; i<contentColumn.length; i++){
+                                contentColumn[i].style.width = (width - imageWidth - offset) + 'px';
+                            }
+                        }
+                    }
+                }
+            }
+            function setContentImageMaxWidth(colSize){
+                if (typeof(document.getElementById('blog-posts')) != 'undefined' && document.getElementById('blog-posts') != null){
+                    contentImages = document.getElementById('blog-posts').getElementsByTagName('img');
+                    for(i=0; i<contentImages.length; i++){
+                        contentImages[i].style.maxWidth = width - colSize +'px';
+                    }
+                }
+            }
+            function setSearch(){
+                if (document.getElementById('search-box').style.display == 'none'){
+                    document.getElementById('search-box').style.display='block';
+                }
+                else{
+                    document.getElementById('search-box').style.display='none';
+                }
+            }
+            function setSort(){
+                if (document.getElementById('sort-box').style.display == 'none'){
+                    document.getElementById('sort-box').style.display='block';
+                }
+                else{
+                    document.getElementById('sort-box').style.display='none';
+                }
+            }
+            //
+            if (typeof(document.getElementById('search-box')) != 'undefined' && document.getElementById('search-box') != null){
+                document.getElementById('search-box').style.display='none';
+            }
+            if (typeof(document.getElementById('sort-box')) != 'undefined' && document.getElementById('sort-box') != null){
+                document.getElementById('sort-box').style.display='none';
+            }
+        </script><script type="text/javascript">
+            function linkNew(linkFileName, linkId) 
+            {
+                var newlink = document.createElement("link");
+                newlink.rel="stylesheet";
+                newlink.type="text/css";
+                newlink.href=linkFileName;
+                newlink.setAttribute("id", linkId);
+                var dskCont = document.getElementById('dskCont');
+                var formEl = dskCont.parentNode;
+                formEl.insertBefore(newlink, dskCont);
+            }
+            //
+            function jsUpdateSize()
+            {
+                deviceSize = document.body.offsetWidth;
+                var contDiv= document.getElementById("contDiv");
+                var contentWidth = contDiv.clientWidth;
+                
+                if((deviceSize < contentMinWidthToMobile+1) || (contentWidth < (contentMinWidthToMobile+1)))
+                {
+                    linkNew('https://webservices.illinois.edu/webservices/styles/app/blog/640.css','link_skin_application');
+                    document.getElementById('gadget-container').style.marginLeft='0';
+                }
+                else
+                {
+	                linkNew('https://webservices.illinois.edu/webservices/styles/app/blog/sample481_plus.css','link_skin_application');
+                }
+            }
+			var currentUrl = "" + window.location;
+        </script></div>
+</div><script>
+			jsUpdateSize();
+		</script><script>
+				document.getElementById('top-navigation').style.display='block';
+				top_nav_ul = document.createElement('ul');
+				
+				
+					top_nav_li = document.createElement('li');					
+					top_nav_a = document.createElement('a');
+					top_nav_a.innerHTML = 'Contacts';
+					top_nav_a.href = '/userRole/1516';
+					top_nav_a.target = '_blank';
+					top_nav_li.appendChild(top_nav_a);
+					top_nav_ul.appendChild(top_nav_li);
+					document.getElementById('top-navigation').appendChild(top_nav_ul);
+				
+					top_nav_li = document.createElement('li');					
+					top_nav_a = document.createElement('a');
+					top_nav_a.innerHTML = 'Subscribe';
+					top_nav_a.href = '/publicSubscribe?blogId=1516';
+					top_nav_a.target = '_blank';
+					top_nav_li.appendChild(top_nav_a);
+					top_nav_ul.appendChild(top_nav_li);
+					document.getElementById('top-navigation').appendChild(top_nav_ul);
+				
+					top_nav_li = document.createElement('li');					
+					top_nav_a = document.createElement('a');
+					top_nav_a.innerHTML = 'RSS';
+					top_nav_a.href = '/xml/1516/rss.xml';
+					top_nav_a.target = '_blank';
+					top_nav_li.appendChild(top_nav_a);
+					top_nav_ul.appendChild(top_nav_li);
+					document.getElementById('top-navigation').appendChild(top_nav_ul);
+				</script>
+         					
+         					
+         <footer aria-labelledby="fc" id="footer" role="contentinfo">
+            <div id="fc">
+               <div id="campus-footer-logo"><img alt="" src="https://skins.webservices.illinois.edu//webservices/images/skin/uic/footer-logo.svg"></div><p><strong>University of Illinois Chicago<br /></strong>1200 West Harrison St.<br />Chicago, Illinois 60607<br />(312) 996-7000</p>
+               <p class="size-28 icons-left  logo-circle" id="social-media">
+                  <td style="height:56px; width:42px;"><a href="https://www.facebook.com/uic.edu" target="_blank"><img alt="Facebook" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/svg/circle-a7a9ac-uic/Facebook.svg" style="height:28px; width:28px;" title="Facebook" width="28"></a></td>
+                  <td style="height:56px; width:42px;"><a href="https://www.instagram.com/thisisuic/" target="_blank"><img alt="Instagram" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/svg/circle-a7a9ac-uic/Instagram.svg" style="height:28px; width:28px;" title="Instagram" width="28"></a></td>
+                  <td style="height:56px; width:42px;"><a href="https://today.uic.edu/contact/social-media-directory" target="_blank"><img alt="Plus" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/svg/circle-a7a9ac-uic/Plus.svg" style="height:28px; width:28px;" title="Plus" width="28"></a></td>
+                  <td style="height:56px; width:42px;"><a href="https://uicscience.tumblr.com/" target="_blank"><img alt="Tumblr" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/svg/circle-a7a9ac-uic/Tumblr.svg" style="height:28px; width:28px;" title="Tumblr" width="28"></a></td>
+                  <td style="height:56px; width:42px;"><a href="https://twitter.com/thisisuic" target="_blank"><img alt="Twitter" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/svg/circle-a7a9ac-uic/Twitter.svg" style="height:28px; width:28px;" title="Twitter" width="28"></a></td>
+                  <td style="height:56px; width:42px;"><a href="https://www.youtube.com/user/thisisUIC" target="_blank"><img alt="YouTube" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/svg/circle-a7a9ac-uic/YouTube.svg" style="height:28px; width:28px;" title="YouTube" width="28"></a></td>
+               </p>
+               <style>
+			#social-media i{
+			font-size: 28px;
+			
+				}</style>
+            </div>
+         </footer>
+      </div><script type="text/javascript">
+		var currentUrl = "" + window.location;
+		if (currentUrl.indexOf('scale=true') > -1) {
+			var containerElement = document.querySelector("#container");
+			if (currentUrl.indexOf('headerimage=true') > -1) {
+				var maxWidth = '800px';
+			} else {
+				var maxWidth = window.getComputedStyle(containerElement, null).getPropertyValue("max-width");
+			}
+			var borderLeftWidth = window.getComputedStyle(containerElement, null).getPropertyValue("border-left-width");
+			var borderRightWidth = window.getComputedStyle(containerElement, null).getPropertyValue("border-right-width");
+			var maxWidthNumeric = Number(maxWidth.split('px')[0]);
+			var borderLeftWidthNumeric = Number(borderLeftWidth.split('px')[0]);
+			var borderRightWidthNumeric = Number(borderRightWidth.split('px')[0]);
+			var totalCalculatedWidth = maxWidthNumeric + borderLeftWidthNumeric + borderRightWidthNumeric;
+			var containerAdjustedWidth = totalCalculatedWidth
+			var iframeWidth = Number(450);
+			var zoomFactor = Number(iframeWidth / totalCalculatedWidth);
+			var htmlElement = document.querySelector("html");
+			htmlElement.style.overflow = 'hidden';
+			document.getElementById('container').style.width = maxWidth;
+			if (currentUrl.indexOf('headerimage=true') > -1) {
+				document.getElementById('container').style.maxWidth = 'none';
+			}
+			document.getElementsByTagName('body')[0].style.transform = 'scale(' + zoomFactor + ')';
+			document.getElementsByTagName('body')[0].style.transformOrigin = 'left top 0';
+		}
+		//
+		if (currentUrl.indexOf('skins.') > -1)
+		{
+			document.getElementById('header').style.marginBottom = '96px';
+		}
+		</script></body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XDEV_HTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Citrix Gateway</title>
+<link rel="SHORTCUT ICON" href="/vpn/images/AccessGateway.ico" type="image/vnd.microsoft.icon">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META content=noindex,nofollow,noarchive name=robots>
+<link href="/vpn/js/rdx/core/css/rdx.css?v=6e7b2de88609868eeda0b1baf1d34a7e" rel="stylesheet" type="text/css"/>
+<link href="/logon/themes/Default/css/base.css?v=6e7b2de88609868eeda0b1baf1d34a7e" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="/logon/fonts/citrix-fonts.css?v=6e7b2de88609868eeda0b1baf1d34a7e" type="text/css">
+<link href="/logon/themes/Default/css/custom.css?v=6e7b2de88609868eeda0b1baf1d34a7e" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/vpn/js/rdx.js?v=6e7b2de88609868eeda0b1baf1d34a7e"></script>
+<script type="text/javascript" src="/vpn/resources.js?v=6e7b2de88609868eeda0b1baf1d34a7e"></script>
+<script type="text/javascript" src="/vpn/nsshare.js?v=6e7b2de88609868eeda0b1baf1d34a7e"></script>
+<script type="text/javascript" src="/vpn/init/index.js?v=6e7b2de88609868eeda0b1baf1d34a7e"></script> 
+<script type="text/javascript" src="/vpn/login.js?v=6e7b2de88609868eeda0b1baf1d34a7e"></script>
+<script type="text/javascript" src="/vpn/js/views.js?v=6e7b2de88609868eeda0b1baf1d34a7e"></script>
+<script type="text/javascript" src="/vpn/js/gateway_login_view.js?v=6e7b2de88609868eeda0b1baf1d34a7e"></script>
+<script type="text/javascript" src="/vpn/js/gateway_login_form_view.js?v=6e7b2de88609868eeda0b1baf1d34a7e"></script> 
+
+<style type="text/css">
+body
+{
+  display : none;
+  visibility: hidden;
+}
+</style>
+
+<META content="MSHTML 6.00.2900.2802" name=GENERATOR>
+</head>
+<body class="ns_body" id=bodyTag>
+<!-- Copyright 2001-2005 Citrix Systems, Inc. All Rights Reserved -->
+<NOSCRIPT>
+<BR><BR>
+<table style="WIDTH: 100%">
+<tr>
+ 	<td align="center">
+		<table class="CTXMSAM_LogonFont">
+			<tr id="errorMessageRow">
+				<td class="glowBoxLeft">&nbsp;</td>                            
+				<td class="loginTableMidWidth">
+					<div id="feedbackArea">
+					<div id="feedbackStyle" class="feedbackStyleError">
+					<span id="errorMessageLabel" class="messageStyle">
+					JavaScript is either disabled in or not supported by the Web browser.  
+					To continue logon, use a Web browser that supports JavaScript or enable JavaScript in your current browser.
+					</span>
+					</div>
+					</div>
+				</td>                           
+				<td class="glowBoxRight">&nbsp;</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+<table style="display:none">
+</NOSCRIPT>
+</body>
+</html>

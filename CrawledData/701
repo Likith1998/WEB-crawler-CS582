@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>UIC User Identification Service</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bluestem/assets/styles/login.css?20211213">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+
+  <div class="jumbotron" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2 logo"> </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 login-alert">
+
+
+    </div>
+  </div>
+
+
+
+<form id="login-form" class="col-md-4 col-md-offset-4 form-login"
+  name="id" method="POST" action="/bluestem/login.cgi" >
+
+
+  <input type="hidden" name="BSVersionHash" value="cea109e0d5dfcf5c3602578bc674d0722c6a7390"/>
+
+  <input type="hidden" name="BSVersion" value="1.6"/>
+
+  <input type="hidden" name="cacheid" value="1670388137-00768639"/>
+
+  <input type="hidden" name="msg" value=""/>
+
+  <input type="hidden" name="prior" value="1800"/>
+
+  <input type="hidden" name="RetrieveURL" value="2f626c75657374656d2f6367692f72657472696576655f617574682e636769"/>
+
+  <input type="hidden" name="return" value="68747470733a2f2f617070732e686f6e6f72732e7569632e6564752f41757468656e7469636174652f696e6465782e706870"/>
+
+
+  <h1 class="sr-only">UIC User Identification Service</h1>
+  <h2 class="form-login-heading">Please log in to
+
+<b>
+
+      Honors College
+
+</b>
+     to continue 
+  </h2>
+
+  <label for="UserID" class="sr-only">UIC NetID or Email Address</label>
+  <input type="text" id="UserID" name="UserID" pattern="[^@]+(@uic.edu)?"
+
+    title="UIC Email Address or NetID. This site is only available to individuals with UIC NetIDs"
+
+    class="form-control" placeholder="UIC NetID or Email Address" required autofocus
+    value="">
+
+  <label for="password" class="sr-only">Password</label>
+  <input type="password" id="password" name="password"
+    class="form-control" placeholder="Password" required>
+
+  <button class="btn btn-lg btn-primary" id="disable-on-click" type="submit">Log in</button>
+</form>
+                            
+
+  </div>
+</div>
+
+
+<div class="container login-help">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+      <h3>Forgot Password?</h3>
+      <p>
+      To reset your password, visit the University of Illinois
+      <a href="https://identity.uillinois.edu"> NetID Center</a>.
+      </p>
+      <h3>Need Help?</h3>
+      <p>
+      If you are unable to log in to this site, you can <a href="https://it.uic.edu/report-a-problem">Report a Problem</a>. You can also visit the <a href="https://help.uic.edu">UIC Help Center</a> for IT Services, Answers, and Support.
+      </p>
+      <h3>What is a NetID?</h3>
+      <p>
+      Your NetID serves as your username for University computing and networking services and also determines your University email address, which is netid@uic.edu. For more information, including how to claim your NetID, visit <a href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=838">what is my NetID?</a>
+      </p>
+    </div>
+
+    <div class="col-md-4 app-info">
+      <h3>Security Information</h3>
+      <p>
+        This login service uses the following server:
+      </p>
+        <ul class="auth-servers">
+          <li> <strong>login.uic.edu</strong> </li>
+        </ul>
+      <p>
+        This page's URL should start with <code>https://</code>
+        followed by the server listed above.
+        The security padlock icon next to the URL in your browser should be closed/locked.
+      </p>
+      <p>
+        To maximize security, especially when using a shared device, quit your browser
+        when done using this application.
+      </p>
+<!--
+      <p>
+        <i>Application url requesting login: https://apps.honors.uic.edu/Authenticate/index.php</i>
+      </p>
+-->
+    </div>
+  </div>
+</div>
+
+</div>
+
+ <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-2">
+	<p>
+	  &copy; University of Illinois Board of Trustees |
+          <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Policy</a>
+	</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/bluestem/assets/js/jquery.placeholder.min.js"></script>
+<script>
+	$(function() {
+	// Invoke placeholder plugin
+	$('input').placeholder(); 
+	});
+</script>
+<script>
+  $('#disable-on-click').on('click', function(){
+    $('#disable-on-click').attr("disabled", true);
+  	$("#login-form").submit()
+  });
+</script>
+  </body>
+</html>
+

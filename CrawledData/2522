@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>
+        
+    Reporting of Accessibility Issues / New Form
+
+    </title>
+    <!-- IE Shims -->
+    <!--[if (gte IE 6)&(lte IE 8)]>
+            <script type="text/javascript" src="https://cdn.atlas.illinois.edu/code/scripts/html5shiv/1.0r15/html5.js"></script>
+        <![endif]-->
+    <!-- Presentation
+    *********************************** -->
+    <link href="https://appserv7.admin.uillinois.edu/formbuildersurvey/webskins/departments/default_uic_bootstrap/presentation.css" media="all" rel="stylesheet" type="text/css"></link>
+
+    <link rel="stylesheet" href="/FormBuilderSurvey/public/main_bundle.css?v=IKDv4s6ogjWfSCX2hO8gMR_Qz6zJSvTQZ6N1kyAREk0" />
+
+    
+
+</head>
+<body id="body">
+    
+    <!-- Content wrappers
+        *********************************** -->
+    <div id="pre_fbTopNav"></div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4 sticky-top" id="fbTopNav">
+        <a class="navbar-brand" href="/FormBuilderSurvey/Survey/a3c031c1-c625-4fe4-8921-af16008f18cb"><img id="navbar-brand-logo" class="d-sm-inline-block align-top" />Reporting of Accessibility Issues</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto" id="nav_campusIdentifier">
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://www.uic.edu/uic/" title="University of Illinois Chicago" id="nav_campusLink">University of Illinois Chicago</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav mr-auto" id="notifications" aria-hidden="true" id="nav_notificationsArea"></ul>
+
+            <ul class="navbar-nav my-auto" id="nav_authenticationInformation">
+                
+<!-- START User Info-->
+<li class="nav-item dropdown" id="user">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Not Logged In
+    </a>
+    <div class="dropdown-menu">
+        <a class="clearfix dropdown-item" href="/FormBuilderSurvey/Authentication/LogOut?currentFormId=a3c031c1-c625-4fe4-8921-af16008f18cb">
+            <span class="pull-left">Log In</span>
+        </a>
+    </div>
+</li>
+<!-- END User Info-->
+            </ul>
+
+        </div>
+
+    </nav>
+    <div id="post_fbTopNav"></div>
+    <div id="pre_content"></div>
+    <div id="content" role="main" class="container">
+        <h1 id="fbContentTitle">
+            <a href="/FormBuilderSurvey/Survey/a3c031c1-c625-4fe4-8921-af16008f18cb">
+                
+    Reporting of Accessibility Issues
+
+            </a>
+        </h1>
+        
+
+<div class="card">
+    <div class="card-body">
+        <div class="alert alert-danger validationSummary validation-summary-valid" role="alert">
+            <h4 class="alert-heading">Invalid Fields</h4>
+            <div class="validationSummary validationSummaryDetails validation-summary-valid">
+                <p>There are 0 invalid fields.  They have been highlighted.</p>
+            </div>
+        </div>
+        <form action="/FormBuilderSurvey/Survey/uic_office_for_access_and_equity/accommodation/rai/SaveFormResponse?formResponseId=7e124286-4573-4465-af85-af6400075691&amp;page=1" method="post" id="surveyForm" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8FsUlh3ni5dKoQCRy-qsPJW5UK8t4IYoxPaFzj7k1qF9Gqd7zrLe13b8gz9xTq87ZnrOSJFHopkImIY3Rpt04qOFbIGgctKasDOC7p4mcLyn9a3ECPJPqptyQ8-PvGJX3qAmkZmKGraV0jNgMovTIDM" />
+            <input type="hidden" name="pageIdentifier" value="7273e99f-8a62-49e3-b84d-e6c3f6d1a8a3" />
+            <input id="moveBackwards" name="moveBackwards" type="hidden" value="False" />
+            <input id="overCapacityFormAcknowledged" name="overCapacityFormAcknowledged" type="hidden" value="False" />
+                    <div id="Sd30fbe00d4d44b6591afaf16008f18de">
+    <p>The University of Illinois Chicago (UIC) is committed to maintaining a barrier-free environment so that individuals with disabilities can fully access buildings/facilities, programs, services, and all activities at UIC.</p>
+
+<p>The information submitted on this form will be reviewed by the UIC ADA Coordinator located within the Office for Access and Equity. All matters will be reviewed by the ADA Coordinator and appropriate campus officials in order to resolve the issue being reported.  </p>
+
+<p><strong>Please provide your contact information if you wish to be contacted regarding the reported issue.</strong>  </p>
+
+<p>(Items marked with * are required)  </p>
+
+<hr />
+
+</div>
+                    <div id="S4cb0569c48ba4e7abdaaaf16008f18de">
+    
+                <div class="form-group" id="Qe2f835459caf43028a38af16008f18deQuestionContainer"><label class="control-label">(*) Select One:<span id="Qe2f835459caf43028a38af16008f18deRequiredDisplay" class="req" data-requiredfor="Qe2f835459caf43028a38af16008f18de" data-requiredforsource="e2f835459caf43028a38af16008f18de">*</span> </label><div aria-label="(*) Select One:" role="group"><div class="form-check"><input class=" data_controlId_Qe2f835459caf43028a38af16008f18de data_sourceQuestionId_e2f835459caf43028a38af16008f18de   form-check-input _radiobuttonlist_" data-controlId="Qe2f835459caf43028a38af16008f18de" data-sourceQuestionId="e2f835459caf43028a38af16008f18de" id="Qe2f835459caf43028a38af16008f18de0" name="Qe2f835459caf43028a38af16008f18de" type="radio" value="student" /><label class="form-check-label" for="Qe2f835459caf43028a38af16008f18de0">Student</label></div><div class="form-check"><input class=" data_controlId_Qe2f835459caf43028a38af16008f18de data_sourceQuestionId_e2f835459caf43028a38af16008f18de   form-check-input _radiobuttonlist_" data-controlId="Qe2f835459caf43028a38af16008f18de" data-sourceQuestionId="e2f835459caf43028a38af16008f18de" id="Qe2f835459caf43028a38af16008f18de1" name="Qe2f835459caf43028a38af16008f18de" type="radio" value="faculty" /><label class="form-check-label" for="Qe2f835459caf43028a38af16008f18de1">Faculty</label></div><div class="form-check"><input class=" data_controlId_Qe2f835459caf43028a38af16008f18de data_sourceQuestionId_e2f835459caf43028a38af16008f18de   form-check-input _radiobuttonlist_" data-controlId="Qe2f835459caf43028a38af16008f18de" data-sourceQuestionId="e2f835459caf43028a38af16008f18de" id="Qe2f835459caf43028a38af16008f18de2" name="Qe2f835459caf43028a38af16008f18de" type="radio" value="staff" /><label class="form-check-label" for="Qe2f835459caf43028a38af16008f18de2">Staff</label></div><div class="form-check"><input class=" data_controlId_Qe2f835459caf43028a38af16008f18de data_sourceQuestionId_e2f835459caf43028a38af16008f18de   form-check-input _radiobuttonlist_" data-controlId="Qe2f835459caf43028a38af16008f18de" data-sourceQuestionId="e2f835459caf43028a38af16008f18de" id="Qe2f835459caf43028a38af16008f18de3" name="Qe2f835459caf43028a38af16008f18de" type="radio" value="visitor" /><label class="form-check-label" for="Qe2f835459caf43028a38af16008f18de3">Visitor</label></div><div class="form-check"><input class=" data_controlId_Qe2f835459caf43028a38af16008f18de data_sourceQuestionId_e2f835459caf43028a38af16008f18de   form-check-input _radiobuttonlist_" data-controlId="Qe2f835459caf43028a38af16008f18de" data-sourceQuestionId="e2f835459caf43028a38af16008f18de" id="Qe2f835459caf43028a38af16008f18de4" name="Qe2f835459caf43028a38af16008f18de" type="radio" value="patient" /><label class="form-check-label" for="Qe2f835459caf43028a38af16008f18de4">Patient</label></div></div>
+<span data-errorfor="Qe2f835459caf43028a38af16008f18de" generated="true" class="invalid-feedback" style="display:none;"></span>
+<span class="field-validation-valid" data-valmsg-for="Qe2f835459caf43028a38af16008f18de" data-valmsg-replace="true"></span></div>
+                <div class="form-group" id="Q22c9390d2e5649109221af16008f18deQuestionContainer"><label class="control-label" for="Q22c9390d2e5649109221af16008f18de">First Name:<span id="Q22c9390d2e5649109221af16008f18deRequiredDisplay" class="req" data-requiredfor="Q22c9390d2e5649109221af16008f18de" data-requiredforsource="22c9390d2e5649109221af16008f18de"></span> </label>
+<input autocomplete="" class="data_controlId_Q22c9390d2e5649109221af16008f18de data_sourceQuestionId_22c9390d2e5649109221af16008f18de form-control text medium" data-controlId="Q22c9390d2e5649109221af16008f18de" data-sourceQuestionId="22c9390d2e5649109221af16008f18de" id="Q22c9390d2e5649109221af16008f18de" name="Q22c9390d2e5649109221af16008f18de" placeholder="" type="text" value="" /><span class="field-validation-valid" data-valmsg-for="Q22c9390d2e5649109221af16008f18de" data-valmsg-replace="true"></span></div>
+                <div class="form-group" id="Q1a07626e41b14f93bf83af16008f18deQuestionContainer"><label class="control-label" for="Q1a07626e41b14f93bf83af16008f18de">Last Name:<span id="Q1a07626e41b14f93bf83af16008f18deRequiredDisplay" class="req" data-requiredfor="Q1a07626e41b14f93bf83af16008f18de" data-requiredforsource="1a07626e41b14f93bf83af16008f18de"></span> </label>
+<input autocomplete="" class="data_controlId_Q1a07626e41b14f93bf83af16008f18de data_sourceQuestionId_1a07626e41b14f93bf83af16008f18de form-control text medium" data-controlId="Q1a07626e41b14f93bf83af16008f18de" data-sourceQuestionId="1a07626e41b14f93bf83af16008f18de" id="Q1a07626e41b14f93bf83af16008f18de" name="Q1a07626e41b14f93bf83af16008f18de" placeholder="" type="text" value="" /><span class="field-validation-valid" data-valmsg-for="Q1a07626e41b14f93bf83af16008f18de" data-valmsg-replace="true"></span></div>
+                <div class="form-group" id="Q2e539b7b01164325a84baf16008f18deQuestionContainer"><label class="control-label" for="Q2e539b7b01164325a84baf16008f18de">(*) Email Address:<span id="Q2e539b7b01164325a84baf16008f18deRequiredDisplay" class="req" data-requiredfor="Q2e539b7b01164325a84baf16008f18de" data-requiredforsource="2e539b7b01164325a84baf16008f18de">*</span> </label>
+<input aria-describedby="Q2e539b7b01164325a84baf16008f18de_instruction" autocomplete="email" class="data_controlId_Q2e539b7b01164325a84baf16008f18de data_sourceQuestionId_2e539b7b01164325a84baf16008f18de form-control text medium" data-controlId="Q2e539b7b01164325a84baf16008f18de" data-sourceQuestionId="2e539b7b01164325a84baf16008f18de" id="Q2e539b7b01164325a84baf16008f18de" name="Q2e539b7b01164325a84baf16008f18de" placeholder="user@example.com" type="email" value="" /><span class="field-validation-valid" data-valmsg-for="Q2e539b7b01164325a84baf16008f18de" data-valmsg-replace="true"></span><p class="extra_information" style="display:none;"></p><p class="instruction" id="Q2e539b7b01164325a84baf16008f18de_instruction"><small class="text-muted"><p>An email confirmation of your submission will be sent to this address.</p>
+</small></p></div>
+                <div class="form-group" id="Q0275c7affa854599b94baf16008f18deQuestionContainer"><label class="control-label" for="Q0275c7affa854599b94baf16008f18de">Telephone Number:<span id="Q0275c7affa854599b94baf16008f18deRequiredDisplay" class="req" data-requiredfor="Q0275c7affa854599b94baf16008f18de" data-requiredforsource="0275c7affa854599b94baf16008f18de"></span> </label>
+<input autocomplete="" class="data_controlId_Q0275c7affa854599b94baf16008f18de data_sourceQuestionId_0275c7affa854599b94baf16008f18de form-control text medium" data-controlId="Q0275c7affa854599b94baf16008f18de" data-sourceQuestionId="0275c7affa854599b94baf16008f18de" id="Q0275c7affa854599b94baf16008f18de" name="Q0275c7affa854599b94baf16008f18de" placeholder="" type="text" value="" /><span class="field-validation-valid" data-valmsg-for="Q0275c7affa854599b94baf16008f18de" data-valmsg-replace="true"></span></div>
+</div>
+                    <div id="Sbcc2ee997cf54f46b081af16008f18de">
+    <h4><strong>Nature of Concern (Please indicate all that apply)</strong></h4>
+
+                <div class="form-group" id="Q265ab89ea6524d18b7d6af16008f18deQuestionContainer"><label class="control-label">(*) What does the issue involve? (Select all that apply)<span id="Q265ab89ea6524d18b7d6af16008f18deRequiredDisplay" class="req" data-requiredfor="Q265ab89ea6524d18b7d6af16008f18de" data-requiredforsource="265ab89ea6524d18b7d6af16008f18de">*</span> </label><div aria-label="(*) What does the issue involve? (Select all that apply)" role="group"><div class="form-check"><input class=" data_controlId_Q265ab89ea6524d18b7d6af16008f18de data_sourceQuestionId_265ab89ea6524d18b7d6af16008f18de   required form-check-input _checkboxlist_" data-controlId="Q265ab89ea6524d18b7d6af16008f18de" data-sourceQuestionId="265ab89ea6524d18b7d6af16008f18de" id="Q265ab89ea6524d18b7d6af16008f18de0" name="Q265ab89ea6524d18b7d6af16008f18de" type="checkbox" value="building_facility_classroom_accessibility" /><label class="form-check-label" for="Q265ab89ea6524d18b7d6af16008f18de0">Building/Facility/Classroom Accessibility</label></div><div class="form-check"><input class=" data_controlId_Q265ab89ea6524d18b7d6af16008f18de data_sourceQuestionId_265ab89ea6524d18b7d6af16008f18de   form-check-input _checkboxlist_" data-controlId="Q265ab89ea6524d18b7d6af16008f18de" data-sourceQuestionId="265ab89ea6524d18b7d6af16008f18de" id="Q265ab89ea6524d18b7d6af16008f18de1" name="Q265ab89ea6524d18b7d6af16008f18de" type="checkbox" value="communication_information" /><label class="form-check-label" for="Q265ab89ea6524d18b7d6af16008f18de1">Communication/Information</label></div><div class="form-check"><input class=" data_controlId_Q265ab89ea6524d18b7d6af16008f18de data_sourceQuestionId_265ab89ea6524d18b7d6af16008f18de   form-check-input _checkboxlist_" data-controlId="Q265ab89ea6524d18b7d6af16008f18de" data-sourceQuestionId="265ab89ea6524d18b7d6af16008f18de" id="Q265ab89ea6524d18b7d6af16008f18de2" name="Q265ab89ea6524d18b7d6af16008f18de" type="checkbox" value="services" /><label class="form-check-label" for="Q265ab89ea6524d18b7d6af16008f18de2">Services</label></div><div class="form-check"><input class=" data_controlId_Q265ab89ea6524d18b7d6af16008f18de data_sourceQuestionId_265ab89ea6524d18b7d6af16008f18de   form-check-input _checkboxlist_" data-controlId="Q265ab89ea6524d18b7d6af16008f18de" data-sourceQuestionId="265ab89ea6524d18b7d6af16008f18de" id="Q265ab89ea6524d18b7d6af16008f18de3" name="Q265ab89ea6524d18b7d6af16008f18de" type="checkbox" value="programs_activities" /><label class="form-check-label" for="Q265ab89ea6524d18b7d6af16008f18de3">Programs/Activities</label></div><div class="form-check"><input class=" data_controlId_Q265ab89ea6524d18b7d6af16008f18de data_sourceQuestionId_265ab89ea6524d18b7d6af16008f18de   form-check-input _checkboxlist_" data-controlId="Q265ab89ea6524d18b7d6af16008f18de" data-sourceQuestionId="265ab89ea6524d18b7d6af16008f18de" id="Q265ab89ea6524d18b7d6af16008f18de4" name="Q265ab89ea6524d18b7d6af16008f18de" type="checkbox" value="construction" /><label class="form-check-label" for="Q265ab89ea6524d18b7d6af16008f18de4">Construction</label></div><div class="form-check"><input class=" data_controlId_Q265ab89ea6524d18b7d6af16008f18de data_sourceQuestionId_265ab89ea6524d18b7d6af16008f18de   form-check-input _checkboxlist_" data-controlId="Q265ab89ea6524d18b7d6af16008f18de" data-sourceQuestionId="265ab89ea6524d18b7d6af16008f18de" id="Q265ab89ea6524d18b7d6af16008f18de5" name="Q265ab89ea6524d18b7d6af16008f18de" type="checkbox" value="parking" /><label class="form-check-label" for="Q265ab89ea6524d18b7d6af16008f18de5">Parking</label></div><div class="form-check"><input class=" data_controlId_Q265ab89ea6524d18b7d6af16008f18de data_sourceQuestionId_265ab89ea6524d18b7d6af16008f18de   form-check-input _checkboxlist_" data-controlId="Q265ab89ea6524d18b7d6af16008f18de" data-sourceQuestionId="265ab89ea6524d18b7d6af16008f18de" id="Q265ab89ea6524d18b7d6af16008f18de6" name="Q265ab89ea6524d18b7d6af16008f18de" type="checkbox" value="___OTHER___" /><label class="form-check-label" for="Q265ab89ea6524d18b7d6af16008f18de6">Other</label></div></div><input aria-label="(*) What does the issue involve? (Select all that apply) Other information" class="form-control text medium" disabled="disabled" id="Other_Q265ab89ea6524d18b7d6af16008f18de" name="Other_Q265ab89ea6524d18b7d6af16008f18de" style="display:none;" type="text" value="" /><noscript><input class="form-control text medium" id="Other_Q265ab89ea6524d18b7d6af16008f18de" name="Other_Q265ab89ea6524d18b7d6af16008f18de" type="text" value="" /></noscript>
+<span data-errorfor="Q265ab89ea6524d18b7d6af16008f18de" generated="true" class="invalid-feedback" style="display:none;"></span>
+<span class="field-validation-valid" data-valmsg-for="Q265ab89ea6524d18b7d6af16008f18de" data-valmsg-replace="true"></span></div>
+                <div class="form-group" id="Qe739f699a36a4a9d9bbfaf16008f18deQuestionContainer"><label class="control-label" for="Qe739f699a36a4a9d9bbfaf16008f18de">(*) Please provide a description of the issues/barriers encountered. If possible include specific dates, locations, names and offices.<span id="Qe739f699a36a4a9d9bbfaf16008f18deRequiredDisplay" class="req" data-requiredfor="Qe739f699a36a4a9d9bbfaf16008f18de" data-requiredforsource="e739f699a36a4a9d9bbfaf16008f18de">*</span> </label><textarea class="data_controlId_Qe739f699a36a4a9d9bbfaf16008f18de data_sourceQuestionId_e739f699a36a4a9d9bbfaf16008f18de form-control textarea medium required" data-controlId="Qe739f699a36a4a9d9bbfaf16008f18de" data-sourceQuestionId="e739f699a36a4a9d9bbfaf16008f18de" id="Qe739f699a36a4a9d9bbfaf16008f18de" name="Qe739f699a36a4a9d9bbfaf16008f18de">
+</textarea><span class="field-validation-valid" data-valmsg-for="Qe739f699a36a4a9d9bbfaf16008f18de" data-valmsg-replace="true"></span></div>
+                <div class="form-group" id="Qd0fcbd762af049388f71af16008f18deQuestionContainer"><label class="control-label" for="Qd0fcbd762af049388f71af16008f18de">Please describe any contacts made with University of Illinois Chicago representatives/offices regarding this issue<span id="Qd0fcbd762af049388f71af16008f18deRequiredDisplay" class="req" data-requiredfor="Qd0fcbd762af049388f71af16008f18de" data-requiredforsource="d0fcbd762af049388f71af16008f18de"></span> </label><textarea class="data_controlId_Qd0fcbd762af049388f71af16008f18de data_sourceQuestionId_d0fcbd762af049388f71af16008f18de form-control textarea medium" data-controlId="Qd0fcbd762af049388f71af16008f18de" data-sourceQuestionId="d0fcbd762af049388f71af16008f18de" id="Qd0fcbd762af049388f71af16008f18de" name="Qd0fcbd762af049388f71af16008f18de">
+</textarea><span class="field-validation-valid" data-valmsg-for="Qd0fcbd762af049388f71af16008f18de" data-valmsg-replace="true"></span></div>
+</div>
+                    <div id="S081c4148b4c64c748a6eaf16008f18de">
+    <h4>Optional Questions</h4>
+
+                <div class="form-group" id="Q8c3a82b00bd94edca406af16008f18deQuestionContainer"><label class="control-label">I consider myself to have a disability or disabilities.<span id="Q8c3a82b00bd94edca406af16008f18deRequiredDisplay" class="req" data-requiredfor="Q8c3a82b00bd94edca406af16008f18de" data-requiredforsource="8c3a82b00bd94edca406af16008f18de"></span> </label><div aria-label="I consider myself to have a disability or disabilities." role="group"><div class="form-check"><input class=" data_controlId_Q8c3a82b00bd94edca406af16008f18de data_sourceQuestionId_8c3a82b00bd94edca406af16008f18de   form-check-input _radiobuttonlist_" data-controlId="Q8c3a82b00bd94edca406af16008f18de" data-sourceQuestionId="8c3a82b00bd94edca406af16008f18de" id="Q8c3a82b00bd94edca406af16008f18de0" name="Q8c3a82b00bd94edca406af16008f18de" type="radio" value="yes" /><label class="form-check-label" for="Q8c3a82b00bd94edca406af16008f18de0">Yes</label></div><div class="form-check"><input class=" data_controlId_Q8c3a82b00bd94edca406af16008f18de data_sourceQuestionId_8c3a82b00bd94edca406af16008f18de   form-check-input _radiobuttonlist_" data-controlId="Q8c3a82b00bd94edca406af16008f18de" data-sourceQuestionId="8c3a82b00bd94edca406af16008f18de" id="Q8c3a82b00bd94edca406af16008f18de1" name="Q8c3a82b00bd94edca406af16008f18de" type="radio" value="no" /><label class="form-check-label" for="Q8c3a82b00bd94edca406af16008f18de1">No</label></div></div>
+<span data-errorfor="Q8c3a82b00bd94edca406af16008f18de" generated="true" class="invalid-feedback" style="display:none;"></span>
+<span class="field-validation-valid" data-valmsg-for="Q8c3a82b00bd94edca406af16008f18de" data-valmsg-replace="true"></span></div>
+                <div class="form-group" id="Qf63ebe9aeeb74868aa06af19009780f8QuestionContainer"><div class="form-check"><input class="data_controlId_Qf63ebe9aeeb74868aa06af19009780f8 data_sourceQuestionId_f63ebe9aeeb74868aa06af19009780f8 form-check-input" data-controlId="Qf63ebe9aeeb74868aa06af19009780f8" data-sourceQuestionId="f63ebe9aeeb74868aa06af19009780f8" id="Qf63ebe9aeeb74868aa06af19009780f8" name="Qf63ebe9aeeb74868aa06af19009780f8" type="checkbox" value="true" /><input name="Qf63ebe9aeeb74868aa06af19009780f8" type="hidden" value="false" /> <label class="form-check-label" for="Qf63ebe9aeeb74868aa06af19009780f8">I have provided my contact information to be contacted regarding the reported issue.<span id="Qf63ebe9aeeb74868aa06af19009780f8RequiredDisplay" class="req" data-requiredfor="Qf63ebe9aeeb74868aa06af19009780f8" data-requiredforsource="f63ebe9aeeb74868aa06af19009780f8"></span></label></div><span class="field-validation-valid" data-valmsg-for="Qf63ebe9aeeb74868aa06af19009780f8" data-valmsg-replace="true"></span></div>
+</div>
+                <div class="alert alert-danger validationSummary validation-summary-valid" role="alert">
+                    <h4 class="alert-heading">Invalid Fields</h4>
+                    <div class="validationSummary validationSummaryDetails validation-summary-valid">
+                        <p>There are 0 invalid fields.  They have been highlighted.</p>
+                    </div>
+                </div>
+                <div id="saveButtonsOuter">
+                    <div id="saveButtons" class="row">
+
+                            <div class="col col-md-2 col-sm">
+                                <button id="saveButton_1" type="submit" class="btn btn-primary btn-block" value="">
+                                    Save
+                                </button>
+                            </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+<div id="auth_overlay" style="display:none;">
+    <div id="auth_overlay_alert" tabindex="0" aria-describedby="alert_message" aria-hidden="false" role="alertdialog">
+        <p id="alert_message">Your session has ended.  Please click below to log back in.</p>
+        <a id="auth_overlay_login" href="#" class="btn btn-primary">Log In</a>
+    </div>
+</div>
+
+        <!-- InstanceEndEditable -->
+        <div class="visuallyhidden" id="ariaLog" aria-live="polite" aria-relevant="additions text"></div>
+    </div>
+    <div id="post_content"></div>
+
+    <!-- Footer -->
+    <div id="pre_fbFooter"></div>
+    <footer class="pt-4 mt-2 my-md-5 pt-md-5 border-top bg-light" id="fbFooter">
+
+        <!-- Footer Links -->
+        <div id="pre_fbFooter_links"></div>
+        <div class="container-fluid text-center text-md-left" id="fbFooter_links">
+
+            <!-- Grid row -->
+            <div id="pre_fbFooter_links_row1"></div>
+            <div class="row" id="fbFooter_links_row1">
+
+                <!-- Site Information -->
+                <div id="pre_fbFooter_links_siteDetails"></div>
+                <div class="col-md-6 mt-md-0 mt-3" id="fbFooter_links_siteDetails">
+                    <h2 class="sr-only">Site Details</h2>
+                    <!-- Content -->
+                    <h3 class="h5 text-uppercase">Reporting of Accessibility Issues</h3>
+                                <p>Current Form Phase: New Form</p>
+
+                    <p>Version <span>v1.44.0.0</span></p>
+
+                </div>
+                <div id="post_fbFooter_links_siteDetails"></div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Contact Info -->
+                <div id="pre_fbFooter_links_contactInfo"></div>
+                <div class="col-md-6 mb-md-0 mb-6" id="fbFooter_links_contactInfo">
+
+                    
+
+                </div>
+                <div id="post_fbFooter_links_contactInfo"></div>
+                <!-- Grid column -->
+
+
+            </div>
+            <div id="post_fbFooter_links_row1"></div>
+
+            <!-- Grid row -->
+            <div id="pre_fbFooter_links_row2"></div>
+            <div class="row text-center" id="fbFooter_links_row2">
+                <div id="pre_fbFooter_links_legalese"></div>
+                <div class="col" id="fbFooter_links_legalese">
+                    <ul class="list-unstyled">
+                        <li>Please read the <a class="link" href="http://go.illinois.edu/privacy">Web Privacy Notice</a> for privacy terms and conditions employed by the University of Illinois.</li>
+                        <li>&#169; 2022 University of Illinois Board of Trustees.</li>
+                    </ul>
+                </div>
+                <div id="post_fbFooter_links_legalese"></div>
+
+            </div>
+            <div id="post_fbFooter_links_row2"></div>
+
+        </div>
+        <div id="post_fbFooter_links"></div>
+
+        <!-- Footer Links -->
+
+    </footer>
+    <div id="post_fbFooter"></div>
+
+    <script src="/FormBuilderSurvey/public/main_bundle.js?v=ApMC7KT7O1AalaHV_Wr0GSJG55rsvbDcov5b8HT1JrM"></script>
+    <script type="text/javascript">
+        uiuc.atlas.formbuilder.service.constructor.setOtherSelectionValue('___OTHER___');
+        uiuc.atlas.formbuilder.service.constructor.setNetIdResolutionUrl('/FormBuilderSurvey/RemoteValidation/ResolveNetId');
+        uiuc.atlas.formbuilder.service.constructor.setNetIdValidationUrl('/FormBuilderSurvey/RemoteValidation/ValidateNetId');
+        uiuc.atlas.formbuilder.service.constructor.setCampusCourseResolutionUrl('/FormBuilderSurvey/RemoteValidation/ResolveCampusCourse');
+        uiuc.atlas.formbuilder.service.constructor.setCampusCourseValidationUrl('/FormBuilderSurvey/RemoteValidation/ValidateCampusCourse');
+    </script>
+    
+    <script type="text/javascript">
+
+        $(window).on("unload", function () {
+            if ($("#movePreviousButton").length > 0) {
+                $("#movePreviousButton").removeAttr("disabled");
+            }
+        });
+
+        $(document).ready(function () {
+
+            // add move previous button
+            if ($("#movePreviousContainer").length > 0) {
+                $("#movePreviousContainer").html('<button class="btn btn-secondary" type="submit" id="movePreviousButton"><i class="fa fa-arrow-left" aria-hidden="true"></i> Previous</button>');
+                $("#movePreviousButton").click(function () {
+                    return movePrevious();
+                });
+            }
+        });
+
+        function movePrevious() {
+            var continueWithSubmit = true;
+            if (!$("#surveyForm").valid()) {
+                continueWithSubmit = confirm("This page has invalid fields. The data on this page will be lost if you move back to the previous page.  Are you sure you wish to move back?");
+            }
+            if (continueWithSubmit) {
+                $("#moveBackwards").val(true);
+                $(":input").each(function () {
+                    var name = $(this).attr("name");
+                    if (name) {
+                        uiuc.atlas.formbuilder.service.controlService.setRequired(name, false);
+                    }
+                });
+            }
+            return continueWithSubmit;
+
+        }
+    </script>
+
+    <script type="text/javascript">
+(function(w) {
+var d = w['pageSubmissionSettings']||(w['pageSubmissionSettings']={"pageIdentifier":"7273e99f-8a62-49e3-b84d-e6c3f6d1a8a3","formResponseId":"7e124286-4573-4465-af85-af6400075691","cookiePrefix":"fb","surveyPageUrl":"https://appserv7.admin.uillinois.edu/FormBuilderSurvey/Survey/uic_office_for_access_and_equity/accommodation/rai/Survey"});
+}(window));
+
+(function(w) {
+var d = w['pageSessionSettings']||(w['pageSessionSettings']={"sessionTimeRemaining":null,"sessionWarningUrl":"/FormBuilderSurvey/Authentication/a3c031c1-c625-4fe4-8921-af16008f18cb/WarnTimeout?formGroupId=64456d60-b4be-4e52-8bc8-af16008ec5b7","refreshSessionUrl":"/FormBuilderSurvey/Authentication/a3c031c1-c625-4fe4-8921-af16008f18cb/RefreshSession?formGroupId=64456d60-b4be-4e52-8bc8-af16008ec5b7","getSessionTimeSecondsRemainingUrl":"/FormBuilderSurvey/Authentication/a3c031c1-c625-4fe4-8921-af16008f18cb/GetSessionTimeSecondsRemaining?formGroupId=64456d60-b4be-4e52-8bc8-af16008ec5b7&username=__ANONYMOUS__"});
+}(window));
+
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+uiuc.atlas.formbuilder.service.formService.validateFormResponse();
+uiuc.atlas.formbuilder.question.eventSession.shouldAllowSelectionOfInvalidSessions(false);
+uiuc.atlas.formbuilder.service.formService.initializeFormValidation('surveyForm');
+uiuc.atlas.formbuilder.service.controlService.setValidationRule('Q2e539b7b01164325a84baf16008f18de', { emailWithTld: true, messages: { email: 'Please enter a valid email address (user@example.com)' } });
+uiuc.atlas.formbuilder.service.triggerService.setRequiredQuestions(["Qe2f835459caf43028a38af16008f18de","Q2e539b7b01164325a84baf16008f18de","Qe739f699a36a4a9d9bbfaf16008f18de","Q265ab89ea6524d18b7d6af16008f18de"]);
+uiuc.atlas.formbuilder.service.controlService.registerOtherControl('Q265ab89ea6524d18b7d6af16008f18de', true);
+});
+</script>
+
+    <template-script-block></template-script-block>
+
+
+</body>
+</html>

@@ -1,0 +1,888 @@
+<!--
+
+Welcome to Digital.gov — our goal is to transform how government learns, builds, delivers and measures digital services in the 21st century.
+Learn more https://digital.gov/about
+Get in touch: digitalgov@gsa.gov
+Follow us on Twitter: @digital_gov
+
+=======
+
+Digital.gov was last updated on Dec 5, 2022 at 7:36pm ET
+
+We edit in the open at https://workflow.digital.gov/
+Built by the Digital.gov team in the GSA, using modern development practices.
+See the full source code: https://github.com/GSA/digitalgov.gov
+
+Built using HUGO. Hosted on Federalist https://federalist.18f.gov/
+
+-->
+
+
+<!DOCTYPE html>
+
+<!--[if lt IE 9]><html class='lt-ie9'><![endif]-->
+<!--[if gt IE 8]><!--><html lang='en'><!--<![endif]-->
+
+
+  
+
+<html lang="en-US" itemscope itemtype="http://schema.org/WebSite" prefix="og: http://ogp.me/ns#">
+
+<head profile="http://gmpg.org/xfn/11">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <!-- Google Tag Manager Data Layer -->
+  <script>
+    dataLayer = [{
+      'content-type': 'resource+page',
+      'topics': 'design, analytics, Tag+Manager'
+    }];
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MZCKZPQ');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Page Title -->
+  
+  <title>Federal Social Media Accessibility Toolkit Hackpad – Digital.gov</title>
+  <!-- Meta Description -->
+  <meta name="description" content="The following contains the shared document for the development of the Social Media Policy Toolkit, a shared service of the Federal Social Media Community of Practice lead by teams including The Department of Labor’s Office of Disability Employment Policy." />
+  <meta name="keywords" content="digital, government, technology, civic-tech,accessibility, social-media" />
+
+  <!-- Start of Facebook Open Graph -->
+  <meta property="og:title" content="Federal Social Media Accessibility Toolkit Hackpad" />
+  <meta property="og:description" content="The following contains the shared document for the development of the Social Media Policy Toolkit, a shared service of the Federal Social Media Community of Practice lead by teams including The Department of Labor’s Office of Disability Employment Policy.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="/resources/federal-social-media-accessibility-toolkit-hackpad/" />
+  <meta property="og:site_name" content="Digital.gov">
+  <meta property="og:image" content="https://s3.amazonaws.com/digitalgov/digitalgov-2022-card-v3.png" />
+  
+  <meta property="fb:admins" content="100000569454928" />
+  <meta property="article:publisher" content="https://www.facebook.com/digitalgov" /><meta property="article:published_time" content="2014-06-30T09:18:30-0500" />
+  <!-- End of Facebook Open Graph -->
+
+  <!-- Start of Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@Digital_Gov" />
+  <meta name="twitter:creator" content="@Digital_Gov" />
+  <meta name="twitter:image:src" content="https://s3.amazonaws.com/digitalgov/digitalgov-2022-card-v3.png">
+  <meta property="twitter:description" content="The following contains the shared document for the development of the Social Media Policy Toolkit, a shared service of the Federal Social Media Community of Practice lead by teams including The Department of Labor’s Office of Disability Employment Policy.">
+  <meta property="twitter:title" content="Federal Social Media Accessibility Toolkit Hackpad">
+  <!-- End of Twitter -->
+
+  <!-- RSS Feed -->
+  
+
+  <!-- JSON Feed -->
+  <link href="/resources/federal-social-media-accessibility-toolkit-hackpad/index.json" data-proofer-ignore rel="alternate" type="application/json" title="Digital.gov" />
+
+  <!-- Sitemap-->
+  <link rel="sitemap" type="application/xml" title="Digital.gov Sitemap" href="/sitemap.xml" />
+
+  
+  
+  <meta name="theme-color" content="#656bd7"/>
+
+  
+  <meta name="msvalidate.01" content="A662823C2F59EB4F55F752CC752AC299" />
+
+  <!-- CSS -->
+  
+  <link rel="stylesheet" href='/dist/styles.css' type="text/css" media='all' />
+  <script src='/dist/uswds-init.min.js'></script>
+
+  <!-- Favicons & Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href='/img/icons/apple-touch-icon.png'>
+  <link rel="icon" type="image/png" sizes="32x32" href='/img/icons/favicon-32x32.png'>
+  <link rel="icon" type="image/png" sizes="16x16" href='/img/icons/favicon-16x16.png'>
+  <link rel="manifest" href='/img/icons/site.webmanifest'>
+  <link rel="mask-icon" href='/img/icons/safari-pinned-tab.svg' color="#0076d6">
+  <link rel="shortcut icon" href='/img/icons/favicon.ico'>
+  <meta name="msapplication-TileColor" content="#0076d6">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  
+  <script type="text/javascript">
+    git_org          = "GSA";
+    git_repo         = "digitalgov.gov";
+    goUsaUsername    = "s010sdc";
+    goUsaApiKey      = "eb396b6b369804fd6094f0b4100b2d74";
+    branch           = "main";
+    short_url        = "";
+    filename         = "federal-social-media-accessibility-toolkit-hackpad.md";
+    
+    filepath         = "resources/federal-social-media-accessibility-toolkit-hackpad.md";
+    filepathURL      = "https://github.com/GSA/digitalgov.gov/blob/main/content/resources/federal-social-media-accessibility-toolkit-hackpad.md";
+    editpathURL      = "https://github.com/GSA/digitalgov.gov/edit/main/content/resources/federal-social-media-accessibility-toolkit-hackpad.md";
+    <!-- "main" | "main" -->
+  </script>
+
+  <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0007/9651.js" async="async" ></script>
+
+</head>
+<body class="resources page"><!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZCKZPQ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+  <div class="paper"><a class="usa-skipnav" href="#main-content">Skip to main content</a>
+<section class="usa-banner gov-banner" aria-label="Official website of the United States government">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto"><img aria-hidden="true" class="usa-banner__header-flag" src="/uswds/img/us_flag_small.png" alt=""/>
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action">Here’s how you know</p>
+        </div>
+        <button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner-default-default">
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner-default-default">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6"><img class="usa-banner__icon usa-media-block__img" src="/uswds/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true"/>
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong>
+              <br />
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6"><img class="usa-banner__icon usa-media-block__img" src="/uswds/img/icon-https.svg" role="img" alt="" aria-hidden="true"/>
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong><br />A
+              <strong>lock</strong> (
+              <span class="icon-lock">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-description-default" focusable="false">
+                  <title id="banner-lock-title-default">Lock</title>
+                  <desc id="banner-lock-description-default">Locked padlock</desc>
+                  <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                </svg>
+              </span
+              >) or <strong>https://</strong> means you’ve safely connected to
+              the .gov website. Share sensitive information only on official,
+              secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text">
+        <a href="/" title="Digital.gov Home" aria-label="Digital.gov Home">
+          <img class="logo-black" src="/img/digitalgov-logo.svg" alt="Digital.gov Logo" />
+        </a>
+      </em>
+      <p class="sub-head display-none">Guidance on building better digital services in government</p>
+
+    </div>
+
+    <button class="usa-menu-btn">
+      <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-2px" aria-hidden="true" focusable="false" role="img">
+        <use xlink:href="/uswds/img/sprite.svg#menu"></use>
+      </svg> Menu
+    </button>
+  </div>
+  <nav role="navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close">
+        <img src="/uswds/img/close.svg" alt="close">
+      </button><ul class="usa-nav__primary usa-accordion"><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/news/"><span>News</span></a>
+          </li><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/events/"><span>Events</span></a>
+          </li><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/resources/"><span>Resources</span></a>
+          </li><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/communities/"><span>Communities</span></a>
+          </li><li class="usa-nav__primary-item ">
+            <a class="usa-nav__link" href="/services/"><span>Tools</span></a>
+          </li></ul>
+
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item">
+            <a href="/about/"><span>About</span></a>
+          </li>
+          <li class="usa-nav__secondary-item">
+            <a href="/subscribe/"><span>Subscribe</span></a>
+          </li>
+          <li class="usa-nav__secondary-item">
+            <a href="/contribute/"><span>Write for us</span></a>
+          </li>
+
+          <li class="usa-nav__secondary-item">
+            <a href="/about/contact/"><span>Contact</span></a>
+          </li>
+        </ul>
+
+
+        <form accept-charset="UTF-8" action="https://find.digitalgov.gov/search" id="search_form" method="get" class="usa-search usa-search--small">
+          <input name="utf8" type="hidden" value="&#x2713;" />
+          <input id="affiliate" name="affiliate" type="hidden" value="digitalgov" />
+          <div role="search">
+            <label class="usa-sr-only" for="query">Search small</label>
+            <input class="usa-input" id="query" type="search" name="query">
+            <button class="usa-button" name="commit" type="submit">
+              <img src="/uswds/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search" />
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    
+    
+
+<main role="main" id="main-content">
+  <article>
+    <header>
+      <div class="grid-container grid-container-desktop">
+        <div class="grid-row">
+          <div class="grid-col-12" data-edit-this="resources/federal-social-media-accessibility-toolkit-hackpad.md">
+            <p class="breadcrumb">
+              <a href="/resources/" aria-label="Back to Resources landing page">
+                <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                  <use xlink:href="/uswds/img/sprite.svg#arrow_back"></use>
+                </svg>
+                <span>All Resources</span>
+              </a>
+            </p>
+            <h1>Federal Social Media Accessibility Toolkit Hackpad</h1>
+
+            <div class="deck">Improving the accessibility of social media for public service</div></div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="grid-container grid-container-desktop">
+        <div class="grid-row tablet-lg:grid-gap-6">
+
+          <div class="grid-col-12 tablet:grid-col-9" data-edit-this="resources/federal-social-media-accessibility-toolkit-hackpad.md">
+
+            
+            <div class="content usa-prose"><p>The following contains the shared document for the development of the Social Media Policy Toolkit, <a href="/communities/social-media/">a shared service of the Federal Social Media Community of Practice</a> lead by teams including The Department of Labor’s Office of Disability Employment Policy. The toolkit is intended to help agencies evaluate the accessibility of their social media programs for persons with disabilities, identify areas that need improving, and share their own ideas and recommendations for helping ensuring our modernization programs are easily accessed by all who need them.</p>
+<div class="image">
+  <img src="https://s3.amazonaws.com/digitalgov/_legacy-img/2014/06/600-x-455-Accessibility-road-highway-sign-on-tablet.jpg" alt="An accessibility road sign displayed on an iPad."/></div>
+
+
+<p>In this shared document, collaborators are encouraged to identify best practices in improving the accessibility of social media for public services, or create a new and better way (though copy and pasting the content in, or linking directly to pre-existing content).</p>
+<p>Government agencies are increasingly using social media to engage with citizens, share information and deliver services more quickly and effectively than ever before. But as social content, data and platforms become more diverse, agencies have a responsibility to ensure these digital services are accessible to all citizens, including people with disabilities.</p>
+<p>This Toolkit is your guide to <strong><em>Improving the Accessibility of Social Media for Public Service.</em></strong> Created with the input of social media leaders and users across government and the private sector, this living document contains helpful tips, real-life examples and best practices to ensure that your social media content is usable and accessible to all citizens, including those with disabilities.</p>
+<h2 id="who-developed-this-toolkit">Who Developed This Toolkit?</h2>
+<p><strong><em>Improving the Accessibility of Social Media for Public Service</em></strong> is brought to you by the U.S. Department of Labor’s <a href="http://www.dol.gov/odep/">Office of Disability Employment Policy (ODEP)</a>, the U.S. General Services Administration’s <a href="http://www.gsa.gov/portal/category/25729">Office of Citizen Services and Innovative Technologies</a> and the Social Media Accessibility Working Group, a committee within the <a href="http://www.howto.gov/communities/federal-web-managers-council/social-media">Federal Social Media Community of Practice</a>. Working together, these entities have aimed to curate and share best practices to help agencies ensure their social media content is accessible to everyone, including users with disabilities. Efforts are also being made to work with social media platform and tool developers, citizens and partners to encourage greater accessibility.</p>
+<p>The genesis of this Toolkit is a collaborative document that originated at the <a href="https://hackpad.com/ep/search/?q=%23SocialGov&amp;via=xWKKBxzGubh">#SocialGov</a><a href="http://blog.howto.gov/2012/11/30/socialgov-summit-highlights-accessibility-challenges/">Summit on Accessibility</a>, which is a product of eight agencies: U.S. Geological Survey, Environmental Protection Agency, Department of Labor, Department of Transportation, National Oceanic and Atmospheric Administration, National Cancer Institute, National Human Genome Research Institute and the General Services Administration. Also included is input from “<a href="http://www.mediaaccess.org.au/online-media/social-media">Sociability: Social Media for People with a Disability</a>,” by Dr. Scott Hollier, Western Australia Manager for Media Access Australia (MAA) and member of the Advisory Committee of the World Wide Web Consortium (W3C).</p>
+<h2 id="why-is-the-accessibility-of-social-media-so-important">Why Is The Accessibility of Social Media So Important?</h2>
+<p>The Labor Department’s Office of Disability Employment Policy (ODEP) and the Federal Social Media Community of Practice are deeply invested in the issue of accessible technology. Why? Because the development and adoption of accessible, universally designed technology is critical to making sure people with disabilities succeed at work and deliver for their employers.</p>
+<p>Think about it—could you do your job if it wasn’t possible to read your email? And could you even get a job if you couldn’t fill out the online application? If you can’t access the tools and technologies you need to look for or perform a job, your employability and productivity suffer. So it’s easy to understand why inaccessible technology can be a major barrier to employment or on-the-job success.</p>
+<p>This same logic applies to social media. More and more organizations are using social media to conduct outreach, recruit job candidates and encourage workplace productivity. According to a <a href="https://www.shrm.org/publications/hrmagazine/editorialcontent/2016/0416/pages/social-media-is-reshaping-recruiting.aspx">survey conducted by the Society for Human Resource Management</a>, as of 2016, 84% of organizations are using social media as a recruiting tool. But not all social media content is accessible to people with certain disabilities, which limits the reach and effectiveness of these platforms. And with 20 percent of the population estimated to have a disability, government agencies have an obligation to ensure that their messages, services and products are as inclusive as possible.</p>
+<p>So put simply, the accessibility of social media—or any product or IT offering—is everyone’s responsibility. And it is vital that the federal government promote accessibility in all of its technology efforts. After all, an effective and responsive government depends on citizen engagement as well as a diverse, well-prepared workforce. And both of these require <em>access</em> to information and technology.</p>
+<h2 id="what-you-will-and-won8217t-find-in-this-toolkit">What You Will And Won’t Find in this Toolkit</h2>
+<p>Below are tips on how to increase the accessibility of social media. These tips are meant to help social media content managers and other communication specialists ensure that their messages are reaching the largest audience, including those with disabilities. Social media is constantly changing and every day new products and applications are introduced. Although social media content managers may not be able to control the technology behind these tools, they need to stay abreast of accessibility and usability issues and continually test their content to ensure its accessibility. As social media changes, this document will continue to evolve to provide new tips and help address some of those issues.</p>
+<p>In addition, there are many ways users access and participate in social media. Though this toolkit is not meant to address the needs of social media users, we encourage users to be part of the conversation in order to provide guidance to those who are trying to effectively reach them.</p>
+<h2 id="general-social-media-accessibility-tips">General Social Media Accessibility Tips</h2>
+<p>Below is a set of recommended, baseline strategies to improve the accessibility of government social media.</p>
+<h3 id="5-things-every-social-media-content-manager-needs-to-know">5 Things Every Social Media Content Manager Needs to Know</h3>
+<ol>
+<li>
+<p><strong>Make your contact information available on your social media account page</strong>.
+List a primary phone number and email address where a user can reach your agency with questions, or provide a link to your agency website that lists the appropriate contact information.</p>
+</li>
+<li>
+<p><strong>Make your social media content available through more than one channel</strong>.
+Provide easy points of entry for more information. Some of the most common ways are to post threads on your website, provide options to sign up for daily email digests of social media posts or to add a social media widget to your agency website.</p>
+</li>
+<li>
+<p><strong>Provide links or contact information to official social media support and accessibility teams.</strong>
+Often, social media tools have their own accessibility tips and support help desks. Educate yourself about them and provide links to your constituents.</p>
+</li>
+<li>
+<p><strong>Keep it simple</strong>.
+Good design and good content more often than not leads to accessible content. When possible, write in plain language, use camel case when appropriate (i.e., capitalize the first letters of compound words as in <a href="https://hackpad.com/ep/search/?q=%23SocialGov&amp;via=xWKKBxzGubh">#SocialGov</a>), and limit your use of hashtags, abbreviations and acronyms. The use of camel case is not only a common practice, but a helpful one as it makes multi-word hashtags easier to read, including for those using a screen reader.</p>
+</li>
+<li>
+<p><strong>Learn the accessibility requirements and periodically test your content for accessibility.</strong>
+Read the <a href="http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards">Section 508 Standards</a> and the <a href="http://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG) 2.0</a> and other key resources that discuss them. Then test your social media content with a screen reader or other type of assistive technology.</p>
+</li>
+</ol>
+<h3 id="guidelines-for-writing-in-plain-language">Guidelines for Writing in Plain Language</h3>
+<ol>
+<li>
+<p>Writing in plain language is a way to ensure that people can understand and use the information provided by a social media post. All federal agencies must write using plain language in accordance with <a href="http://www.plainlanguage.gov/plLaw/law/index.cfm">The Plain Writing Act of 2010</a>, which means all that publicly distributed content should be written in a “clear, concise, well-organized” manner. Key best practices for writing in plain language include:</p>
+<ul>
+<li>Choose words that are common and easy to understand.</li>
+<li>Avoid run-on sentences. Use clear, short sentences and paragraphs.</li>
+<li>Write in the active voice instead of the passive voice.<br /><strong>Passive Voice</strong>: Applications for the job were submitted by 100 people.<br /><strong>Active Voice</strong>: 100 people submitted applications for the job.</li>
+</ul>
+</li>
+<li>
+<p>Use this <a href="http://www.plainlanguage.gov/howto/quickreference/weblist.cfm">Document Checklist for Plain Language on the Web</a> from <a href="http://www.plainlanguage.gov/index.cfm">PlainLanguage.gov</a> when writing social media posts.</p>
+</li>
+<li>
+<p>Follow this <a href="https://www.centerforplainlanguage.org/learning-training/five-steps-plain-language/">5-step checklist provided by the Center for Plain Language</a> to ensure that your social media posts communicate your message effectively.</p>
+</li>
+<li>
+<p>For before and after examples of plain language, visit <a href="http://www.plainlanguage.gov/examples/before_after/index.cfm">PlainLanguage.gov’s list of Before-and-After Comparisons</a>.</p>
+</li>
+</ol>
+<h3 id="tips-for-making-facebook-updates-accessible">Tips for Making Facebook Updates Accessible</h3>
+<ol>
+<li>The federal government is full of acronyms. Don’t assume your audience is knowledgeable about all acronyms. Take advantage of the space Facebook provides and always spell out the first instance of the acronym and add the acronym, in parentheses after (e.g., Social Media Emergency Management (SMEM)). This is especially helpful for those using screen readers, because after the name is heard and the acronym is spelled out, the user will be better able to associate the sound of the acronym with the full name.</li>
+<li>Add captions to photos to ensure that individuals will understand what is going on in the picture. The captions do not need to be very long, but they should describe what the scene is, and how elements of the image appear and provide context for the image.</li>
+<li>Videos posted directly to Facebook should be closed captioned. This can be done by adding a SubRip file to the video after it is posted. For step-by-step instruction on captioning Facebook videos, please visit <a href="http://www.reelseo.com/how-to-add-closed-captions-facebook-videos/">http://www.reelseo.com/how-to-add-closed-captions-facebook-videos/</a>.</li>
+<li>As an alternative to directly uploading videos to Facebook, upload videos to YouTube and post the link to the video in a status update. Since YouTube automatic captioning can be inaccurate, prepare an accurate transcript and upload it whenever possible. This will ensure that visitors will be taken to an accessible video with captioning.</li>
+</ol>
+<p>Facebook has an Accessibility Team that is dedicated to issues specific to accessibility and assistive technology. They can be reached through their <a href="http://www.facebook.com/help/141636465971794">Facebook page</a> and their <a href="https://twitter.com/fbaccess">Twitter account</a>.</p>
+<h3 id="tips-for-making-tweets-accessible">Tips for Making Tweets Accessible</h3>
+<ol>
+<li>Consider having tweets compiled and digests sent via email. For example, Disability.gov (site is now retired) allows users to subscribe to tweets by signing up to receive email alerts using GovDelivery services. Email can be a more accessible method for reading information for some users and also provides another opportunity for all followers to receive messages that might have been overlooked in a busy timeline.</li>
+<li>If possible, avoid using unfamiliar acronyms that would sound strange if read by a screen reader or that could be confusing to some readers. If space allows, try to spell out the acronyms instead, or use a different way to convey the information.</li>
+<li>Consider providing an indication that a link in a tweet is a photo, video or audio file (e.g. [PIC], [VIDEO], [AUDIO]). This allows people using screen readers to know what to expect before opening any link. Use uppercase formats for further clarity to sighted users.</li>
+<li>If your tweet links to photo, video or audio content, make your tweet act as a descriptive caption so it provides context for the item, and then link back to a website page that hosts a tagged photo, captioned video or audio with full caption. Or, send a follow-up tweet with a description.</li>
+<li>Ensure that you link to accessible content, i.e., a tagged photo, captioned video or audio with written transcript.
+<ul>
+<li>A tagged photo simply has alternative text associated with it that describes the image. For more details on alternative text, please visit <a href="http://webaim.org/articles/gonewild/#alttext">http://webaim.org/articles/gonewild/</a><a href="https://hackpad.com/ep/search/?q=%23alttext&amp;via=xWKKBxzGubh">#alttext</a>.</li>
+</ul>
+</li>
+<li>Enable the setting on Twitter to use the “image description” feature, which will allow you to to add a descriptive caption to any photo that you directly include in a tweet. For step-by-step instructions on enabling the image description feature on the web and on iOS and Android mobile apps, please visit <a href="https://support.twitter.com/articles/20174660">https://support.twitter.com/articles/20174660</a>.</li>
+<li>If you are linking to content that your agency has not created and/or you do not know whether that content is accessible or not, make sure your audience is aware of these limitations. Simply provide a note briefly explaining the limitation, such as that: the photo is untagged; the video will auto start; the video does not include captioning; or the audio file is not accompanied by a written transcript. Also provide contact information should the individual require some kind of alternative method to access the content.</li>
+<li>Try to use camel case for multiple words within a hashtag; that is, capitalize the first letters of compound words. It makes it easier visually and for screen readers to pronounce the individual words more clearly (e.g., use <a href="https://hackpad.com/ep/search/?q=%23DigitalGov&amp;via=xWKKBxzGubh">#DigitalGov</a> instead of <a href="https://hackpad.com/ep/search/?q=%23digitalgov&amp;via=xWKKBxzGubh">#digitalgov</a>).</li>
+<li>Provide recaps of Twitter Chats. For example, the U.S. Department of Labor provided a detailed recap of its Twitter <a href="https://hackpad.com/ep/search/?q=%23VetsJobChat&amp;via=xWKKBxzGubh">#VetsJobChat</a> through a post on its <a href="http://social.dol.gov/blog/a-recap-of-the-vetsjobschat-round-2/">(Work in Progress) blog</a>. <a href="https://storify.com/">Storify.com</a> is a popular web platform that allows users to compile tweets on a particular topic or hashtag.</li>
+</ol>
+<h3 id="tips-for-making-snapchat-more-accessible">Tips for Making Snapchat More Accessible</h3>
+<p>Here’s the <a href="/2016/03/29/usagovs-step-by-step-guide-to-making-snapchat-stories-as-accessible-as-possible/">step-by-step guide USA.gov uses</a> for improving Snapchat accessibility.</p>
+<ol>
+<li>Plan your Snapchat story with accessibility in mind. Use the platform to tell a succinct story. We recommend storyboarding it before you start, just like you would if you were creating a video. See if the story makes sense from beginning to end and if it clearly communicates the information you’re trying to get across</li>
+<li>Once you’ve created your story, download it in its full form from the Snapchat app. To do that, swipe to the right from the main photo screen. You’ll see your story at the top. Tap the three dots next to “My Story” and click the download arrow. This will save a video file to your phone enabling you to save the Snap story for your records management purposes.</li>
+<li>Now comes the fun part: Editing this video file for accessibility. You’ll need to create a captioned audio description and voiceover for the video. This will require some basic audio-recording and video-editing software.</li>
+<li>Record your audio first. Make sure the person recording the voiceover speaks slowly and clearly to describe what is happening in the video for those with limited vision.</li>
+<li>In the video-editing software, lay down your audio track and then drop your Snapchat video file on top of it. Edit as necessary until your audio and video sync.</li>
+<li>Export your completed video file and share it with the world. Make sure to include captions and a text transcript for screen readers. Now people who can’t access your content through the Snapchat app will still be able to experience what you’re sharing.</li>
+</ol>
+<h3 id="tips-for-making-youtube-videos-accessible">Tips for Making YouTube Videos Accessible</h3>
+<ol>
+<li>Play the video, pause, speak what you hear, and repeat.</li>
+<li>Be careful only to include high-quality audio. People who are hard of hearing may have difficulty with the soundtrack of videos that contain music or other effects, or which have not been produced to high audio quality.</li>
+<li>Ensure all videos have closed captions and audio description (or a link to a version that has audio descriptions). In addition, a full transcript (of captions and audio description) is useful for people who have both hearing and visual impairments including those who are deaf-blind. YouTube has a feature that will automatically caption videos. To increase accuracy of the YouTube automatic captions, videos should have very clear-spoken words and little background noise. However, since YouTube automatic captioning can be very inaccurate, prepare your own accurate transcript and upload it whenever possible. For step-by-step instructions, please visit: <a href="http://ncdae.org/resources/cheatsheets/youtube.php">http://ncdae.org/resources/cheatsheets/youtube.php</a>.</li>
+<li>Descriptive language needs to be used in video captioning to denote audio and visual elements to users who may have visual or hearing disabilities. Make sure to use easy-to-understand language in your descriptions.</li>
+<li>To ensure accurate captioning, create a transcript of the video. To create a transcript use one of the following tools:
+<ul>
+<li>On a Mac (El Capitan): System Preferences &gt; Dictation &amp; Speech &gt; Dictation (On). Then open up any typing program (TextEdit, Word, Notes, Stickies, etc.) and:
+<ul>
+<li>Play the video, pause, speak what you hear, and repeat.</li>
+<li>Or, if the speaking parts of the video are very clear, play it loud enough for the Dictation to pick up the voice.</li>
+</ul>
+</li>
+<li>Dragon Naturally Speaking (for desktop or the smartphone app).</li>
+<li>Note that there are certain companies that can perform this task for a modest fee.</li>
+</ul>
+</li>
+<li>To create captions for video from scratch, or to edit your existing YouTube captions, there are a number of free tools that can help:
+<ul>
+<li><a href="http://www.overstream.net/">Overstream</a>: a popular Web-based captioning tool, with a <a href="http://www.youtube.com/watch?v=gRmsZ25W3SE">related YouTube tutorial</a>.</li>
+<li><a href="http://ncam.wgbh.org/invent_build/web_multimedia/tools-guidelines/magpie">MAGpie</a>: a free Windows application from the National Center for Accessible Media.</li>
+<li><a href="http://www.subtitle-horse.com/">Subtitle-Horse</a>: a free Web-based application that allows you to upload an FLV file, add captions and export in different file formats.</li>
+</ul>
+</li>
+<li>A tutorial for creating captions <a href="http://www.youtube.com/watch?v=rvYKIxA7WwY">can be found on YouTube</a>. Other tutorials on using <a href="http://www.overstream.net/">Overstream</a>, and <a href="http://www.subtitle-horse.com/">Subtitle-Horse</a> can be found at their respective websites. Resources for MAGpie are available at <a href="http://webaim.org/">WebAIM.org</a>.</li>
+<li>Note that good captions are not just a transcript of what is said in the video. It is also important to describe sounds, particularly sounds for which there is no visual equivalent (e.g., if someone in a video is giving a talk, and the viewer can’t see that the audience is laughing, the captions should say that people are laughing). Tone of voice is also important to note, particularly if not obvious from a person’s facial expression (or if the person’s face can’t be seen). A lot of meaning and information can be missed by certain viewers with hearing or cognitive impairments if they are not made aware of sounds, tone of voice, etc.; the way the meaning of spoken content is interpreted can completely change based on this information. Knowing that the background music is cheery, for example, helps signal that the producers mean for the scene to be viewed in a light way and can help shape viewers’ expectations for the kinds of things that will follow. Someone saying “I’m doing great” in a sarcastic tone clearly means something very different from someone saying it in a casual or light tone. Information conveyed in the video must also be explained in screen text or audio (i.e. if someone is making a sandwich and there is no audio then there should be a text or audio equivalent to explain the action taking place in the video).</li>
+<li>The YouTube player on the YouTube site is not fully keyboard accessible (e.g., it can be impossible or very difficult for a user with a motor disability to turn on captions without a mouse). Therefore, if possible, it is beneficial to also embed any YouTube videos on a site that uses an accessible YouTube player wrapper and have captions enabled by default.</li>
+</ol>
+<h3 id="tips-for-making-instagram-posts-accessible">Tips for Making Instagram Posts Accessible</h3>
+<ol>
+<li>Instagram does not allow images to have alternative text, so users should provide a detailed caption describing the image they are posting.</li>
+<li>Instagram does not allow users to add closed captions to videos, so users should provide a detailed caption that describes what is happening in the video and includes a transcript of what is being said in the video.</li>
+<li>Use camel case for multiple words within a hashtag if you include any in the caption.</li>
+<li>Avoid using acronyms in captions when possible, and always explain what the acronyms mean if you do use them.</li>
+</ol>
+<h3 id="tips-for-making-vine-posts-accessible">Tips for Making Vine Posts Accessible</h3>
+<ol>
+<li>Upon uploading a video clip, add a transcript to cover spoken and visual action to Vine’s “description” field.</li>
+<li>Remember that in addition to including captioning for individuals who are deaf or hard of hearing, information that is conveyed visually needs to include descriptive text readable by screen readers for individuals who are blind or who have low or limited vision.</li>
+<li>Alternatively, Vine videos can be embedded in a website where they can be captioned and described. Closed-caption can be embedded Vine video on your website using a tool like the <a href="https://support.jwplayer.com/">JW Player</a>.</li>
+</ol>
+<h3 id="tips-for-making-blogs-accessible">Tips for Making Blogs Accessible</h3>
+<ol>
+<li>Choose a blog template that has few columns and a simple layout. The layout should be consistent across all pages of the blog so as not to confuse users. The blog’s design should have enough color contrast between the background and the font for ease of reading. Avoid using colors that clash and try to avoid using green, blue and yellow too close together. Black text on a white background is preferred.</li>
+<li>Set up your blog on an appropriate blogging platform. <a href="https://wordpress.com/">WordPress.com</a>, and <a href="https://www.blogger.com/">Blogger</a> are two of the most popular options for bloggers because they are easy to customize. WordPress offers many free plugins and allows you to host a page on your own server, giving you more freedom to customize the software for accessibility.</li>
+<li>For more information on WordPress’ accessibility, visit the Codex – <a href="http://codex.wordpress.org/Accessibility">http://codex.wordpress.org/Accessibility</a></li>
+<li>If you wish to have a blog roll (list of blogs you follow), social media feeds or a list of past posts, place those to the right side of the template. If you must include navigation or other links on the left side of your blog, insert a skip link so the information that is repeated on every page can be bypassed.</li>
+<li>To read about inserting a skip link – <a href="http://www.afb.org/info/accessibility/tips-and-tricks/25#skiplink">http://www.afb.org/info/accessibility/tips-and-tricks/25#skiplink</a>.</li>
+<li>Add alternative text and captions to all images on the blog and within posts. Link to videos and audio components, and include transcripts of all video content. Ensure that sounds and video do not play upon a page loading – give users the choice to press the play button.</li>
+<li>Text such as “click here” or “read more” can make it difficult for people with screen readers to understand where a link will take them. Instead of these short phrases, hyperlink fully descriptive text so that users will know where they are going when they follow a link. For example, use the full title of an article or Web page to which the link will direct readers as the hyperlink text. Additionally, allow links to be opened in the same window so users can navigate with the “back button” as needed. Make sure that links are indicated by more than just a change in color so that visitors to your blog are clear that they have encountered hyperlinked text.</li>
+<li>Keep your writing simple. Use plain language and write in the active voice. Break up long paragraphs into smaller chunks of text.</li>
+<li>Although <a href="http://tumblr.com/">Tumblr</a> is considered a popular micro-blogging and social media tool, many users with disabilities find it difficult to navigate, but there are some ways to help make this easier. Tumblr is image-heavy, so as with all Web content, alternative text should be used. Many users suggest posting images using the text post option, rather than the image post option. In the image option, any text entered as a caption is read twice by screen readers. The use of GIFs on the site can also be difficult for individuals with sensitivities to flashes. Either limit their use or make sure than any visual element that blinks or flashes at a rate more than three flashes per second is small enough to only cover a quarter of an individual’s field of vision.</li>
+</ol>
+<h2 id="tips-for-making-other-social-media-platforms-accessible">Tips for Making Other Social Media Platforms Accessible</h2>
+<ul>
+<li>Depending on your social media strategy, you may want to use other platforms such as <a href="https://www.linkedin.com/">LinkedIn</a> or <a href="http://www.pinterest.com/">Pinterest</a> to connect with constituents.</li>
+<li>LinkedIn focuses on professional contacts and also allows users to collaborate and share articles and ideas through its group message boards. Your LinkedIn profile should have a clear image to accompany your name so users can distinguish you from other potential contacts with a similar name or brand.</li>
+<li>LinkedIn Online Support <a href="https://www.linkedin.com/help/linkedin">https://www.linkedin.com/help/linkedin</a></li>
+<li>Pinterest is a visual discovery tool where users create online “bulletin boards” of images, ideas and videos. All Pinterest content is “pinned” to boards from outside sources. Include a description of the item you are pinning and alert users if it is a picture, video, audio file or GIF (e.g. [PIC], [VIDEO], [AUDIO], [GIF]). If you are pinning content that you did not create or is not accessible, make sure your audience is aware of these limitations by including a brief note in the description of the pin.</li>
+<li>As with Vine videos, Instagram videos should have captions and a transcript. For more information on video accessibility, read the Tips for Making YouTube Videos Accessible and Tips for Making Vine Posts Accessible.</li>
+</ul>
+<h2 id="additional-resources">Additional Resources</h2>
+<h3 id="resources-recommended-by-the-community-of-practice">Resources recommended by the Community of Practice:</h3>
+<ul>
+<li>
+<p><a href="http://www.mediaaccess.org.au/online-media/social-media">Sociability: Social Media for People with a Disability</a> (Australia)</p>
+</li>
+<li>
+<p><a href="http://emergency20wiki.org/wiki/index.php/Accessibility_Toolkit">Emergency 2.0 Wiki Accessibility Toolkit</a> (Australia)</p>
+</li>
+<li>
+<p><a href="http://www.queensu.ca/accessibility/how-info/social-media-accessibility">Queen University’s Accessibility Hub</a> (Canada)</p>
+</li>
+<li>
+<p><a href="http://www.usability.gov/tags/accessibility/">Accessibility articles on Usability.gov</a></p>
+</li>
+<li>
+<p><a href="/topics/accessibility/">Accessibility section on DigitalGov.gov</a></p>
+</li>
+<li>
+<p><a href="http://www.w3.org/TR/WCAG/">Web Content Accessibility Guidelines (WCAG) 2.0</a></p>
+</li>
+<li>
+<p><a href="http://section508.gov/">Section508.gov</a></p>
+</li>
+<li>
+<p><a href="http://www.hhs.gov/web/508/index.html">Department of Health and Human Services Section 508 Resources</a></p>
+</li>
+<li>
+<p><a href="http://whatsock.com/tsg/">AccDC Technical Style Guides</a> (Powered by jQuery, Dojo or MooTools)</p>
+</li>
+<li>
+<p><a href="https://github.com/accdc/tsg">AccDC Technical Style Guide for Standalone and jQuery</a> (on GitHub)</p>
+</li>
+</ul>
+<h3 id="digital-government-university-dgu-offers-a-series-of-trainings-based-on-these-recommendations-and-expanded-guidance-on-demand-accessibility-classes-from-dgu-include">Digital Government University (DGU) offers a series of trainings based on these recommendations and expanded guidance. On-demand accessibility classes from DGU include:</h3>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=W756zIegQBs&amp;index=23&amp;list=PLd9b-GuOJ3nGDIyZsJ5n9XSRxq4rXrO7Qhttp://www.howto.gov/training/classes/social-media-and-plain-language">Social Media: You Still Need Plain Language</a> (January 2013)</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=aMlFWIu6rpY&amp;list=PLd9b-GuOJ3nGDIyZsJ5n9XSRxq4rXrO7Q&amp;index=25">Making Social Media More Accessible: What You Can Do Today</a> (December 2012)</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=2wRl-JM3I-Mhttp://www.howto.gov/training/classes/role-based-accessibility">Role-Based Accessibility in Government: Everyone’s Responsibility</a> (November 2012)</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/digitalgov">DigitalGov YouTube Channel</a></p>
+</li>
+<li>
+<p><a href="/digitalgov-university/">DigitalGov University On-Demand Training</a></p>
+</li>
+</ul>
+<h3 id="other-web-resources">Other Web resources</h3>
+<ul>
+<li>
+<p><a href="http://dboudreau.tumblr.com/">a11yTips</a></p>
+</li>
+<li>
+<p><a href="http://accessiblejoe.com/tools/">Accessible Joe</a></p>
+</li>
+<li>
+<p><a href="http://webaim.org/">WebAIM</a></p>
+</li>
+<li>
+<p><a href="http://www.usability.gov/">Usability.gov</a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=DKXXKtFRNlQ">DANYA T.H.I.S. Social Media Accessibility Google Hangout</a></p>
+</li>
+<li>
+<p><a href="http://www.w3.org/wiki/Accessibility_testing">W3 Accessibility Testing</a></p>
+</li>
+<li>
+<p><a href="http://wave.webaim.org/">WAVE Accessibility Testing</a></p>
+</li>
+<li>
+<p><a href="http://askjan.org/bulletins/SNAPTool.htm">Ask JAN SNAP Tool</a></p>
+</li>
+<li>
+<p><a href="http://www.w3.org/WAI/">W3 Web Accessibility Initiative</a></p>
+</li>
+</ul>
+<h2 id="how-to-provide-feedback-or-contribute-content-to-this-toolkit">How To Provide Feedback Or Contribute Content To This Toolkit</h2>
+<p>The recommendations in this Toolkit are presented in a “living, open document” designed to progressively evolve based on continuous feedback from all areas of social enterprise, as new methods and tools become available. Agencies, organizations and citizens are encouraged to expand this content by adding recommendations and new tools and tips. They are the beginning of a shared inter-agency approach to this emerging field—one that will allow agencies to collectively advance toward better accessibility to public services through social programs for citizens.</p>
+</div><div id="page-data" class="branch-main" name="page-data">
+  
+  <div class="edit_file hidden"></div>
+</div>
+
+<script src="https://touchpoints.app.cloud.gov/touchpoints/dc4265f6.js" async></script>
+<section class="touchpoints-form-container">
+  <button id="touchpoints-modal-button" class="usa-button" type="button">Was this page helpful?</button>
+</section>
+</div>
+
+          <div class="grid-col-12 tablet:grid-col-3">
+
+            
+<div class="toc">
+  <h4>In this page</h4><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#who-developed-this-toolkit">Who Developed This Toolkit?</a></li>
+        <li><a href="#why-is-the-accessibility-of-social-media-so-important">Why Is The Accessibility of Social Media So Important?</a></li>
+        <li><a href="#what-you-will-and-won8217t-find-in-this-toolkit">What You Will And Won’t Find in this Toolkit</a></li>
+        <li><a href="#general-social-media-accessibility-tips">General Social Media Accessibility Tips</a>
+          <ul>
+            <li><a href="#5-things-every-social-media-content-manager-needs-to-know">5 Things Every Social Media Content Manager Needs to Know</a></li>
+            <li><a href="#guidelines-for-writing-in-plain-language">Guidelines for Writing in Plain Language</a></li>
+            <li><a href="#tips-for-making-facebook-updates-accessible">Tips for Making Facebook Updates Accessible</a></li>
+            <li><a href="#tips-for-making-tweets-accessible">Tips for Making Tweets Accessible</a></li>
+            <li><a href="#tips-for-making-snapchat-more-accessible">Tips for Making Snapchat More Accessible</a></li>
+            <li><a href="#tips-for-making-youtube-videos-accessible">Tips for Making YouTube Videos Accessible</a></li>
+            <li><a href="#tips-for-making-instagram-posts-accessible">Tips for Making Instagram Posts Accessible</a></li>
+            <li><a href="#tips-for-making-vine-posts-accessible">Tips for Making Vine Posts Accessible</a></li>
+            <li><a href="#tips-for-making-blogs-accessible">Tips for Making Blogs Accessible</a></li>
+          </ul>
+        </li>
+        <li><a href="#tips-for-making-other-social-media-platforms-accessible">Tips for Making Other Social Media Platforms Accessible</a></li>
+        <li><a href="#additional-resources">Additional Resources</a>
+          <ul>
+            <li><a href="#resources-recommended-by-the-community-of-practice">Resources recommended by the Community of Practice:</a></li>
+            <li><a href="#digital-government-university-dgu-offers-a-series-of-trainings-based-on-these-recommendations-and-expanded-guidance-on-demand-accessibility-classes-from-dgu-include">Digital Government University (DGU) offers a series of trainings based on these recommendations and expanded guidance. On-demand accessibility classes from DGU include:</a></li>
+            <li><a href="#other-web-resources">Other Web resources</a></li>
+          </ul>
+        </li>
+        <li><a href="#how-to-provide-feedback-or-contribute-content-to-this-toolkit">How To Provide Feedback Or Contribute Content To This Toolkit</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            
+
+            
+
+
+
+<section id="related_communities">
+
+  <header>
+    <h3>Join a Community</h3>
+  </header>
+
+  <ul class="usa-list usa-list--unstyled"><li class="promo">
+      <div class="promo__link-wrapper">
+        <a href="/communities/it-accessibility-section-508/?promo" title="Visit IT Accessibility and Section 508 community page">IT Accessibility and Section 508</a></div>
+    </li><li class="promo">
+      <div class="promo__link-wrapper">
+        <a href="/communities/uswds/?promo" title="Visit U.S. Web Design System community page">U.S. Web Design System</a></div>
+    </li><li class="promo">
+      <div class="promo__link-wrapper">
+        <a href="/communities/federal-communicators-network/?promo" title="Visit Federal Communicators Network community page">Federal Communicators Network</a></div>
+    </li><li class="promo">
+      <div class="promo__link-wrapper">
+        <a href="/communities/social-media/?promo" title="Visit Social Media community page">Social Media</a></div>
+    </li><li class="promo">
+      <div class="promo__link-wrapper">
+        <a href="/communities/plain-language/?promo" title="Visit Plain Language community page">Plain Language</a></div>
+    </li></ul>
+
+  <footer>
+    <p class="more">
+      <a href="/communities/"><span>See all 34 communities</span>
+        <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+          <use xlink:href="/uswds/img/sprite.svg#arrow_forward"></use>
+        </svg>
+      </a>
+    </p>
+  </footer>
+
+</section>
+
+<section id="related_services">
+
+  <header>
+    <h3>Get Started Building</h3>
+  </header>
+
+  <ul class="usa-list usa-list--unstyled">
+    <li class="promo" data-edit-this="services/service_section508-gov.md">
+      <div class="promo__link-wrapper">
+          <a class="external-link" href="https://www.section508.gov/?=dg" title="Visit Section508.govservices page"><span>Section508.gov</span></a></div>
+      <img src="/logos/gsa-icon.png" alt="" aria-hidden="true"/>
+    </li>
+    <li class="promo" data-edit-this="services/service_pra.md">
+      <div class="promo__link-wrapper">
+          <a class="external-link" href="https://pra.digital.gov/contact/?=dg" title="Visit The Guide to the Paperwork Reduction Actservices page"><span>The Guide to the Paperwork Reduction Act</span></a></div>
+      <img src="/logos/pra-guide-icon.png" alt="" aria-hidden="true"/>
+    </li>
+    <li class="promo" data-edit-this="services/service_usagov-short-urls.md">
+      <div class="promo__link-wrapper">
+          <a class="external-link" href="https://go.usa.gov/?=dg" title="Visit Go.USA.govservices page"><span>Go.USA.gov</span></a></div>
+      <img src="/logos/usagov-icon.png" alt="" aria-hidden="true"/>
+    </li>
+    <li class="promo" data-edit-this="services/service_plainlanguage.md">
+      <div class="promo__link-wrapper">
+          <a class="external-link" href="https://plainlanguage.gov/?=dg" title="Visit PlainLanguage.govservices page"><span>PlainLanguage.gov</span></a></div>
+      <img src="https://www.google.com/s2/favicons?domain=https://plainlanguage.gov/" alt="" aria-hidden="true"/>
+    </li>
+    <li class="promo" data-edit-this="services/service_open-opportunities.md">
+      <div class="promo__link-wrapper">
+          <a class="external-link" href="https://openopps.usajobs.gov/?=dg" title="Visit Open Opportunitiesservices page"><span>Open Opportunities</span></a></div>
+      <img src="/logos/open-opps-icon.png" alt="" aria-hidden="true"/>
+    </li></ul>
+
+  <footer>
+    <p class="more">
+      <a href="/services/"><span>See all 34 services</span>
+        <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+          <use xlink:href="/uswds/img/sprite.svg#arrow_forward"></use>
+        </svg>
+      </a>
+    </p>
+  </footer>
+
+</section>
+            
+
+            
+            
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </article>
+</main>
+<section id="newsletter-signup" aria-label="Subscribe to the Digital.gov newsletter">
+  <div class="grid-container grid-container-desktop">
+    <div class="grid-row tablet-lg:grid-gap-6">
+      <div class="grid-col-12 tablet:grid-col-7">
+        <section class="usa-sign-up">
+          <p class="blurb" id="newsletter-subscribe-description"><strong>Join 60,000 others in government</strong> and subscribe to our newsletter — a round-up of the best digital news in government and across our field.</p>
+        </section>
+      </div>
+      <div class="grid-col-12 tablet:grid-col-5">
+
+        <section class="usa-sign-up" aria-describedby="newsletter-subscribe-description">
+          <script src="https://public.govdelivery.com/assets/Signup.js" data-account-code="USGSA" data-signup-id="34948"></script>
+        </section>
+
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="usa-footer usa-footer--big" role="contentinfo">
+  <section class="return-to-top">
+    <div class="grid-container grid-container-desktop usa-footer__return-to-top">
+      <a href="#">
+        <span>Return to top</span>
+        <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+          <use xlink:href="/uswds/img/sprite.svg#arrow_upward"></use>
+        </svg>
+      </a>
+    </div>
+  </section>
+  <div class="usa-footer__primary-section">
+    <div class="grid-container grid-container-desktop">
+      <nav class="usa-footer__nav" aria-label="Footer navigation">
+        <div class="grid-row grid-gap-4">
+          <div class="mobile-lg:grid-col-6 tablet-lg:grid-col-3">
+            <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+              <h4 class="usa-footer__primary-link">Learn</h4>
+              <ul class="usa-list usa-list--unstyled"><li class="usa-footer__secondary-link"><a href="/news/">News</a></li><li class="usa-footer__secondary-link"><a href="/events/">Events</a></li><li class="usa-footer__secondary-link"><a href="/resources/">Resources</a></li><li class="usa-footer__secondary-link"><a href="/communities/">Communities</a></li><li class="usa-footer__secondary-link"><a href="/services/">Tools</a></li></ul>
+            </section>
+          </div>
+          <div class="mobile-lg:grid-col-6 tablet-lg:grid-col-3">
+            <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+              <h4 class="usa-footer__primary-link">Contribute</h4>
+              <ul class="usa-list usa-list--unstyled"><li class="usa-footer__secondary-link"><a href="/contribute/">Write for us</a></li><li class="usa-footer__secondary-link"><a href="/digitalgov-university/">Host an event</a></li><li class="usa-footer__secondary-link"><a href="https://github.com/GSA/digitalgov.gov/">Edit on GitHub</a></li></ul>
+            </section>
+          </div>
+          <div class="mobile-lg:grid-col-6 tablet-lg:grid-col-3">
+            <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+              <h4 class="usa-footer__primary-link">About</h4>
+              <ul class="usa-list usa-list--unstyled"><li class="usa-footer__secondary-link"><a href="/about/">About Us</a></li><li class="usa-footer__secondary-link"><a href="/policies/">Site Policies</a></li></ul>
+            </section>
+          </div>
+
+          <div class="mobile-lg:grid-col-6 tablet-lg:grid-col-3">
+            <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+              <h4 class="usa-footer__primary-link">Social</h4>
+              <ul class="usa-list usa-list--unstyled social-links">
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#twitter"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="https://twitter.com/digital_gov">Twitter</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#facebook"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="https://www.facebook.com/digitalgov/">Facebook</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#youtube"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="https://youtube.com/digitalgov">YouTube</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#rss_feed"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="/index.xml">RSS</a>
+                </li>
+                <li class="usa-footer__secondary-link">
+                  <svg class="usa-icon dg-icon dg-icon--standard margin-bottom-05" aria-hidden="true" focusable="false">
+                    <use xlink:href="/uswds/img/sprite.svg#mail_outline"></use>
+                  </svg>
+                  <a class="text-ink hover:text-ink text-no-underline hover:text-underline" href="mailto:digitalgov@gsa.gov">Email us</a>
+                </li>
+              </ul>
+
+            </section>
+          </div>
+
+
+        </div>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<div class="usa-identifier">
+  <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__logos">
+        <a href="https://www.gsa.gov" class="usa-identifier__logo">
+          <img class="usa-identifier__logo-img" src="/img/gsa-logo-w100.png" alt="GSA logo" role="img">
+        </a>
+      </div>
+      <section class="usa-identifier__identity" aria-label="Agency description">
+        <p class="usa-identifier__identity-domain">Digital.gov</p>
+        <p class="usa-identifier__identity-disclaimer">
+          An official website of the
+          <a href="https://www.gsa.gov">U.S. General Services Administration</a>
+        </p>
+      </section>
+    </div>
+  </section>
+  <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/about-us" class="usa-identifier__required-link usa-link">
+              About GSA
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link usa-link">
+              Accessibility support
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link">
+              FOIA requests
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" class="usa-identifier__required-link usa-link">
+              No FEAR Act data
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link">
+              Office of the Inspector General
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/reference/reports/budget-performance" class="usa-identifier__required-link usa-link">
+              Performance reports
+            </a>
+          </li>
+        
+          <li class="usa-identifier__required-links-item">
+            <a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link">
+              Privacy policy
+            </a>
+          </li>
+        
+    </div>
+  </nav>
+  <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. government information and services">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__usagov-description">
+        Looking for U.S. government information and services?
+      </div>
+      <a href="https://www.usa.gov/" class="usa-link">
+        Visit USA.gov
+      </a>
+    </div>
+  </section>
+</div>
+
+
+</div> 
+
+  <div id="clicks_iframe" class="display-none"></div>
+
+  <div class="edit_tools">
+    <button class="edit edit-open" aria-label="edit" type="button">
+      <svg class="usa-icon dg-icon dg-icon--large margin-bottom-05" aria-hidden="true" focusable="false">
+        <use xlink:href="/uswds/img/sprite.svg#edit"></use>
+      </svg>
+    </button>
+    <a class="edit edit-issue" role="button" target="_blank" href="https://github.com/GSA/digitalgov.gov/issues/new?body=%0D%0A%2A%2AFederal%20Social%20Media%20Accessibility%20Toolkit%20Hackpad%2A%2A%0D%0Ahttps%3A%2F%2Fdigital.gov%2F%2fresources%2ffederal-social-media-accessibility-toolkit-hackpad%2f%0D%0A%0D%0A---%0D%0A%0D%0A%2A%2APlease+describe+the+issue+clearly.+Include+a+screenshot+if+needed%2A%2A%0D%0A">
+      <svg class="usa-icon dg-icon dg-icon--large margin-bottom-05" aria-hidden="true" focusable="false">
+        <use xlink:href="/uswds/img/sprite.svg#bug_report"></use>
+      </svg>
+      <span class="usa-sr-only">Report an issue</span>
+    </a>
+  </div>
+
+</body>
+
+<script src='/dist/jquery.min.js'></script>
+<script src='/dist/uswds.min.js'></script>
+<script src='/dist/common.js'></script>
+
+
+
+
+<script type="text/javascript">
+  var root_url = "/";
+  var all_images_json = "/images/v1/json/";
+</script>
+
+
+</html>

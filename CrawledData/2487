@@ -1,0 +1,821 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link href="/TDPortal/Content/Styles/font-awesome.min.css?v=20221125000826" rel="stylesheet" type="text/css" id="lnkFontAwesome" /><script src="/TDPortal/Content/Scripts/jquery/2.2.4/jquery.min.js?v=20221125000826"></script><script src="/TDPortal/Content/Scripts/jquery-migrate/1.4.1/jquery-migrate.min.js?v=20221125000826"></script><script src="/TDPortal/Content/Scripts/jquery-ui/1.12.1/jquery-ui-1.12.1.custom.timepicker.min.js?v=20221201132058"></script><link href="/TDPortal/Content/Styles/jquery-ui/1.12.1/jquery-ui.compiled.min.css?v=20221125000826" rel="stylesheet" type="text/css"  /><link href="/TDPortal/Content/bootstrap/3.4.1/dist/css/bootstrap.min.css?v=20221125000826" rel="stylesheet" type="text/css" id="lnkBootstrapCSS" /><script src="/TDPortal/Content/bootstrap/3.4.1/dist/js/bootstrap.min.js?v=20221125000826"></script><link href="/TDClient/Styles/bootstrap_custom.min.css?v=20221125000822" rel="stylesheet" type="text/css"  /><link href="/TDClient/Styles/TDStyles.min.css?v=20221201132056" rel="stylesheet" type="text/css"  /><link href="https://help.uillinois.edu/TDPortal/BE/Style/2/TDClient/37?v=20210124013324" rel="stylesheet" type="text/css" /><script src="/TDPortal/Content/Scripts/tdx/TDJSFramework.compiled.min.js?v=20221201132058"></script><script src="/TDPortal/Content/Scripts/underscore/1.12.1/underscore-min.js?v=20221125000826"></script>
+<script src="/TDClient/Scripts/clientOS.min.js?v=20221125000822"></script>
+<script src="/TDClient/Scripts/collapseMe.min.js?v=20221125000822"></script>
+<script src="/TDClient/Scripts/tdsearchfilter.min.js?v=20221125000822"></script>
+<script src="/TDClient/Scripts/SiteSearch.min.js?v=20221125000822"></script>
+<script src="/TDPortal/Content/Scripts/tdx/elasticsearchAutocomplete/elasticsearchAutocomplete.min.js?v=20221125000826"></script>
+<link id="ctl00_ctl00_lnkFavicon" rel="shortcut icon" href="https://help.uillinois.edu/TDPortal/BE/Icon/2/37?v=20210124013324" />
+
+    
+    <script async src="//www.googletagmanager.com/gtag/js?id=UA-185980340-1"></script>
+    <script>
+
+      $(function () {
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        // Be sure to set the proper cookie domain to the customer's full subdomain when sending the pageview hit.
+        gtag('config', 'UA-185980340-1', { 'cookie_domain': 'help.uillinois.edu' });
+
+        });
+
+    </script>
+
+  
+
+  <script>
+
+      $(function () {
+        var masterUi = MasterUI({
+          isPostback: false,
+        baseUrl: '/TDClient/',
+        isTdGoogleAnalyticsEnabled: true,
+        isAuthenticated: false
+        });
+
+      $('#collapseMe').collapseMe({
+        toggleVisibilitySelector: '.navbar-toggle'
+      });
+
+    });
+
+      // The sub-nav menu uses padding-top to position itself below the header bar and main navigation sections. When the
+      // window is resized, there is a chance that the content of these header or nav sections wraps, causing the height
+      // to change, potentially covering the sub-nav menu, which is obviously a big usability problem. This function
+      // listens for when the window size or orientation is changing (and also when the window first loads), and adjusts
+      // the padding so that the sub-nav menu appears in the correct location.
+      $(window).bind('load ready resize orientationchange', function () {
+        var headerHeight = $('#divMstrHeader').height();
+        $('#navShim').css({
+          "padding-top": headerHeight
+        });
+
+        $('#content').css({
+          "padding-top": headerHeight,
+          "margin-top": headerHeight * -1
+        });
+      });
+  </script>
+
+  
+  
+
+  
+
+  <script src="/TDPortal/Content/select2/v3/select2.min.js?v=20221202190234"></script><link href="/TDPortal/Content/select2/v3/select2.compiled.min.css?v=20221202190234" rel="stylesheet" type="text/css" id="lnkSelect2" />
+  <script src="/TDClient/Scripts/Share.min.js?v=20221125000822"></script>
+<script src="/TDClient/Scripts/attachmentHandler.min.js?v=20221125000822"></script>
+
+
+  <script>
+
+    function ToggleFavorite() {
+      __doPostBack('ctl00$ctl00$cpContent$cpContent$btnToggleFavorite', '');
+    }
+
+    function checkRecipients() {
+      if ($('#ctl00_ctl00_cpContent_cpContent_shareRecipients').val().trim() === "") {
+        alert('You must first enter a valid email.');
+        $('#myModal').modal('toggle')
+      }
+    }
+
+    function showHideCommentInput(show) {
+      var commentEditor = CKEDITOR.instances['ctl00_ctl00_cpContent_cpContent_txtComments_txtEditor_txtBody'];
+
+      if (show) {
+        $('#ctl00_ctl00_cpContent_cpContent_btnSaveComment').progressButton().progressButton('reset');
+        $('#divComment').show();
+        commentEditor.focus();
+        $("#luFeedCommentNotification").select2("val", null, true);
+        $('#btnComment').hide();
+      } else {
+        $('#divComment').hide();
+        commentEditor.setData('');
+        $("#luFeedCommentNotification").select2("val", null, true);
+        $('#btnComment').show();
+      }
+    }
+
+    $(function () {
+
+      var attachmentHandler = new TeamDynamix.AttachmentHandler({
+        containerSelector: '.js-service-attachments',
+        resultLabelSelector: '#ctl00_ctl00_cpContent_cpContent_lblResults_lblResults-label',
+        baseControllerUrl: '/TDClient/37/uic/Shared/Attachments',
+        antiForgeryToken: 'W29NfM40LmhzKtr0RafRNBH7EawbevkeEixRAlqdKpri7rdwQfG4hb_byETpBZSPKpS4yLp4p2oHhHmcxJ_AddHgh5A1:ux0y6PwCt8EFm49teCLRSzpvEtlGu0KNsYXa7_pfd1NXxpeHpdCo529DCyx7VoXfnCOBUYp82rrDcVZ1cr3o9cEU0w01',
+        itemId: 462,
+        componentId: 47
+      });
+
+      // Don't try and update the table styles if the user wanted to opt out.
+      $('#ctl00_ctl00_cpContent_cpContent_divDescription table:not(.SkipTableFixup)').each(function (table) {
+        var padding = $(this).attr('cellpadding');
+        var spacing = $(this).attr('cellspacing');
+
+        $(this).css("border-collapse", "separate");
+
+        if (spacing) {
+          $(this).css("border-spacing", spacing + "px");
+        }
+
+        $(this).find('td').each(function (cell) { $(this).css('padding', padding + 'px') });
+      });
+
+      
+
+    });
+
+    
+
+  </script>
+
+
+
+<meta property="og:title" content="IT Service Desk" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://help.uillinois.edu/TDClient/37/uic/Requests/ServiceDet?ID=462" />
+<meta property="og:image" content="https://help.uillinois.edu/TDPortal/BE/Logo/2/37" />
+<meta property="og:description" content="The Technology Solutions Service Desk is available to help you with your IT needs." />
+  <meta property="og:site_name" content="University of Illinois System - Services" />
+  <meta property="article:section" content="Professional Services" />
+    <meta property="article:tag" content="help-desk" />
+    <meta property="article:tag" content="IT-support" /><title>
+	Service - IT Service Desk
+</title></head>
+<body>
+<form method="post" action="/TDClient/37/uic/Requests/ServiceDet?ID=462" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/TDClient/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvmVxW3-Ljsg_2Hna32smxrg-6ogyYAN3UTPsJQ8m1uwzn_kuf2Wpne6NSFmYui3h0wCQhJN3ZUiLTNkvhiIgZpq74-lKmofUPQGJ8own8RI2_mwAcmvlSj2WBnqwm5Wj4cyNvv81&amp;t=49337fe8" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=xtfVMqdF1exC2MBVkOJwMveStDR5kg3dbZWgIXMXZmB1xXom6CcIrWFgHa7jsp4qJuFW2L5XShudyzlBsIO3JhCfiU5HmL2BDz__mCv9dznmBlEMS7LvcYg6wTdPTrAXIXI2CvtjwlnpZd-j4Zpsx2wG_uA1&amp;t=638055861260000000" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=sp7vCoAo-SSYfpsQ1sYBBeEDnwCGxDYEwZCM0ler88yoVZIPDXMk1C3XF2L2L0xrbB8Rvhli51TswRlmPIOCZgaY58lKhPr-Pv1jTFJ1oUAu7x6RDtNFZUxbtxs3KYQGLK6FpPD5bKuB0e0NmS9HkAqRVks1&amp;t=638055861260000000" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=icMURy63hv40LPPfq4rTvmm-RfB_YkC6rEEF_2QOO68q3TseXYNBetRKKgBXJ8mn2e8UIgCPiV23HaQUZbjySMHqSgmYZgLcYltBqwD2_EK8aQ08zBuqc3ZBVZITQrbtn6w46dRxFLibMIQg0Aho73rn8Rpxrzg5YMG_JR0UOrUR0wlZ0&amp;t=638055861260000000" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=1HpFfNpwNihNfEP1lyJHvdPVqbv8KRoFH4-_ZORUgPOP-bqmmtIJRvFQc7828Vf59O_-fdBXcnwdv-hYp5RptPuHmMR0kGQM0_3rS4Z7sKfC7jy9Cc_8fyfcUWa8psszacEQlAXHPXmNwyRymbGSywEmhrE1&amp;t=638055861260000000" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E24F3D79" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="rL4y5huHk3GGGCNmCF+z4r773xeIxV9pirAWDjK6sx27EiLcRO0oilVVg30sWGL6JsTXjJOU8kD7xxc4yI0do2L/Wudz7OXeuPwzTCJMRDiSVokwHC8RMqgyxXJxQ+0CL5+MVKOHSx8hg5xwKAHT3ZfcSrvSd65XJjI5iu5Wsj5ErwteD62KXocELen6ezzidbDGrI04HgOfZR/z+takq7Xiopo=" />
+
+<div id="ctl00_ctl00_upMain" style="display:none;">
+	
+    <div id="ctl00_ctl00_pbMain" class="progress-box-container"><div class="progress-box-body"><div class="well shadow"><h2 class="h4 gutter-top-none">Updating...</h2><div class="progress" style="margin-bottom: 0;"><div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></div></div></div>
+  
+</div>
+
+
+
+  <header role="banner">
+
+  <div id="divMstrHeader" class="master-header NoPrint" style="background-color: #fff;">
+
+  
+  
+
+  <div class="logo-header-full hidden-xs">
+
+    
+    <div class="pull-left">
+      <a href="#mainContent" class="sr-only sr-only-focusable">Skip to main content</a>
+    </div>
+
+
+    <div id="ctl00_ctl00_divPageHeader" class="container logo-header clearfix" style="padding: 5px;">
+
+      <div id="divLogo" class="pull-left logo-container">
+
+        <a href="https://www.uic.edu/"
+           target="_blank">
+          <img src="/TDPortal/BE/Logo/2/37" alt="University of Illinois System Home Page" class="js-logo img-responsive" />
+        </a>
+
+      </div>
+
+      <div class="master-header-right pull-right padding-top padding-bottom">
+
+        
+
+          <div class="pull-left topLevelSearch input-group">
+            <div id="SiteSearch-6945ad02c3254b219eee577d5c99723d" class="gutter-bottom input-group site-search" style="max-width: 400px;">
+  <div id="SiteSearch-dropdown-6945ad02c3254b219eee577d5c99723d" class="input-group-btn">
+    <button type="button" id="SiteSearch-filter-6945ad02c3254b219eee577d5c99723d" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" title="Filter your search by categories" data-component="all">
+      <span class="fa fa-globe"></span><span class="fa fa-fw fa-nopad fa-caret-down" aria-hidden="true"></span>
+      <span class="sr-only">
+        Filter your search by category. Current category:
+        <span class="js-current-component">All</span>
+      </span>
+    </button>
+    <ul class="dropdown-menu" >
+      <li>
+        <a href="javascript:void(0);" data-component-text="All" data-component="all" data-component-icon="fa-globe" title="Search all areas">
+          <span class="fa fa-fw fa-nopad fa-globe" aria-hidden="true"></span>
+          All
+        </a>
+      </li>
+
+      <li role="separator" class="divider"></li>
+
+        <li role="presentation">
+          <a role="menuitem" href="javascript:void(0);" data-component-text="Knowledge Base" data-component="kb" data-component-icon="fa-lightbulb-o" title="Search Knowledge Base">
+            <span class="fa fa-fw fa-nopad fa-lightbulb-o" aria-hidden="true"></span>
+            Knowledge Base
+          </a>
+        </li>
+
+        <li role="presentation">
+          <a role="menuitem" href="javascript:void(0);" data-component-text="Service Catalog" data-component="sc" data-component-icon="fa-compass" title="Search Service Catalog">
+            <span class="fa fa-fw fa-nopad fa-compass" aria-hidden="true"></span>
+            Service Catalog
+          </a>
+        </li>
+
+    </ul>
+  </div>
+
+  <label class="sr-only" for="SiteSearch-text-6945ad02c3254b219eee577d5c99723d">Search the client portal</label>
+
+  <input id="SiteSearch-text-6945ad02c3254b219eee577d5c99723d" type="text" class="form-control" autocomplete="off" placeholder="Search the client portal" title="To search for items with a specific tag, enter the # symbol followed by the name of the tag.
+To search for items using exact match, place double quotes around your text."/>
+
+  <span class="input-group-btn">
+    <button id="SiteSearch-button-6945ad02c3254b219eee577d5c99723d" class="btn btn-default" type="button" title="Search">
+      <span class="fa fa-fw fa-nopad fa-search blue" aria-hidden="true"></span>
+      <span class="sr-only">Search</span>
+    </button>
+  </span>
+</div>
+
+<script>
+  $(function() {
+    var siteSearch = new TeamDynamix.SiteSearch({
+      searchUrl: "/TDClient/37/uic/Shared/Search",
+      enableAutocompleteSearch: true,
+      autocompleteSearchUrl: '/TDClient/37/uic/Shared/AutocompleteSearch',
+      autocompleteResultsPosition: 'fixed',
+      autocompleteResultsZIndex: 1000,
+      searchTextBoxSelector: '#SiteSearch-text-6945ad02c3254b219eee577d5c99723d',
+      searchComponentFilterButtonSelector: '#SiteSearch-filter-6945ad02c3254b219eee577d5c99723d',
+      searchButtonSelector: '#SiteSearch-button-6945ad02c3254b219eee577d5c99723d',
+      searchFilterDropdownSelector: '#SiteSearch-dropdown-6945ad02c3254b219eee577d5c99723d',
+      showKnowledgeBaseOption: true,
+      showServicesOption: true,
+      showForumsOption: false,
+      autoFocusSearch: false
+    });
+  });
+  </script>
+          </div>
+
+        
+          <div title="Sign In" class="pull-right gutter-top-sm">
+            <a href="/TDClient/37/uic/Login.aspx?ReturnUrl=%2fTDClient%2f37%2fuic%2fRequests%2fServiceDet%3fID%3d462">
+              Sign In
+            </a>
+          </div>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+  <nav id="ctl00_ctl00_mainNav" class="navbar navbar-default themed tdbar" aria-label="Primary">
+    <div id="navContainer" class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="pull-left navbar-toggle collapsed themed tdbar-button-anchored tdbar-toggle gutter-left" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="tdbar-button-anchored icon-bar"></span>
+          <span class="tdbar-button-anchored icon-bar"></span>
+          <span class="tdbar-button-anchored icon-bar"></span>
+          <span class="sr-only">Show Applications Menu</span>
+        </button>
+        <a class="navbar-brand hidden-sm hidden-md hidden-lg themed tdbar-button-anchored truncate-be" href="#">
+
+          UIC Help Center
+        </a>
+      </div>
+
+      <div id="td-navbar-collapse" class="collapse navbar-collapse">
+
+        <ul class="nav navbar-nav nav-collapsing" id="collapseMe">
+
+          
+            <li class="themed tdbar-button-anchored hidden-sm hidden-md hidden-lg">
+              <a href="/TDClient/37/uic/Login.aspx?ReturnUrl=%2fTDClient%2f37%2fuic%2fRequests%2fServiceDet%3fID%3d462">Sign In</a>
+            </li>
+          
+            <li id="divSearch" class="themed tdbar-button-anchored hidden-sm hidden-md hidden-lg">
+              <a href="/TDClient/37/uic/Shared/Search" title="search">Search</a>
+            </li>
+          
+              <li id="divDesktop3ea09664-ac75-4b79-9e85-2b480ba0a2da" class="themed tdbar-button-anchored">
+                <a href="/TDClient/37/uic/Home/">Home</a>
+              </li>
+            
+              <li id="divDesktop243e0e53-c185-4800-bc65-2e823174d02b" class="themed tdbar-button-anchored">
+                <a href="/TDClient/37/uic/Home/?ID=243e0e53-c185-4800-bc65-2e823174d02b">About</a>
+              </li>
+            
+
+          
+            <li id="divTDRequests" class="themed tdbar-button-anchored sr-focusable">
+              <a href="/TDClient/37/uic/Requests/ServiceCatalog">Services</a>
+            </li>
+          
+            <li id="divTDKnowledgeBase" class="themed tdbar-button-anchored sr-focusable">
+              <a href="/TDClient/37/uic/KB/">Knowledge Base</a>
+            </li>
+          
+
+          <li class="themed tdbar-button-anchored hidden-xs more-items-button" id="moreMenu">
+            <a data-toggle="dropdown" title="More Applications" href="javascript:;">
+              <span class="sr-only">More Applications</span>
+              <span class="fa fa-ellipsis-h" aria-hidden="true"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right themed tdbar" id="collapsed"></ul>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+  </nav>
+
+  </div>
+
+  </header>
+
+
+
+<div id="navShim" class="hidden-xs hidden-sm"></div>
+<main role="main">
+  <div id="content">
+    <div id="mainContent" tabindex="-1"></div>
+    
+
+  
+    <nav id="divTabHeader" class="tdbar-sub NoPrint hidden-xs navbar-subnav" aria-label="Services">
+      <a href="#servicesContent" class="sr-only sr-only-focusable">Skip to Services content</a>
+      <div class="container clearfix">
+        <ul class="nav navbar-nav js-submenu" id="servicesSubMenu" style="margin-left: -15px;">
+
+          
+          <li>
+            <a href="/TDClient/37/uic/Services/ServicesAtoZ">Services A-Z</a>
+          </li>
+          
+          <li>
+            <a href="/TDClient/37/uic/Requests/ServiceCatalogSearch">Search <span class="sr-only">Services</span></a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+  
+
+  <div class="container gutter-top">
+    <div id="servicesContent" tabindex="-1" style="outline:none;">
+      
+
+<span id="ctl00_ctl00_cpContent_cpContent_lblResults_ctl00" aria-live="polite" aria-atomic="true"><span id="ctl00_ctl00_cpContent_cpContent_lblResults_lblResults-label" class="red"></span></span>
+
+<ol class="breadcrumb">
+  <li><a href="ServiceCatalog">Service Catalog</a></li><li class="active"><a href="ServiceCatalog?CategoryID=154">Professional Services</a></li><li class="active">IT Service Desk</li>
+</ol>
+
+
+
+<div class="row gutter-top">
+
+<div id="divMainContent" class="col-md-8">
+
+  <h1 class="wrap-text">
+    IT Service Desk
+  </h1>
+
+  <div id="ctl00_ctl00_cpContent_cpContent_divTags">
+    <span class="sr-only">Tags</span>
+    <span class="fa fa-tags gray gutter-right-sm" aria-hidden="true" title="Tags"></span>
+    
+        <a href="/TDClient/37/uic/Requests/ServiceCatalogSearch?SearchText=%23help-desk" id="ctl00_ctl00_cpContent_cpContent_rptTags_ctl00_ctl00_lnkDisplay" title="help-desk">help-desk</a>
+
+      
+        <span class="fa fa-circle gray gutter-right-sm font-xs vert-middle" aria-hidden="true"></span>
+      
+        <a href="/TDClient/37/uic/Requests/ServiceCatalogSearch?SearchText=%23IT-support" id="ctl00_ctl00_cpContent_cpContent_rptTags_ctl02_ctl00_lnkDisplay" title="IT-support">IT-support</a>
+
+      
+  </div>
+
+  
+
+  
+
+  <div id="ctl00_ctl00_cpContent_cpContent_divDescription" class="gutter-top ckeShim"><h2>What Is It?</h2>
+
+<p>The Technology Solutions Service Desk is available to assist the UIC community with their IT questions and address any problems that arise.</p>
+
+<p><strong>Other Service Names</strong></p>
+
+<p>Help Desk, IT Support</p>
+
+<h2>Who Is Eligible To Use It?</h2>
+
+<ul>
+	<li>Faculty</li>
+	<li>Staff</li>
+	<li>Students</li>
+</ul>
+
+<p>UIHealth Employees should review <a href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=733">How Can I Get IT Support as a UI Health or Hospital Employee?</a> prior to contacting the Technology Solutions Service Desk.</p>
+
+<h2>How Much Does It Cost?</h2>
+
+<p>The Service Desk is made available through the <a href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=1596">Basic Bundle</a>; there is no direct cost to clients.</p>
+
+<h2>How Can I Get Support?</h2>
+
+<p>Select the <strong>Ask a Question</strong> button on this page to ask an IT question. If you are having an IT problem, review the guidance on <a href="https://help.uillinois.edu/TDClient/37/uic/Requests/ServiceOfferingDet?ID=70">initial troubleshooting of IT problems</a> and then <strong>Report a Problem</strong>.</p>
+
+<p>Alternatively, you may email ITHelp@uic.edu or call 312-413-0003.</p>
+
+<h3>Service Levels</h3>
+
+<div class="table-responsive">
+<table border="1" cellpadding="3" cellspacing="1" class="table table-striped table-bordered" height="325" style="width: 100%" width="1073">
+	<tbody>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Initial Response Time</th>
+			<td style="vertical-align: middle">Within 1 business day</td>
+		</tr>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Resolution / Fulfillment Time</th>
+			<td style="vertical-align: middle">Varies based on the type of question or problem. Within 5 business days for low impact/urgency.</td>
+		</tr>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Service Availability</th>
+			<td style="vertical-align: middle">Monday through Friday, 9:00am to 5:00pm</td>
+		</tr>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Maintenance Window(s)</th>
+			<td style="vertical-align: middle">University Holidays</td>
+		</tr>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Service Notification Channel(s)</th>
+			<td style="vertical-align: middle">IT Service Notices</td>
+		</tr>
+	</tbody>
+</table>
+</div></div>
+
+  
+
+  &nbsp;
+
+</div>
+
+<div id="divSidebar" class="col-md-4">
+
+  
+  
+      <span>
+        <a class="DetailAction " href="TicketRequests/NewForm?ID=GcSDslymjTo_&amp;RequestorType=ServiceOffering">  <span class="fa fa-fw" aria-hidden="true"></span>
+Ask a Question</a>
+      </span>
+    
+      <span>
+        <a class="DetailAction " href="TicketRequests/NewForm?ID=YmO549dis30_&amp;RequestorType=ServiceOffering">  <span class="fa fa-fw" aria-hidden="true"></span>
+Report a Problem</a>
+      </span>
+    
+
+  <a id="ctl00_ctl00_cpContent_cpContent_btnToggleFavorite" tabindex="-1" class="hidden" aria-hidden="true" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$cpContent$cpContent$btnToggleFavorite&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Blank</a>
+
+  
+
+
+  <div id="divDetails" class="panel panel-default gutter-top">
+
+    <div class="panel-heading">
+      <h2 class="h3 panel-title">Details</h2>
+    </div>
+
+    <div class="panel-body">
+
+      <div id="divServiceID">
+        <span class="control-label">Service ID: </span>
+        462
+      </div>
+
+      
+
+      
+
+      <div id="divCreated" class="disp-group">
+        <span class="control-label gutter-bottom-xs">
+          Created
+        </span>
+        <div>
+          <span id="ctl00_ctl00_cpContent_cpContent_udtCreatedDate">Mon 12/21/20 7:38 PM</span><span id="ctl00_ctl00_cpContent_cpContent_lblCreatedBy"></span>
+        </div>
+      </div>
+
+      <div id="ctl00_ctl00_cpContent_cpContent_divModified" class="disp-group">
+        <span class="control-label gutter-bottom-xs">
+          Modified
+        </span>
+        <div>
+          <span id="ctl00_ctl00_cpContent_cpContent_udtModifiedDate">Sun 6/26/22 2:06 AM</span><span id="ctl00_ctl00_cpContent_cpContent_lblModifiedBy"></span>
+        </div>
+      </div>
+
+      <div class="js-custom-attributes-container">
+	<div id="ctl00_ctl00_cpContent_cpContent_ctlAttribute2426">
+		<div id="ctl00_ctl00_cpContent_cpContent_divAttribute2426" class="disp-group"><span id="ctl00_ctl00_cpContent_cpContent_lblAttribute2426" class="control-label">Service Owner</span><div id="divAttribute2426Help" class="help-block collapse wrap-text">This person is accountable for the overall performance of this service. This is not a support contact.</div><div><div class="wrap-text"><a href="https://help.uillinois.edu/TDClient/37/uic/People/Details?ID=dbbd326c-91c9-ea11-a81d-000d3a8ea9f7&amp;popup=1" onclick="return openWinHref(event, 992, 700, 'PersonDetaildbbd326c91c9ea11a81d000d3a8ea9f7');">Jose Hernandez</a></div></div></div>
+	</div><div id="ctl00_ctl00_cpContent_cpContent_ctlAttribute2127">
+		<div id="ctl00_ctl00_cpContent_cpContent_divAttribute2127" class="disp-group"><span id="ctl00_ctl00_cpContent_cpContent_lblAttribute2127" class="control-label">Service Review Date</span><div id="divAttribute2127Help" class="help-block collapse wrap-text">Date of the most recent review of this service.</div><div><span class="wrap-text">06/24/2022</span></div></div>
+	</div>
+</div>
+
+    </div>
+
+  </div>
+
+  <div id="ctl00_ctl00_cpContent_cpContent_divServiceOfferings" class="panel panel-default gutter-top">
+
+    <div class="panel-heading">
+      <h2 class="h3 panel-title">Service Offerings (2)</h2>
+    </div>
+
+    <div class="panel-body">
+      
+          <div class="gutter-bottom">
+            <strong>
+              <a href="/TDClient/37/uic/Requests/ServiceOfferingDet?ID=69">IT Questions</a>
+            </strong>
+            <div class="gray">The Technology Solutions Service Desk is here to help answer your technology questions.</div>
+          </div>
+        
+          <div class="gutter-bottom">
+            <strong>
+              <a href="/TDClient/37/uic/Requests/ServiceOfferingDet?ID=70">IT Problems</a>
+            </strong>
+            <div class="gray">The Technology Solutions Service Desk is here to assist you with your technology problem.</div>
+          </div>
+        
+    </div>
+
+  </div>
+
+  <div id="divAttachments" class="js-service-attachments"></div>
+
+</div>
+
+</div>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h3 class="modal-title h4" id="myModalLabel">
+          <span class="fa fa-share-alt fa-fw" aria-hidden="true"></span>Share
+        </h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-group required">
+          <label class="control-label" for="ctl00_ctl00_cpContent_cpContent_shareRecipients">Recipient(s) <small>- separate email addresses with a comma</small></label>
+          <input name="ctl00$ctl00$cpContent$cpContent$shareRecipients" type="text" id="ctl00_ctl00_cpContent_cpContent_shareRecipients" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="ctl00_ctl00_cpContent_cpContent_shareBody_txtBody">Message</label>
+          <script src="/TDPortal/Content/nanospell/autoload.js?v=20221125000826"></script>
+
+
+<script type="text/javascript">
+
+  (function () {
+    // The "CKEDITOR-config-loaded" event is thrown after the CKEDITOR global variable has been created, but before the instance of CKEditor is ready.
+    // At this point attach a listener to the global variable for the instanceReady event so we can perform our initialization logic.
+    window.addEventListener('CKEDITOR-config-loaded', function () {
+      if (window.CKEDITOR) {
+        setConfigs()
+        initialize();
+      }       
+    });
+  })();
+
+  function setConfigs() {
+    window.CKEDITOR.config['clientScripts'] = [{"scriptPath":["/TDPortal/Content/bootstrap/3.4.1/dist/js/bootstrap.min.js","https://help.uillinois.edu/TDPortal/Content/Scripts/tdx/TDJSFramework.compiled.min.js"],"scriptDependencyPath":"/TDPortal/Content/Scripts/jquery/2.2.4/jquery.min.js"}];
+    window.CKEDITOR.config['clientStyles'] = ["/TDPortal/Content/bootstrap/3.4.1/dist/css/bootstrap.min.css","/TDClient/Styles/bootstrap_custom.min.css","/TDClient/Styles/TDStyles.min.css","https://help.uillinois.edu/TDPortal/BE/Style/2/TDClient/37"];
+    window.CKEDITOR.config['itemTemplates'] = '';
+  }
+
+  function initialize() {
+
+    window.CKEDITOR.on('instanceReady', function (evt) {
+
+      if (evt.editor.element.$.id == 'ctl00_ctl00_cpContent_cpContent_shareBody_txtBody') {
+
+        
+
+          nanospell.ckeditor('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody', {
+            dictionary: 'en',
+            server: 'asp.net'
+          });
+
+          setTimeout(function () { evt.editor.startNanospell(); }, 200);
+
+        
+
+        // Check if we should mark the editor as required
+        if ($(evt.editor.element.$).parents('div.required').length > 0) {
+          evt.editor.editable().setAttribute('aria-required', 'true');
+        }
+      }
+
+    });
+  }
+
+  
+
+</script>
+
+<span class="sr-only">Press Alt + 0 within the editor to access accessibility instructions, or press Alt + F10 to access the menu.</span>
+<textarea name="ctl00$ctl00$cpContent$cpContent$shareBody$txtBody" rows="2" cols="20" id="ctl00_ctl00_cpContent_cpContent_shareBody_txtBody">
+Check out this service I found in the UIC Help Center service catalog.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://help.uillinois.edu/TDClient/37/uic/Requests/ServiceDet?ID=462&quot;&gt;https://help.uillinois.edu/TDClient/37/uic/Requests/ServiceDet?ID=462&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;IT Service Desk&lt;br /&gt;&lt;br /&gt;The Technology Solutions Service Desk is available to help you with your IT needs.</textarea>
+
+
+        </div>
+      </div>
+      <div class="modal-footer text-left">
+        <a onclick="checkRecipients();" id="ctl00_ctl00_cpContent_cpContent_btnSendShare" type="button" class="btn btn-primary" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$cpContent$cpContent$btnSendShare&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">
+          <span class="fa fa-paper-plane-o" aria-hidden="true"></span><span class="padding-left-xs">Send</span>
+        </a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+
+
+  </div>
+</main>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+setNavPosition('TDRequests');window.CKEDITOR_BASEPATH = 'https://help.uillinois.edu/TDPortal/Content/ckeditor/';
+//]]>
+</script>
+<script src="https://help.uillinois.edu/TDPortal/Content/ckeditor/ckeditor.js?t=C6HH5UF" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var CKEditor_Controls=[],CKEditor_Init=[];function CKEditor_TextBoxEncode(d,e){var f;if(typeof CKEDITOR=='undefined'||typeof CKEDITOR.instances[d]=='undefined'){f=document.getElementById(d);if(f)f.value=f.value.replace(/</g,'&lt;').replace(/>/g,'&gt;');}else{var g=CKEDITOR.instances[d];if(e&&(typeof Page_BlockSubmit=='undefined'||!Page_BlockSubmit)){g.destroy();f=document.getElementById(d);if(f)f.style.visibility='hidden';}else g.updateElement();}};(function(){if(typeof CKEDITOR!='undefined'){var d=document.getElementById('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody');if(d)d.style.visibility='hidden';}var e=function(){var f=CKEditor_Controls,g=CKEditor_Init,h=window.pageLoad,i=function(){for(var j=f.length;j--;){var k=document.getElementById(f[j]);if(k&&k.value&&(k.value.indexOf('<')==-1||k.value.indexOf('>')==-1))k.value=k.value.replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');}if(typeof CKEDITOR!='undefined')for(var j=0;j<g.length;j++)g[j].call(this);};window.pageLoad=function(j,k){if(k.get_isPartialLoad())setTimeout(i,0);if(h&&typeof h=='function')h.call(this,j,k);};if(typeof Page_ClientValidate=='function'&&typeof CKEDITOR!='undefined')Page_ClientValidate=CKEDITOR.tools.override(Page_ClientValidate,function(j){return function(){for(var k in CKEDITOR.instances){if(document.getElementById(k))CKEDITOR.instances[k].updateElement();}return j.apply(this,arguments);};});setTimeout(i,0);};if(typeof Sys!='undefined'&&typeof Sys.Application!='undefined')Sys.Application.add_load(e);if(window.addEventListener)window.addEventListener('load',e,false);else if(window.attachEvent)window.attachEvent('onload',e);})();CKEditor_Controls.push('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody');
+CKEditor_Init.push(function(){if(typeof CKEDITOR.instances['ctl00_ctl00_cpContent_cpContent_shareBody_txtBody']!='undefined' || !document.getElementById('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody')) return;CKEDITOR.replace('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody',{"autoGrow_maxHeight" : 175, "autoGrow_minHeight" : 175, "contentsCss" : ['https://help.uillinois.edu/TDPortal/Content/ckeditor/contents.css', '/TDPortal/Content/Styles/font-awesome.min.css'], "height" : "175", "htmlEncodeOutput" : true, "image_previewText" : " ", "removePlugins" : "magicline,devtools,templates,elementspath,fontawesome,youtube,uploadimage,simpleimage,remoteimageblocker", "toolbar" : "TDSimple"}); });
+//]]>
+</script>
+</form>
+
+<footer role="contentinfo">
+  
+  
+  
+
+  
+    <div class="master-footer">
+
+      <div role="contentinfo" style="margin-top: 6em; color: #000000; background-color: #E1E1E1; padding: 2rem 0">
+<div class="admin-publinks container">
+<div class="sitefooter">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<a href="https://uic.edu"><img alt="University of Illinois Chicago" class="img-fluid" src="https://accc.uic.edu/wp-content/uploads/sites/372/2021/02/CAMP.CIRC_.SM_.RGB_.png"></a>
+<p style="padding: 8px">
+</p><address>1200 West Harrison St.<br>
+Chicago, Illinois 60607<br>
+(312) 996-7000</address>
+<p></p>
+</div>
+<div class="col-md-3">
+<div role="navigation" aria-label="Quick Links">
+<h2 class="footer-list-title"><span style="color: #D50032; font-size: 20px"><strong>QUICK LINKS</strong></span></h2>
+<ul style="list-style-type: none; padding: 0; margin-left: 0">
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://www.uicflames.com/" target="_self" rel="noopener" class="footer-list-link">Athletics</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://www.uic.edu/apps/departments-az/search" target="_self" rel="noopener" class="footer-list-link">Directory</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://disabilityresources.uic.edu/" target="_self" rel="noopener" class="footer-list-link">Disability Resources</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://emergency.uic.edu" target="_self" rel="noopener" class="footer-list-link">Emergency Information</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://oge.uic.edu/" target="_self" rel="noopener" class="footer-list-link">International</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://it.uic.edu" target="_self" rel="noopener" class="footer-list-link">IT @ UIC Website</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://uic.edu/about/job-opportunities/" class="footer-list-link">Job Opportunities</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://library.uic.edu" target="_self" rel="noopener" class="footer-list-link">Library</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://maps.uic.edu" target="_self" rel="noopener" class="footer-list-link">Maps</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://uihealth.uic.edu" target="_self" rel="noopener" class="footer-list-link">UI Health</a></li>
+<li class="footer-list-item" style="padding-bottom: 24px"><a style="color: #000000" class="footer-list-link">Acerca de la UIC (en español)</a></li>
+</ul>
+</div>
+
+</div>
+
+<div class="col-md-3">
+<div role="navigation" aria-label="Resources">
+<h2 class="footer-list-title"><span style="color: #D50032; font-size: 20px"><strong>RESOURCES</strong></span></h2>
+<ul style="list-style-type: none; padding: 0; margin-left: 0">
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://catalog.uic.edu/ucat/academic-calendar/" target="_self" rel="noopener" class="footer-list-link">Academic Calendar</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://today.uic.edu/resources/current-students" target="_self" rel="noopener" class="footer-list-link">Current Students</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://events.uic.edu" target="_self" rel="noopener" class="footer-list-link">Event Calendar</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://today.uic.edu/resources/faculty-and-staff-resources" target="_self" rel="noopener" class="footer-list-link">Faculty and Staff</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://hospital.uillinois.edu/" target="_self" rel="noopener" class="footer-list-link">Patients</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://today.uic.edu" target="_self" rel="noopener" class="footer-list-link">UIC Today</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://uic.edu/about/visit-directions/" class="footer-list-link">Visit &amp; Directions</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="http://clery.uic.edu/" target="_self" rel="noopener" class="footer-list-link">Clery Compliance</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://oae.uic.edu/policies/nondiscrimination-policy-statement/" target="_self" rel="noopener" class="footer-list-link">Nondiscrimination Policy</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://sexualmisconduct.uic.edu/" target="_self" rel="noopener" class="footer-list-link">Title IX: Sexual Misconduct</a></li>
+<li class="footer-list-item" style="padding-bottom: 24px"><a style="color: #000000" href="http://financialaid.uic.edu/consumer-information/department-education-complaint-process/" target="_self" rel="noopener" class="footer-list-link">Student Information Disclosures</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-1">
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="site-copyright" style="color: #FFFFFF; background-color: #0E1D62; padding: 2rem 0 1.5rem">
+<div class="admin-publinks container">
+<div class="sitefooter">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+  © 2021 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a style="color: #FFFFFF" href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a> | <a style="color: #FFFFFF" href="https://help.uillinois.edu/TDClient/37/uic/SiteMap">Site Map
+ </a></div><a style="color: #FFFFFF" href="https://help.uillinois.edu/TDClient/37/uic/SiteMap">
+ </a><div class="col-md-6"><a style="color: #FFFFFF" href="https://help.uillinois.edu/TDClient/37/uic/SiteMap">
+ </a><a style="color: #FFFFFF" href="http://www.uillinois.edu/" target="_self" rel="noopener">University of Illinois System</a><span class="pipe-separator"> | </span><a style="color: #FFFFFF" href="http://www.illinois.edu/" target="_self" rel="noopener">Urbana-Champaign</a><span class="pipe-separator"> | </span><a style="color: #FFFFFF" href="http://www.uis.edu/" target="_self" rel="noopener">Springfield</a>
+ </div>
+ 
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+
+    </div>
+  
+</footer>
+
+
+
+
+<script>
+
+    
+    
+
+      // Inject the Google Analytics isogram. This must happen here because it
+      // cannot be injected through an external javascript library.
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    
+
+      // Per Incident #6707155. Need to focus on img. pseudo-class :focus-within is not supported in IE
+      (function ($) {
+        var $anchor = $('#divLogo a');
+        var $beLogo = $('#divLogo a img');
+
+        $anchor.focus(function () {
+          $beLogo.addClass('accessibility-focus-on-logo');
+        })
+          .blur(function () {
+            $beLogo.removeClass('accessibility-focus-on-logo');
+          })
+
+    })(jQuery);
+
+  </script>
+
+</body>
+</html>

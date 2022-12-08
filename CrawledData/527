@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Schedule of Classes (Current Semester)</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style>
+        header {
+            min-height: 100px;
+            background-color: #001E62;
+            color: white;
+            padding: 1em;
+        }
+        .large-brand-mark {
+            height: 120px;
+            fill: white;
+        }
+        .form-wrapper, .confirm-wrapper {
+            padding: 1.25em;
+        }
+    </style>
+        </head>
+<body>
+<header class="row">
+    <div class="col col-md-2">
+        <svg class="large-brand-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234 320.6"><path d="M229.1 289.7l-4.6 2.2c-.4-1.7-1.4-2.7-3.1-2.7-2.3 0-3.4 1.9-3.4 5s1.1 4.9 3.4 4.9c1.6 0 2.5-.8 3-2.2l4.8 1.7c-1.3 2.8-3.8 4.8-7.8 4.8-5.6 0-8.8-3.8-8.8-9.2 0-5.5 3.4-9.2 8.9-9.2 4.2 0 6.7 2.4 7.6 4.7m-19.2 13.4h-5.3v-17.8h5.3v17.8zm-8.5-7.3c0 2.5-.3 3.7-1 4.9-1.2 2-4.3 2.7-7.1 2.7-2.7 0-5.9-.8-7.1-2.7-.7-1.2-1-2.4-1-4.9v-10.5h5.3v10.6c0 1.2.2 2 .6 2.5.4.5 1.1.7 2.1.7s1.7-.2 2.1-.7c.4-.5.6-1.3.6-2.5v-10.6h5.3v10.5zm32.5-2.5c0-15-12.2-27.2-27.2-27.2s-27.2 12.2-27.2 27.2 12.2 27.2 27.2 27.2c15 .1 27.2-12.1 27.2-27.2M150 137.8c-4.1 0-6.6-1.6-6.6-4.6 0-2.9 2.5-4.5 6.6-4.5 4 0 6.5 1.5 6.5 4.5 0 3.1-2.4 4.6-6.5 4.6m0 7.2c7.3 0 12.2-4.4 12.2-11.7 0-7.4-4.8-11.7-12.2-11.7-7.4 0-12.2 4.6-12.2 11.7S142.6 145 150 145m0 27.7c7.8 0 12.2-4.4 12.2-10.4 0-2.8-.9-4.7-2-6h1.6v-6.1H148v11.4h5.4v-5.2c2 .2 3.5 1.6 3.5 4.3 0 3.5-2.7 4.9-6.9 4.9-4.1 0-6.6-1.6-6.6-4.7 0-2.3 1.3-3.7 3.7-4.3l-2.9-5.9c-3.1 1.2-6.3 4.5-6.3 10.1-.1 7.3 4.9 11.9 12.1 11.9m2.2 12.5v3.9l-4.8-1.4c-.9-.2-1.8-.4-2.3-.6l2.3-.6 4.8-1.3zm5.6 5.5v-7.1l3.9-1.2V175l-23.5 7.8v8.4l23.5 7.9v-7.3l-3.9-1.1zm-4.3 16.6c1.8.7 2.9 1.9 2.9 3.9 0 3-2.4 4.5-6.5 4.5s-6.6-1.5-6.6-4.5c0-2.2 1.3-3.5 3.6-4.1L144 201c-3.1 1.2-6.3 4.5-6.3 10.1 0 7.3 4.9 11.8 12.2 11.8 7.2 0 12.2-4.3 12.2-11.7 0-5.4-2.6-8.7-6.4-10.4l-2.2 6.5zm-15.2 27.6h23.5v-7.1h-23.5v7.1zm14.5 13.7h9v-7.1h-23.5v7.1h8.4v6.8h-8.4v7.1h23.5v-7.1h-9v-6.8zm.7 24.1c1.8.7 2.9 1.9 2.9 3.9 0 3-2.4 4.5-6.5 4.5s-6.6-1.5-6.6-4.5c0-2.2 1.3-3.5 3.6-4.1l-2.9-6.1c-3.1 1.2-6.3 4.5-6.3 10.1 0 7.3 4.9 11.8 12.2 11.8 7.2 0 12.2-4.3 12.2-11.7 0-5.4-2.6-8.7-6.4-10.4l-2.2 6.5zm-44.1-11.3v-5.9h17.8v-7.1h-17.8v-5.9h-5.7v18.9h5.7zm8.2 11.7v3.9l-4.8-1.4c-.9-.2-1.8-.4-2.3-.6l2.3-.6 4.8-1.3zm5.7 5.5v-7.1l3.9-1.2v-7.4l-23.5 7.8v8.4l23.5 7.9v-7.3l-3.9-1.1zM72.7 124.8c-1.5 1.2-4 4.7-4 10.3 0 5.8 3 9.7 7.4 9.7 4.7 0 6.7-3.6 7.5-8l.6-3.1c.3-1.8.5-2.9 1.7-2.9s1.9 1.3 1.9 3.6c0 2.8-1.3 5.4-3.5 7.2l3.8 4.3c1.9-1.3 5-5.2 5-11.4 0-6-2.4-10.4-7.8-10.4-4.4 0-6.2 2.9-7.1 7.5l-.7 3.5c-.3 1.9-.8 2.8-1.9 2.8-1.1 0-1.7-1.2-1.7-2.9 0-2.3 1-4.6 2.6-6.3l-3.8-3.9zm-3.6 32.9h23.5v-7.1H69.1v7.1zm11.8 21.9c-4.1 0-6.6-1.6-6.6-4.6 0-2.9 2.5-4.5 6.6-4.5 4 0 6.5 1.5 6.5 4.5-.1 3.1-2.5 4.6-6.5 4.6m0 7.2c7.3 0 12.2-4.4 12.2-11.7 0-7.4-4.8-11.7-12.2-11.7-7.4 0-12.2 4.6-12.2 11.7s4.8 11.7 12.2 11.7m-11.8 19.8v6.8h23.5v-7.1H87c-3.8 0-6.7.2-6.7.2s2.5-1.4 4.9-3l7.5-4.6v-6.8H69.1v7.1h5.4c3.5 0 6.4-.1 6.4-.1s-1.7 1-5 3.2l-6.8 4.3zm0 20.9h23.5v-7.1H69.1v7.1zm0 21.6h23.5v-16.4h-5.7v9.3H69.1v7.1zm0 21.7h23.5v-16.4h-5.7v9.3H69.1v7.1zm0 14.1h23.5v-7.1H69.1v7.1zM40.2 0h-5.6v17.8h23.5v-7.1h-8.9V1h-5.7v9.8h-3.3V0zm6.1 39.4c-4.1 0-6.6-1.6-6.6-4.6 0-2.9 2.5-4.5 6.6-4.5 4 0 6.5 1.5 6.5 4.5 0 3.1-2.4 4.6-6.5 4.6m0 7.2c7.3 0 12.2-4.4 12.2-11.7 0-7.4-4.8-11.7-12.2-11.7-7.4 0-12.2 4.6-12.2 11.7S39 46.6 46.3 46.6m3 18.8l-14.8-8.2v7.5l8.1 4-8.1 3.9v7.6l14.8-7.7H58v-7.1h-8.7zM40.2 102v-5.9H58V89H40.2v-5.9h-5.7V102h5.7zm-5.6 11.9h23.5v-7.1H34.6v7.1zm3.6 5.8c-1.5 1.2-4 4.7-4 10.3 0 5.8 3 9.7 7.4 9.7 4.7 0 6.7-3.6 7.5-8l.6-3.1c.3-1.8.5-2.9 1.7-2.9s1.9 1.3 1.9 3.6c0 2.8-1.3 5.4-3.5 7.2l3.8 4.3c1.9-1.3 5-5.2 5-11.4 0-6-2.4-10.4-7.8-10.4-4.4 0-6.2 2.9-7.1 7.5L43 130c-.3 1.9-.8 2.8-1.9 2.8s-1.7-1.2-1.7-2.9c0-2.3 1-4.6 2.6-6.3l-3.8-3.9zm1.7 38.6v-3.5c0-.9.1-1.6.4-2 .4-.6 1-.9 1.9-.9.9 0 1.5.3 1.9.9.3.4.4 1.1.4 2v3.5h-4.6zm18.2-6.8V144l-9 5.3c-.1-.3-.3-.7-.5-1-1.4-2.2-3.2-3.3-6.3-3.3-3.5 0-5.9 1.8-6.9 4.5-.5 1.3-.8 3-.8 5.6v10.2h23.5v-7.1h-8.2V156l8.2-4.5zm-17.9 20.6h-5.6v18h23.5v-18.7h-5.7v11.7h-3.5V173h-5.6v10.1h-3.1v-11zm6.7 33.3c1.7.4 3.5.8 3.5.8s-1.8.4-3.5.8l-12.3 3.3v7.4l23.5-7v-9l-23.5-7.1v7.5l12.3 3.3zM34.6 229h23.5v-7H34.6v7zm0 21.6v6.8h23.5v-7.1h-5.7c-3.8 0-6.7.2-6.7.2s2.5-1.4 4.9-3l7.5-4.6v-6.8H34.6v7.1H40c3.5 0 6.4-.1 6.4-.1s-1.7 1-5 3.2l-6.8 4.3zm23.9 23.9c0-3.6-1-7.8-3.6-9.3-1.6-.9-3.2-1.3-6.5-1.3H34.6v7.1h14c1.6 0 2.6.2 3.3.8.7.6 1 1.5 1 2.8 0 1.3-.3 2.2-1 2.8-.7.6-1.7.8-3.3.8h-14v7.1h13.9c3.3 0 4.9-.3 6.5-1.3 2.5-1.7 3.5-5.9 3.5-9.5M0 269.7v18.9h5.7v-5.9h17.8v-7.1H5.7v-5.9H0zm0-25.8v7.1h8.4v6.8H0v7h23.5v-7h-9V251h9v-7.1H0zm17.8-25.7v11.7h-3.5v-10.1H8.8v10.1H5.6v-11.1H0v18h23.5v-18.7h-5.7z"></path></svg>
+    </div>
+    <div class="col col-md-10">
+        <h1>Schedule of Classes (Current Semester)</h1>
+    </div>
+</header>
+<div class="container p1">
+            <div class="row">
+        <div class="container mt-5">
+                <div class="row">
+        <div class="col-md-9">
+            <p><strong>Note: Faculty Staff and Students should access the class schedule in the <a
+                            href="https://my.uic.edu" target="_blank" style="text-decoration: underline;">My.UIC
+                        portal</a></strong>. The Static Class Schedule is for visitors and guest to see what is being
+                offered.</p>
+            <h2>Instructions for accessing the Dynamic Class Schedule</h2>
+            <ul>
+                <li>Log into <a href="https://my.uic.edu/" target="_blank"><strong>my.uic.edu</strong></a>.</li>
+                <li> Click on XE Registration in the first column on the Welcome tab</li>
+                <li>Click on Browse Classes</li>
+            </ul>
+            <h2>Instructions for accessing Static Class Schedules</h2>
+            <ul>
+                <li>Locate the <a href="/schedule-of-classes/static/index.php"><strong>Static Schedule
+                            Lists</strong></a> by
+                    clicking the button below.<br/>
+                    <a class="btn btn-sm btn-primary" href="/schedule-of-classes/static/index.php"><strong>Static
+                            Schedule
+                            Lists</strong></a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 sidenav">
+            <h3><span class="no-display">Schedule of Classes</span></h3>
+            <div class="input-group mb-5">
+                <label for="selectScheduleofClasses" class="no-display">&nbsp;</label>
+                <select name="selectScheduleofClasses" id="selectScheduleofClasses">
+                    <option value="" selected="selected">Archives</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2021/">Fall 2021</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2021/">Spring 2021</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2020/">Fall 2020</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2020/">Summer 2020</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2020/">Spring 2020</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2019/">Fall 2019</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2019/">Summer 2019</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2019/">Spring 2019</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2018">Fall 2018</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2018">Spring 2018</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2017">Fall 2017</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2017">Summer 2017</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2017">Spring 2017</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2016">Fall 2016</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2016">Summer 2016</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2016">Spring 2016</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2015">Fall 2015</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2015">Summer 2015</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2015">Spring 2015</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2014">Fall 2014</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2014">Summer 2014</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2014">Spring 2014</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2013">Fall 2013</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2013">Summer 2013</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2013">Spring 2013</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2012">Fall 2012</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2012">Summer 2012</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2012">Spring 2012</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2011">Fall 2011</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2011">Summer 2011</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2011">Spring 2011</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2010">Fall 2010</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2010">Summer 2010</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2010">Spring 2010</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2009">Fall 2009</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2009">Spring 2009</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2009">Summer 2009</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2008">Fall 2008</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2008">Spring 2008</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2008">Summer 2008</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2007">Fall 2007</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2007/">Spring 2007</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2007/">Summer 2007</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2006/">Fall 2006</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2006/">Spring 2006</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2006/">Summer 2006</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/fall-2005">Fall 2005</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/spring-2005/">Spring 2005</option>
+                    <option value="/schedule-of-classes/archive/pre-proof/summer-2005/">Summer 2005</option>
+                </select>
+                <input type="button" name="go_button" id="go_button1" value="Go"
+                       onclick="MM_jumpMenuGo('selectScheduleofClasses','parent',0)"/>
+            </div>
+            <h3>Student Catalogs</h3>
+            <div class="input-group">
+                <label for="selectStudentCat" class="no-display">&nbsp;</label>
+                <select name="selectStudentCat" id="selectStudentCat">
+                    <option value="" selected="selected">Student Catalogs</option>
+                    <option value="https://catalog.uic.edu/ucat/">Undergraduate</option>
+                    <option value="https://catalog.uic.edu/gcat/">Graduate</option>
+                </select>
+                <input type="button" name="go_button" id="go_button5" value="Go"
+                       onclick="MM_jumpMenuGo('selectStudentCat','parent',0)"/>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                © 2022 The Board of Trustees of the University of Illinois
+            </div>
+        </div>
+    </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <script type="text/javascript">
+        function MM_jumpMenuGo(objId, targ, restore) { //v9.0
+            var selObj = null;
+            with (document) {
+                if (getElementById) selObj = getElementById(objId);
+                if (selObj) eval(targ + ".location='" + selObj.options[selObj.selectedIndex].value + "'");
+                if (restore) selObj.selectedIndex = 0;
+            }
+        }
+    </script>
+</body>
+</html>
